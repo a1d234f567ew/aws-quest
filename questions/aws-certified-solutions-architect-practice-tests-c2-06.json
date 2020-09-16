@@ -1,0 +1,249 @@
+[
+  {
+    "question": "101. You have a CloudFront distribution setup, but you are not seeing any performance benefit to your users. What might be possible causes for the lack of benefit? (Choose two.)",
+    "options": [
+      "B. The expiration period is set so low that caching is not happening enough to benefit users. Raise the expiration period time.",
+      "D. Users are not close enough to edge locations to see a benefit from CloudFront.",
+      "A. Users do not have CloudFront enabled in their client applications and are therefore not getting the benefits of the CloudFront distribution. Enable CloudFront in their client applications.",
+      "C. Your set of origin servers is too small and being flooded by requests from CloudFront. Consider increasing the number or processing power of origin servers."
+    ],
+    "answers": [
+      "B. The expiration period is set so low that caching is not happening enough to benefit users. Raise the expiration period time.",
+      "C. Your set of origin servers is too small and being flooded by requests from CloudFront. Consider increasing the number or processing power of origin servers."
+    ]
+  },
+  {
+    "question": "102. Why would you set the expiration period to 0 on a CloudFront distribution?",
+    "options": [
+      "C. To reduce the chances of a DDoS attack on your edge locations",
+      "B. To ensure caching does not occur for maximum throughput",
+      "A. To expire all content on all existing edge locations",
+      "D. To ensure the most up-to-date content is served at all edge locations"
+    ],
+    "answers": [
+      "A. To expire all content on all existing edge locations"
+    ]
+  },
+  {
+    "question": "103. How can you delete a file from an edge location? (Choose two.)",
+    "options": [
+      "D. Delete the file from your CloudFront distribution using the AWS CLI.",
+      "A. Use the AWS console to navigate to the edge location and delete the file.",
+      "C. Remove the file from your origin servers.",
+      "B. Set the expiration period to 0 on your distribution."
+    ],
+    "answers": [
+      "C. Remove the file from your origin servers.",
+      "B. Set the expiration period to 0 on your distribution."
+    ]
+  },
+  {
+    "question": "104. Which is the correct order of the steps below to remove a file from an edge location immediately with the least interruption to existing service?",
+    "options": [
+      "D. First, remove the file from the origin servers; then take the CloudFront distribution offline.",
+      "B. First take the CloudFront distribution offline; then remove the file from the origin servers.",
+      "A. First set the expiration time on a CloudFront distribution to 0; then remove the file from the origin servers.",
+      "C. First remove the file from the origin servers; then set the expiration time on the CloudFront distribution to 0."
+    ],
+    "answers": [
+      "C. First remove the file from the origin servers; then set the expiration time on the CloudFront distribution to 0."
+    ]
+  },
+  {
+    "question": "105. Which of the following immediately removes an object from all edge locations?",
+    "options": [
+      "A. Removing the object from all origin servers",
+      "D. Invalidating the CloudFront distribution",
+      "C. Removing the object using the invalidation API",
+      "B. Removing all CloudFront edge locations with the object cached"
+    ],
+    "answers": [
+      "C. Removing the object using the invalidation API"
+    ]
+  },
+  {
+    "question": "106. Which of the following provides the highest availability for critical files?",
+    "options": [
+      "D. Glacier",
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "A. S3"
+    ],
+    "answers": [
+      "A. S3"
+    ]
+  },
+  {
+    "question": "107. Which of the following storage classes has the lowest first byte latency?",
+    "options": [
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "D. They are all identical.",
+      "A. S3"
+    ],
+    "answers": [
+      "D. They are all identical."
+    ]
+  },
+  {
+    "question": "108. Which of the following storage classes provides the fastest data retrieval speeds?",
+    "options": [
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "D. They are all identical.",
+      "A. S3"
+    ],
+    "answers": [
+      "D. They are all identical."
+    ]
+  },
+  {
+    "question": "109. How long does a typical Glacier data retrieval take?",
+    "options": [
+      "A. 1 hour",
+      "B. 1\u20133 hours",
+      "C. 3\u20135 hours",
+      "D. 5\u201310 hours"
+    ],
+    "answers": [
+      "C. 3\u20135 hours"
+    ]
+  },
+  {
+    "question": "110. Why would you choose S3-IA over S3?",
+    "options": [
+      "B. You want to save money and don\u2019t need your data as frequently.",
+      "A. You want to save money and don\u2019t need your data as quickly.",
+      "D. You want to save money and don\u2019t need fault tolerance of your data.",
+      "C. You want to save money and don\u2019t need data in multiple availability zones."
+    ],
+    "answers": [
+      "B. You want to save money and don\u2019t need your data as frequently."
+    ]
+  },
+  {
+    "question": "111. Which of the following statements are not true? (Choose two.)",
+    "options": [
+      "A. There are more edge locations than availability zones.",
+      "D. The default expiration period is 12 hours.",
+      "B. An edge location is separate from an availability zone.",
+      "C. An RDS instance can be an origin server."
+    ],
+    "answers": [
+      "D. The default expiration period is 12 hours.",
+      "C. An RDS instance can be an origin server."
+    ]
+  },
+  {
+    "question": "112. Which of the following is a valid origin server for a CloudFront distribution?",
+    "options": [
+      "A. An S3 bucket",
+      "B. An EC2 instance",
+      "D. All of the above",
+      "C. An ALB"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "113. What does AWS call a collection of edge locations?",
+    "options": [
+      "B. An edge zone",
+      "A. CloudFront",
+      "C. Lambda@Edge",
+      "D. A distribution"
+    ],
+    "answers": [
+      "D. A distribution"
+    ]
+  },
+  {
+    "question": "114. What type of distribution should you use for media streaming?",
+    "options": [
+      "B. Media distribution",
+      "A. Web distribution",
+      "C. RTMP distribution",
+      "D. Edge distribution"
+    ],
+    "answers": [
+      "C. RTMP distribution"
+    ]
+  },
+  {
+    "question": "115. Which of the following are valid media distributions for CloudFront? (Choose two.)",
+    "options": [
+      "B. Media distribution",
+      "A. Web distribution",
+      "C. RTMP distribution",
+      "D. Edge distribution"
+    ],
+    "answers": [
+      "A. Web distribution",
+      "C. RTMP distribution"
+    ]
+  },
+  {
+    "question": "116. Which of the following are valid direct operations on an edge location? (Choose two.)",
+    "options": [
+      "C. Delete an object.",
+      "D. Update an object.",
+      "B. Write an object.",
+      "A. Read an object."
+    ],
+    "answers": [
+      "B. Write an object.",
+      "A. Read an object."
+    ]
+  },
+  {
+    "question": "117. Which of the following are valid use cases for using ElastiCache? (Choose two.)",
+    "options": [
+      "C. Record storage",
+      "D. Business intelligence",
+      "A. Real-time transactions",
+      "B. Offline transactions"
+    ],
+    "answers": [
+      "A. Real-time transactions"
+    ]
+  },
+  {
+    "question": "118. Which of the following can ElastiCache be used for? (Choose two.)",
+    "options": [
+      "C. Object storage",
+      "A. Web server",
+      "B. Database cache",
+      "D. Message broker"
+    ],
+    "answers": [
+      "B. Database cache",
+      "D. Message broker"
+    ]
+  },
+  {
+    "question": "119. Which of the following can ElastiCache be used for? (Choose two.)",
+    "options": [
+      "A. Ephemeral storage",
+      "B. Long-term storage",
+      "D. Logging store",
+      "C. Message Queue"
+    ],
+    "answers": [
+      "A. Ephemeral storage",
+      "C. Message Queue"
+    ]
+  },
+  {
+    "question": "120. What is an ElastiCache shard?",
+    "options": [
+      "B. A collection of clusters in an ElastiCache distribution",
+      "A. A collection of multiple nodes that make up a cluster",
+      "C. A collection of edge locations in an ElastiCache distribution",
+      "D. A single node in a cluster"
+    ],
+    "answers": [
+      "A. A collection of multiple nodes that make up a cluster"
+    ]
+  }
+]

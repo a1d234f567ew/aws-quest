@@ -1,0 +1,247 @@
+[
+  {
+    "question": "161. What type of services are associated with CloudFront?",
+    "options": [
+      "B. Networking services",
+      "A. Storage services",
+      "C. Compute services",
+      "D. Both B and C"
+    ],
+    "answers": [
+      "B. Networking services"
+    ]
+  },
+  {
+    "question": "162. What type of services are associated with Amazon Athena?",
+    "options": [
+      "D. Analytic services",
+      "B. Networking services",
+      "A. Storage services",
+      "C. Compute services"
+    ],
+    "answers": [
+      "D. Analytic services"
+    ]
+  },
+  {
+    "question": "163. What type of services are associated with EMR?",
+    "options": [
+      "D. Networking services",
+      "A. Storage services",
+      "C. Compute services",
+      "B. Analytic services"
+    ],
+    "answers": [
+      "B. Analytic services"
+    ]
+  },
+  {
+    "question": "164. What type of services are associated with Cloud9?",
+    "options": [
+      "D. Networking services",
+      "C. Developer services",
+      "A. Storage services",
+      "B. Analytic services"
+    ],
+    "answers": [
+      "C. Developer services"
+    ]
+  },
+  {
+    "question": "165. What type of services are associated with Direct Connect?",
+    "options": [
+      "D. Networking services",
+      "C. Developer services",
+      "A. Storage services",
+      "B. Analytic services"
+    ],
+    "answers": [
+      "D. Networking services"
+    ]
+  },
+  {
+    "question": "166. What type of services are associated with Workspaces?",
+    "options": [
+      "A. Mobile services",
+      "C. Developer services",
+      "D. Desktop services",
+      "B. Analytic services"
+    ],
+    "answers": [
+      "D. Desktop services"
+    ]
+  },
+  {
+    "question": "167. What type of services are associated with Kinesis?",
+    "options": [
+      "A. Mobile services",
+      "C. Developer services",
+      "D. Desktop services",
+      "B. Analytic services"
+    ],
+    "answers": [
+      "B. Analytic services"
+    ]
+  },
+  {
+    "question": "168. What type of services are associated with Elastic Transcoder?",
+    "options": [
+      "A. Mobile services",
+      "C. Media services",
+      "D. Desktop services",
+      "B. Analytic services"
+    ],
+    "answers": [
+      "C. Media services"
+    ]
+  },
+  {
+    "question": "169. What type of services are associated with OpsWorks?",
+    "options": [
+      "A. Mobile services",
+      "C. Media services",
+      "D. Management services",
+      "B. Analytic services"
+    ],
+    "answers": [
+      "D. Management services"
+    ]
+  },
+  {
+    "question": "170. What type of services are associated with Lex?",
+    "options": [
+      "A. Machine learning services",
+      "D. Management services",
+      "C. Media services",
+      "B. Analytic services"
+    ],
+    "answers": [
+      "A. Machine learning services"
+    ]
+  },
+  {
+    "question": "171. Which service is best suited for monitoring the performance of your compute instances?",
+    "options": [
+      "B. CloudTrail",
+      "A. CloudWatch",
+      "D. Config",
+      "C. OpsWorks"
+    ],
+    "answers": [
+      "A. CloudWatch"
+    ]
+  },
+  {
+    "question": "172. What is an availability zone?",
+    "options": [
+      "B. A geographical area with redundancy within that area for compute, networking, and storage service",
+      "A. A virtual data center",
+      "D. Both A and C",
+      "C. A distinct location within AWS designed to be isolated from failures"
+    ],
+    "answers": [
+      "D. Both A and C"
+    ]
+  },
+  {
+    "question": "173. What is a region?",
+    "options": [
+      "B. A geographical area with redundancy within that area for compute, networking, and storage service",
+      "A. A virtual data center",
+      "D. Both A and C",
+      "C. A distinct location within AWS designed to be isolated from failures"
+    ],
+    "answers": [
+      "B. A geographical area with redundancy within that area for compute, networking, and storage service"
+    ]
+  },
+  {
+    "question": "174. Which of the following statements do not describe a region? (Choose two.)",
+    "options": [
+      "C. A region is a collection of availability zones for redundancy.",
+      "B. A region is a virtual data center with built-in redundancy.",
+      "A. A region is an area with specific AWS managed services (compute, networking, storage, etc.).",
+      "D. A region is a geographic area with at least two virtual data centers."
+    ],
+    "answers": [
+      "B. A region is a virtual data center with built-in redundancy.",
+      "A. A region is an area with specific AWS managed services (compute, networking, storage, etc.)."
+    ]
+  },
+  {
+    "question": "175. Which of the following statements do not describe an availability zone? (Choose two.)",
+    "options": [
+      "A. An availability zone hosts your compute instances.",
+      "D. An availability zone contains virtual data centers.",
+      "C. An availability zone is isolated from other availability zones except with regard to networking.",
+      "B. An availability zone provides redundancy for your applications."
+    ],
+    "answers": [
+      "D. An availability zone contains virtual data centers.",
+      "B. An availability zone provides redundancy for your applications."
+    ]
+  },
+  {
+    "question": "176. Which of the following statements are true about availability zones? (Choose two.)",
+    "options": [
+      "A. An elastic IP is always tied to one specific availability zone.",
+      "C. An availability zone\u2019s name (for example, us-east-1a) may change across AWS accounts.",
+      "D. You can specify an availability zone in which to launch your instance when creating the instance.",
+      "B. A region always contains two availability zones."
+    ],
+    "answers": [
+      "D. You can specify an availability zone in which to launch your instance when creating the instance.",
+      "C. An availability zone\u2019s name (for example, us-east-1a) may change across AWS accounts."
+    ]
+  },
+  {
+    "question": "177. Which of the following are actual region identifiers within AWS? (Choose two.)",
+    "options": [
+      "D. uk-west-1",
+      "B. jp-south-2",
+      "A. us-east-2",
+      "C. ap-south-1"
+    ],
+    "answers": [
+      "A. us-east-2",
+      "C. ap-south-1"
+    ]
+  },
+  {
+    "question": "178. Which of the following are valid region identifiers within AWS? (Choose two.)",
+    "options": [
+      "A. US East 2",
+      "D. us-east-1",
+      "B. eu-west-1",
+      "C. ap-south-1a"
+    ],
+    "answers": [
+      "B. eu-west-1",
+      "D. us-east-1"
+    ]
+  },
+  {
+    "question": "179. Which of the following is a valid availability zone identifier within AWS?",
+    "options": [
+      "A. us-east-2b",
+      "C. us-west-az-1",
+      "B. eu-west-1",
+      "D. az-sa-east-1a"
+    ],
+    "answers": [
+      "A. us-east-2b"
+    ]
+  },
+  {
+    "question": "180. Which AWS service functions like a NAS in the cloud?",
+    "options": [
+      "C. EFS",
+      "A. EBS",
+      "B. Tape gateway",
+      "D. DynamoDB"
+    ],
+    "answers": [
+      "C. EFS"
+    ]
+  }
+]

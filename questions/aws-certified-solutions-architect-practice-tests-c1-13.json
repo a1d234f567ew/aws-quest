@@ -1,0 +1,252 @@
+[
+  {
+    "question": "241. Which of the following terms are associated with SNS? (Choose two.)",
+    "options": [
+      "C. Push",
+      "D. Pull",
+      "B. Notifications",
+      "A. Tasks"
+    ],
+    "answers": [
+      "B. Notifications",
+      "C. Push"
+    ]
+  },
+  {
+    "question": "242. Which of the following terms are associated with SWF? (Choose two.)",
+    "options": [
+      "B. Tasks",
+      "C. Multi-delivery",
+      "D. Messages",
+      "A. Single delivery"
+    ],
+    "answers": [
+      "B. Tasks",
+      "A. Single delivery"
+    ]
+  },
+  {
+    "question": "243. Which of the following terms are associated with SNS? (Choose two.)",
+    "options": [
+      "B. Topic",
+      "C. Message",
+      "A. Subscription",
+      "D. Queue"
+    ],
+    "answers": [
+      "B. Topic",
+      "A. Subscription"
+    ]
+  },
+  {
+    "question": "244. How many times are tasks assigned in SWF?",
+    "options": [
+      "C. Up to three times within the set polling period",
+      "D. A and C are both valid, depending upon the workflow configuration.",
+      "A. Once and only once",
+      "B. Once in general, but a task can be reassigned if it fails"
+    ],
+    "answers": [
+      "A. Once and only once"
+    ]
+  },
+  {
+    "question": "245. How are topics represented in SNS?",
+    "options": [
+      "D. By a named message",
+      "B. By an Amazon Resource Name",
+      "A. By a linked list",
+      "C. By an IAM role"
+    ],
+    "answers": [
+      "B. By an Amazon Resource Name"
+    ]
+  },
+  {
+    "question": "246. How many times are messages delivered in SQS?",
+    "options": [
+      "B. Up to a single time",
+      "C. Up to three times within the set polling period",
+      "D. At least once",
+      "A. Once and only once"
+    ],
+    "answers": [
+      "D. At least once"
+    ]
+  },
+  {
+    "question": "247. What is a collection of related SWF workflows called?",
+    "options": [
+      "D. A cluster",
+      "B. A policy",
+      "A. A group",
+      "C. A domain"
+    ],
+    "answers": [
+      "C. A domain"
+    ]
+  },
+  {
+    "question": "248. How are messages arranged in an SQS queue by default?",
+    "options": [
+      "D. In the order in which they were received, as much as is possible",
+      "A. FIFO",
+      "B. LIFO",
+      "C. In reverse order, that is, the last message received is the first available, as much as is possible"
+    ],
+    "answers": [
+      "D. In the order in which they were received, as much as is possible"
+    ]
+  },
+  {
+    "question": "249. The company at which you have been hired as an architect is using Amazon SQS. The company\u2019s applications process orders out of the queue as they are received, ensuring that earlier orders get any limited items that may run out of stock over time. However, some early orders are skipped, and later orders actually get the limited items. How would you correct this problem?",
+    "options": [
+      "C. Move from SQS to SNS and implement a queue in the application code.",
+      "A. Move from SQS to SWF to ensure single delivery of messages.",
+      "B. Configure the SQS queue as FIFO to guarantee the order of message delivery.",
+      "D. Turn on order locking in the SQS queue."
+    ],
+    "answers": [
+      "B. Configure the SQS queue as FIFO to guarantee the order of message delivery."
+    ]
+  },
+  {
+    "question": "250. You have a hub-and-spoke network model, with VPC C at the center of the hub. There are six spokes, VPCs A, B, D, E, F, and G. Which VPCs can communicate with VPC C directly? (Choose two.)",
+    "options": [
+      "D. Options A and B",
+      "A. VPCs A and B",
+      "B. VPCs D and E",
+      "C. VPCs F and G"
+    ],
+    "answers": [
+      "D. Options A and B",
+      "C. VPCs F and G"
+    ]
+  },
+  {
+    "question": "251. You have a hub-and-spoke network model, with VPC C at the center of the hub. There are six spokes, VPCs A, B, D, E, F, and G. Which VPCs can communicate with VPC A directly? (Choose two.)",
+    "options": [
+      "A. VPCs A and B",
+      "B. VPC C",
+      "D. Any additional VPCs peered directly with VPC A",
+      "C. VPC A"
+    ],
+    "answers": [
+      "B. VPC C",
+      "D. Any additional VPCs peered directly with VPC A"
+    ]
+  },
+  {
+    "question": "252. You have a hub-and-spoke network model, with VPC G at the center of the hub. There are six spokes, VPCs A, B, C, D, E, and F. Which of the following are true? (Choose two.)",
+    "options": [
+      "D. VPCs G and D cannot communicate with each other directly.",
+      "C. VPCs A and C cannot communicate with each other directly.",
+      "B. VPCs G and B can communicate with each other directly.",
+      "A. VPCs A and B can communicate with each other directly."
+    ],
+    "answers": [
+      "C. VPCs A and C cannot communicate with each other directly.",
+      "B. VPCs G and B can communicate with each other directly."
+    ]
+  },
+  {
+    "question": "253. You have a hub-and-spoke network model, with VPC B at the center of the hub. There are three spokes, VPCs A, C, and E. Which of the following are not true? (Choose two.)",
+    "options": [
+      "C. VPCs A and C can communicate with each other directly.",
+      "B. VPCs C and B can communicate with each other directly.",
+      "D. VPCs C and E can communicate with each other directly.",
+      "A. VPCs A and B can communicate with each other directly."
+    ],
+    "answers": [
+      "D. VPCs C and E can communicate with each other directly.",
+      "C. VPCs A and C can communicate with each other directly."
+    ]
+  },
+  {
+    "question": "254. Select the statement that is true.",
+    "options": [
+      "C. Both security groups and NACLs are stateless.",
+      "A. Security groups are stateless and NACLs are stateful.",
+      "D. Both security groups and NACLs are stateful.",
+      "B. Security groups are stateful and NACLs are stateless."
+    ],
+    "answers": [
+      "B. Security groups are stateful and NACLs are stateless."
+    ]
+  },
+  {
+    "question": "255. Select the statement that is true.",
+    "options": [
+      "B. In a security group, explicit rules must exist for both inbound and outbound traffic for a single request to get in and come back out.",
+      "A. In a NACL, explicit rules must exist for both inbound and outbound traffic for a single request to get in and come back out.",
+      "C. In both NACLs and security groups, explicit rules must exist for both inbound and outbound traffic for a single request to get in and come back out.",
+      "D. Neither NACLs nor security groups require both inbound and outbound explicit rules for the same piece of traffic."
+    ],
+    "answers": [
+      "A. In a NACL, explicit rules must exist for both inbound and outbound traffic for a single request to get in and come back out."
+    ]
+  },
+  {
+    "question": "256. Select the statement that is true.",
+    "options": [
+      "C. In both NACLs and security groups, explicit rules must exist for both inbound and outbound traffic for a single request to get in and come back out.",
+      "A. In a NACL, traffic that is allowed in is automatically allowed back out.",
+      "B. In a security group, traffic that is allowed in is automatically allowed back out.",
+      "D. Neither NACLs nor security groups require both inbound and outbound explicit rules for the same piece of traffic."
+    ],
+    "answers": [
+      "B. In a security group, traffic that is allowed in is automatically allowed back out."
+    ]
+  },
+  {
+    "question": "257. Into how many subnets must an ALB be deployed (at a minimum)?",
+    "options": [
+      "A. One",
+      "C. Three",
+      "D. Five",
+      "B. Two"
+    ],
+    "answers": [
+      "B. Two"
+    ]
+  },
+  {
+    "question": "258. Which of the following are created automatically when you create a new custom VPC? (Choose two.)",
+    "options": [
+      "C. Subnet",
+      "A. Security group",
+      "B. NAT gateway",
+      "D. Route table"
+    ],
+    "answers": [
+      "D. Route table",
+      "A. Security group"
+    ]
+  },
+  {
+    "question": "259. Which of the following are created automatically as part of the default VPC? (Choose two.)",
+    "options": [
+      "D. Route table",
+      "C. Subnet",
+      "B. NAT gateway",
+      "A. NAT instance"
+    ],
+    "answers": [
+      "C. Subnet",
+      "D. Route table"
+    ]
+  },
+  {
+    "question": "260. Which of the following are created automatically as part of the default VPC? (Choose two.)",
+    "options": [
+      "C. NACL",
+      "D. IAM role",
+      "B. NAT gateway",
+      "A. Internet gateway"
+    ],
+    "answers": [
+      "C. NACL",
+      "A. Internet gateway"
+    ]
+  }
+]

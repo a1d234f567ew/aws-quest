@@ -1,0 +1,247 @@
+[
+  {
+    "question": "21. You want to optimize performance and cost of your application by creating a placement group rather than hosting separate copies of your application in multiple availability zones. Across how many availability zones can a placement group span?",
+    "options": [
+      "D. Placement groups are not in availability zones.",
+      "A. One",
+      "C. Two or more",
+      "B. One or more"
+    ],
+    "answers": [
+      "B. One or more"
+    ]
+  },
+  {
+    "question": "22. Across how many availability zones can a spread placement group be stretched?",
+    "options": [
+      "D. Placement groups are not in availability zones.",
+      "A. One",
+      "C. Two or more",
+      "B. One or more"
+    ],
+    "answers": [
+      "B. One or more"
+    ]
+  },
+  {
+    "question": "23. How many instances can run in a single availability zone for a spread placement group?",
+    "options": [
+      "C. Seven",
+      "A. One",
+      "B. Five",
+      "D. Nine"
+    ],
+    "answers": [
+      "C. Seven"
+    ]
+  },
+  {
+    "question": "24. Which of the following are advantages of a spread placement group over using nongrouped instances? (Choose two.)",
+    "options": [
+      "C. A spread placement group allows instances to talk with negligible network lag.",
+      "B. A spread placement group is less expensive than the same number of on-demand instances not in a group.",
+      "A. A spread placement group can span peered VPCs in the same region.",
+      "D. A spread placement group reduces IO in an instance within that group."
+    ],
+    "answers": [
+      "C. A spread placement group allows instances to talk with negligible network lag.",
+      "A. A spread placement group can span peered VPCs in the same region."
+    ]
+  },
+  {
+    "question": "25. Which of the following statements about placement groups is false?",
+    "options": [
+      "D. A clustered placement group involves fewer availability zones than a spread placement group.",
+      "C. A spread placement group allows instances to talk across regions without network lag.",
+      "A. A spread placement group can span peered VPCs in the same region.",
+      "B. A clustered placement group has instances all in a single availability zone."
+    ],
+    "answers": [
+      "C. A spread placement group allows instances to talk across regions without network lag."
+    ]
+  },
+  {
+    "question": "26. Which of the following actions incur costs within AWS? (Choose two.)",
+    "options": [
+      "C. Transferring data across regions",
+      "B. Data egress to the Internet",
+      "D. Transferring data from one instance to another within the same availability zone",
+      "A. Data ingress from the Internet"
+    ],
+    "answers": [
+      "C. Transferring data across regions",
+      "B. Data egress to the Internet"
+    ]
+  },
+  {
+    "question": "27. Which of the following costs the least?",
+    "options": [
+      "B. An instance retrieving data from S3 in the same region",
+      "D. An instance retrieving data from S3 in a different region",
+      "A. Retrieving a file from S3 to a local desktop client",
+      "C. Uploading a file to S3 from a local desktop client"
+    ],
+    "answers": [
+      "C. Uploading a file to S3 from a local desktop client"
+    ]
+  },
+  {
+    "question": "28. Which of the following costs the least?",
+    "options": [
+      "B. An instance retrieving data from another instance in the same availability zone",
+      "A. Retrieving a file from S3 to a local desktop client",
+      "C. An instance storing data in S3 in a different region",
+      "D. An instance retrieving data from S3 in a different region"
+    ],
+    "answers": [
+      "B. An instance retrieving data from another instance in the same availability zone"
+    ]
+  },
+  {
+    "question": "29. Which of the following might help reduce data transfer costs? (Choose two.)",
+    "options": [
+      "A. Set up CloudFront to cache content.",
+      "C. Set up an RDS instance with read replicas.",
+      "D. Set up S3 buckets with versioning.",
+      "B. Ensure that any instances communicating with other instances in the same region have private IP addresses."
+    ],
+    "answers": [
+      "A. Set up CloudFront to cache content.",
+      "B. Ensure that any instances communicating with other instances in the same region have private IP addresses."
+    ]
+  },
+  {
+    "question": "30. Which of the following is not a level of AWS support?",
+    "options": [
+      "D. Business",
+      "C. Enterprise",
+      "A. Developer",
+      "B. Free tier"
+    ],
+    "answers": [
+      "B. Free tier"
+    ]
+  },
+  {
+    "question": "31. Which of the following is reduced as part of AWS\u2019s total cost of ownership approach?",
+    "options": [
+      "B. DevOps salaries",
+      "C. Capital expenditures",
+      "D. Organizational head count",
+      "A. Developer salaries"
+    ],
+    "answers": [
+      "C. Capital expenditures"
+    ]
+  },
+  {
+    "question": "32. Which of the following payment models does AWS employ to reduce total cost of ownership?",
+    "options": [
+      "C. Pay after use",
+      "A. Pay up front",
+      "B. Pay-as-you-go",
+      "D. Quarterly pay"
+    ],
+    "answers": [
+      "B. Pay-as-you-go"
+    ]
+  },
+  {
+    "question": "33. Which of the following is not a key tenet of the AWS pricing philosophy?",
+    "options": [
+      "C. Pay less per unit by using more.",
+      "A. Pay-as-you-go",
+      "D. Pay more only when AWS grows.",
+      "B. Pay less when you reserve."
+    ],
+    "answers": [
+      "D. Pay more only when AWS grows."
+    ]
+  },
+  {
+    "question": "34. Which of the following is not a pricing model for instances?",
+    "options": [
+      "D. Spot instance",
+      "B. Reserved",
+      "C. Migration only",
+      "A. On demand"
+    ],
+    "answers": [
+      "C. Migration only"
+    ]
+  },
+  {
+    "question": "35. When calculating total cost of ownership, what instance pricing model does AWS suggest using?",
+    "options": [
+      "D. Spot instance",
+      "B. Reserved",
+      "A. On demand",
+      "C. Dedicated hardware"
+    ],
+    "answers": [
+      "B. Reserved"
+    ]
+  },
+  {
+    "question": "36. How does the cost of standard reserved instances compare with the cost of on-demand instances?",
+    "options": [
+      "C. Standard reserved instances cost significantly more than on-demand instances.",
+      "B. Standard reserved instances cost about the same as on-demand instances.",
+      "D. Standard reserved instances cost a little bit less than on-demand instances.",
+      "A. Standard reserved instances cost significantly less than on-demand instances."
+    ],
+    "answers": [
+      "A. Standard reserved instances cost significantly less than on-demand instances."
+    ]
+  },
+  {
+    "question": "37. Which of the following is not a valid payment option for reserved instances?",
+    "options": [
+      "D. All upfront",
+      "A. No upfront",
+      "B. Partial upfront",
+      "C. Half upfront"
+    ],
+    "answers": [
+      "C. Half upfront"
+    ]
+  },
+  {
+    "question": "38. Which of the following is the least expensive payment model for reserved instances?",
+    "options": [
+      "C. All upfront",
+      "A. No upfront",
+      "B. Partial upfront",
+      "D. They are all the same."
+    ],
+    "answers": [
+      "C. All upfront"
+    ]
+  },
+  {
+    "question": "39. Which of the following are valid terms for reserved instances? (Choose two.)",
+    "options": [
+      "B. One year",
+      "D. Three years",
+      "C. Two years",
+      "A. Six months"
+    ],
+    "answers": [
+      "D. Three years",
+      "B. One year"
+    ]
+  },
+  {
+    "question": "40. Which of the following are valid pricing models for EC2 instances? (Choose two.)",
+    "options": [
+      "D. All upfront",
+      "C. Dedicated hosts",
+      "B. Spot market",
+      "A. Spot instances"
+    ],
+    "answers": [
+      "C. Dedicated hosts",
+      "A. Spot instances"
+    ]
+  }
+]

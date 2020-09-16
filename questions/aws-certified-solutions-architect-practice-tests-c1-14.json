@@ -1,0 +1,256 @@
+[
+  {
+    "question": "261. What is the size of the default subnet in each availability zone within the default VPC?",
+    "options": [
+      "C. /28",
+      "D. /24",
+      "B. /16",
+      "A. /20"
+    ],
+    "answers": [
+      "A. /20"
+    ]
+  },
+  {
+    "question": "262. What is the size of the CIDR block created in the default VPC?",
+    "options": [
+      "C. /28",
+      "D. /24",
+      "B. /16",
+      "A. /20"
+    ],
+    "answers": [
+      "B. /16"
+    ]
+  },
+  {
+    "question": "263. What is the size of the CIDR block created in a custom VPC?",
+    "options": [
+      "C. /28",
+      "B. /16",
+      "D. You must select a size at VPC creation.",
+      "A. /20"
+    ],
+    "answers": [
+      "D. You must select a size at VPC creation."
+    ]
+  },
+  {
+    "question": "264. Which of the following offers the most available IP addresses?",
+    "options": [
+      "C. /28",
+      "B. /16",
+      "D. /18",
+      "A. /20"
+    ],
+    "answers": [
+      "B. /16"
+    ]
+  },
+  {
+    "question": "265. Which of the following are not created as part of the default VPC? (Choose two.)",
+    "options": [
+      "D. Bastion host",
+      "B. Security group",
+      "C. NAT gateway",
+      "A. Internet gateway"
+    ],
+    "answers": [
+      "C. NAT gateway",
+      "D. Bastion host"
+    ]
+  },
+  {
+    "question": "266. Is the default VPC created by AWS public?",
+    "options": [
+      "C. Only for traffic over port 80",
+      "D. No",
+      "B. Yes",
+      "A. Only if you set it to be public at creation time"
+    ],
+    "answers": [
+      "B. Yes"
+    ]
+  },
+  {
+    "question": "267. Which of the following statements are true? (Choose two.)",
+    "options": [
+      "A. The default VPC has an internet gateway attached by default.",
+      "B. Custom VPCs do not have internet gateways attached by default.",
+      "C. The default VPC does not have an internet gateway attached by default.",
+      "D. Custom VPCs have internet gateways attached by default."
+    ],
+    "answers": [
+      "A. The default VPC has an internet gateway attached by default.",
+      "B. Custom VPCs do not have internet gateways attached by default."
+    ]
+  },
+  {
+    "question": "268. Which of the following statements are true? (Choose two.)",
+    "options": [
+      "B. All incoming traffic is allowed by the default security group on a VPC.",
+      "A. The default VPC has a NACL created by default.",
+      "D. The default security group for the default VPC allows inbound HTTP traffic.",
+      "C. All outgoing traffic is allowed by the default security group on a VPC."
+    ],
+    "answers": [
+      "C. All outgoing traffic is allowed by the default security group on a VPC.",
+      "A. The default VPC has a NACL created by default."
+    ]
+  },
+  {
+    "question": "269. Which of the following statements are true about both the default VPC and custom VPCs? (Choose two.)",
+    "options": [
+      "A. They have NACLs automatically created.",
+      "D. They have security groups automatically created.",
+      "C. They have subnets automatically created.",
+      "B. They have internet gateways automatically created."
+    ],
+    "answers": [
+      "A. They have NACLs automatically created.",
+      "D. They have security groups automatically created."
+    ]
+  },
+  {
+    "question": "270. Which of the following are created automatically for the default VPC but not for custom VPCs? (Choose two.)",
+    "options": [
+      "A. A route table",
+      "B. A subnet",
+      "C. A security group allowing outbound traffic",
+      "D. An internet gateway"
+    ],
+    "answers": [
+      "B. A subnet",
+      "D. An internet gateway"
+    ]
+  },
+  {
+    "question": "271. All EC2 instances in the default VPC have which of the following by default? (Choose two.)",
+    "options": [
+      "C. A private IP address",
+      "B. A public IP address",
+      "A. An elastic IP address",
+      "D. HTTP access for incoming requests"
+    ],
+    "answers": [
+      "C. A private IP address",
+      "B. A public IP address"
+    ]
+  },
+  {
+    "question": "272. You created a new instance in the default VPC. You want this instance to be publicly available and serve web content. What steps do you need to take? (Choose two.)",
+    "options": [
+      "C. Neither A nor B, these are done automatically.",
+      "B. Create a public IP for the instance.",
+      "A. Create an private IP for the instance.",
+      "D. Update the security group to allow traffic over HTTP and HTTPS to the instance."
+    ],
+    "answers": [
+      "C. Neither A nor B, these are done automatically.",
+      "D. Update the security group to allow traffic over HTTP and HTTPS to the instance."
+    ]
+  },
+  {
+    "question": "273. You created a new instance in a custom VPC. You want this instance to be publicly available and serve web content. What steps do you need to take? (Choose two.)",
+    "options": [
+      "C. Update the security group to allow traffic over HTTP and HTTPS to the instance.",
+      "A. Create an elastic IP for the instance.",
+      "D. Both A and B",
+      "B. Create an internet gateway for the VPC."
+    ],
+    "answers": [
+      "D. Both A and B",
+      "C. Update the security group to allow traffic over HTTP and HTTPS to the instance."
+    ]
+  },
+  {
+    "question": "274. Why would you use a VPC endpoint to connect your VPC to S3 storage? (Choose two.)",
+    "options": [
+      "C. To increase security of the VPC-to-S3 traffic",
+      "B. To avoid leaving the AWS network when traffic flows between the VPC and S3",
+      "D. To increase the speed as compared to using a NAT instance",
+      "A. To reduce the number of public IP addresses required by your VPC"
+    ],
+    "answers": [
+      "C. To increase security of the VPC-to-S3 traffic",
+      "B. To avoid leaving the AWS network when traffic flows between the VPC and S3"
+    ]
+  },
+  {
+    "question": "275. Which of the following does a VPC endpoint require?",
+    "options": [
+      "D. None of the above",
+      "C. VPN connection",
+      "B. NAT instance",
+      "A. Internet gateway"
+    ],
+    "answers": [
+      "D. None of the above"
+    ]
+  },
+  {
+    "question": "276. Which of the following statements about a VPC endpoint are true? (Choose two.)",
+    "options": [
+      "D. It scales vertically.",
+      "C. It is automatically redundant.",
+      "A. It is a hardware device.",
+      "B. It is a virtual device."
+    ],
+    "answers": [
+      "B. It is a virtual device.",
+      "C. It is automatically redundant."
+    ]
+  },
+  {
+    "question": "277. Which of the following statements about a VPC endpoint are true? (Choose two.)",
+    "options": [
+      "D. It never routes traffic over the public Internet.",
+      "A. It requires a VPN connection.",
+      "B. It can connect to DynamoDB.",
+      "C. The VPC it is attached to must have an internet gateway."
+    ],
+    "answers": [
+      "D. It never routes traffic over the public Internet.",
+      "B. It can connect to DynamoDB."
+    ]
+  },
+  {
+    "question": "278. Which of these are types of VPC endpoints? (Choose two.)",
+    "options": [
+      "A. Interface endpoint",
+      "B. Peering endpoint",
+      "D. Service endpoint",
+      "C. Gateway endpoint"
+    ],
+    "answers": [
+      "A. Interface endpoint",
+      "C. Gateway endpoint"
+    ]
+  },
+  {
+    "question": "279. Which of the following can a VPC gateway endpoint connect to? (Choose two.)",
+    "options": [
+      "D. DynamoDB",
+      "C. A Kinesis data stream",
+      "B. Route 53",
+      "A. S3"
+    ],
+    "answers": [
+      "D. DynamoDB",
+      "A. S3"
+    ]
+  },
+  {
+    "question": "280. Which of the following can a VPC interface endpoint connect to? (Choose two.)",
+    "options": [
+      "A. An API gateway",
+      "C. A Kinesis data stream",
+      "D. DynamoDB",
+      "B. A VPN"
+    ],
+    "answers": [
+      "A. An API gateway",
+      "C. A Kinesis data stream"
+    ]
+  }
+]

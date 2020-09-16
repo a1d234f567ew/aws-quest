@@ -1,0 +1,251 @@
+[
+  {
+    "question": "1. You have a data analysis application that uses high compute instances along with RDS to do biological analysis on large datasets. The computations are not time sensitive and can be run anytime throughout the day. However, because of the high compute resources required, the processing is quite expensive. What could you do to defray these costs? (Choose two.)",
+    "options": [
+      "A. Purchase reserved instances and pay entirely up front for the instance usage charges.",
+      "D. Contact AWS and ask for discounted instance pricing based on your recurring usage.",
+      "B. Use the spot market, setting a bid price lower than the current on-demand pricing.",
+      "C. Lower the instance class to a less costly class and allow the processing to run longer at lower per-instance costs."
+    ],
+    "answers": [
+      "A. Purchase reserved instances and pay entirely up front for the instance usage charges.",
+      "B. Use the spot market, setting a bid price lower than the current on-demand pricing."
+    ]
+  },
+  {
+    "question": "2. Which of the following are valid payment options for reserved instances? (Choose two.)",
+    "options": [
+      "B. Predictive pricing",
+      "D. Nothing up-front pricing",
+      "C. All up-front pricing",
+      "A. Actual usage pricing"
+    ],
+    "answers": [
+      "D. Nothing up-front pricing",
+      "C. All up-front pricing"
+    ]
+  },
+  {
+    "question": "3. How do you move a reserved instance from one region to another?",
+    "options": [
+      "C. Make a snapshot of the instance, copy the snapshot to the new region, and start the instance from the snapshot.",
+      "B. Contact your AWS billing resource to manually move the instance and its associated billing.",
+      "A. Shut the instance down, change its region via the console or CLI, and restart the instance.",
+      "D. You cannot move reserved instances across regions."
+    ],
+    "answers": [
+      "D. You cannot move reserved instances across regions."
+    ]
+  },
+  {
+    "question": "4. Which of the following allows you the least expensive access to compute resources?",
+    "options": [
+      "A. On-demand instances",
+      "B. Reserved instances",
+      "D. Dedicated hosts",
+      "C. Spot instances"
+    ],
+    "answers": [
+      "C. Spot instances"
+    ]
+  },
+  {
+    "question": "5. Which of the following are not reasons to select an on-demand instance? (Choose two.)",
+    "options": [
+      "C. Applications with steady-state usage",
+      "B. Applications that have flexible start and end times",
+      "A. Applications with short-term, spiky workloads",
+      "D. Applications being developed or tested on EC2 for the first time"
+    ],
+    "answers": [
+      "C. Applications with steady-state usage",
+      "B. Applications that have flexible start and end times"
+    ]
+  },
+  {
+    "question": "6. Which of the following are reasons to select a spot instance? (Choose two.)",
+    "options": [
+      "C. Applications with steady-state usage",
+      "B. Applications that have flexible start and end times",
+      "D. Applications that are only feasible at very low compute prices",
+      "A. Applications with short-term, spiky workloads"
+    ],
+    "answers": [
+      "B. Applications that have flexible start and end times",
+      "D. Applications that are only feasible at very low compute prices"
+    ]
+  },
+  {
+    "question": "7. Which of the following are not reasons to select a reserved instance? (Choose two.)",
+    "options": [
+      "C. Users with urgent computing needs for large amounts of additional capacity",
+      "D. Users that cannot make any up-front payment or long-term commitment",
+      "A. Applications that may require reserved capacity",
+      "B. Applications with steady-state usage"
+    ],
+    "answers": [
+      "C. Users with urgent computing needs for large amounts of additional capacity",
+      "D. Users that cannot make any up-front payment or long-term commitment"
+    ]
+  },
+  {
+    "question": "8. Which of the following are reasons to select the S3 standard storage class? (Choose two.)",
+    "options": [
+      "C. Infrequent access of objects",
+      "D. Objects can easily be re-created if lost.",
+      "A. Need for high durability",
+      "B. Need for highest available throughput"
+    ],
+    "answers": [
+      "A. Need for high durability",
+      "B. Need for highest available throughput"
+    ]
+  },
+  {
+    "question": "9. You are the architect for a web application that exists on a cluster of EC2 instances all within an Auto Scaling group. During periods of high activity, the group scales up\u2014adding instances\u2014and then quickly scales back down. However, this occurs multiple times within a two-hour window, incurring significant costs. How could you reduce costs while ensuring that demand is still met? (Choose two.)",
+    "options": [
+      "A. Modify the Auto Scaling group\u2019s cool-down timers.",
+      "B. Modify the Auto Scaling group to use scheduled scaling.",
+      "D. Modify the CloudWatch alarm period that causes the Auto Scaling group to scale down.",
+      "C. Lower the CloudWatch alarm threshold that causes the Auto Scaling group to scale up."
+    ],
+    "answers": [
+      "A. Modify the Auto Scaling group\u2019s cool-down timers.",
+      "D. Modify the CloudWatch alarm period that causes the Auto Scaling group to scale down."
+    ]
+  },
+  {
+    "question": "10. Your company needs a storage solution that can support millions of customers accessing billing data. The data should be instantly accessible for users, but individual bills are not accessed that often. What is the most cost-efficient storage for this use case?",
+    "options": [
+      "A. Glacier with expedited retrieval",
+      "D. S3-IA",
+      "C. Standard S3",
+      "B. S3 with Transfer Acceleration"
+    ],
+    "answers": [
+      "D. S3-IA"
+    ]
+  },
+  {
+    "question": "11. Is the S3-IA storage class less expensive than S3?",
+    "options": [
+      "D. It depends on how the storage class is used.",
+      "B. No",
+      "A. Yes",
+      "C. Their costs are identical."
+    ],
+    "answers": [
+      "A. Yes"
+    ]
+  },
+  {
+    "question": "12. You have a website running on a fleet of EC2 instances behind an ELB. You also have an Auto Scaling group running across multiple availability zones. The instances are serving files from an EFS file system, but you are incurring lag and significant cost from serving these files from disk over and over. What would you recommend as a solution for reducing costs while still handling high traffic without degradation?",
+    "options": [
+      "B. Use Elastic Transcoder to reduce the file sizes.",
+      "D. Use reserved EC2 instances instead of on-demand instances.",
+      "C. Cache the files using CloudFront.",
+      "A. Move the files into S3 standard."
+    ],
+    "answers": [
+      "C. Cache the files using CloudFront."
+    ]
+  },
+  {
+    "question": "13. You have a large archive of documents that must be backed up. The documents will be accessed very infrequently, if at all. However, when the documents are accessed, they must be delivered within 10 minutes of a retrieval request. What is the most cost-effective option for storing these documents?",
+    "options": [
+      "C. Glacier",
+      "B. S3-IA",
+      "D. Glacier with expedited retrieval",
+      "A. S3"
+    ],
+    "answers": [
+      "D. Glacier with expedited retrieval"
+    ]
+  },
+  {
+    "question": "14. Your application has a 200 GB database running on an EC2 instance. You cannot move the database to RDS because of a custom spatial plug-in. The application is currently peaking in the morning and the evening, but the peaks are small and usage throughout the day is minimal. You need to ensure solid performance but keep costs low. What storage type would you use?",
+    "options": [
+      "B. EBS with a General Purpose SSD",
+      "A. EFS",
+      "C. EBS with a provisioned IOPS SSD",
+      "D. EBS with a magnetic HDD"
+    ],
+    "answers": [
+      "B. EBS with a General Purpose SSD"
+    ]
+  },
+  {
+    "question": "15. Which EBS volume type is most appropriate for use with a large database workload?",
+    "options": [
+      "B. EBS with a General Purpose SSD",
+      "C. EBS with a provisioned IOPS SSD",
+      "D. EBS with a magnetic HDD",
+      "A. EBS with a throughput optimized HDD"
+    ],
+    "answers": [
+      "C. EBS with a provisioned IOPS SSD"
+    ]
+  },
+  {
+    "question": "16. Which of the following is the least expensive EBS volume type?",
+    "options": [
+      "B. General Purpose SSD",
+      "A. Throughput optimized HDD",
+      "D. Cold HDD",
+      "C. Provisioned IOPS SSD"
+    ],
+    "answers": [
+      "D. Cold HDD"
+    ]
+  },
+  {
+    "question": "17. Your application currently stores all its data on EBS volumes. You want to ensure that these volumes are backed up durably. However, you also want to use as few different managed services as possible in order to keep backup costs low. What option would you recommend?",
+    "options": [
+      "B. Set up a Lambda function to take EBS snapshots and trigger the function through CloudWatch alarms.",
+      "A. Take regular EBS snapshots manually.",
+      "D. Mirror data across two EBS volumes.",
+      "C. Create a script to copy the EBS data to S3 and run it on an EC2 instance."
+    ],
+    "answers": [
+      "A. Take regular EBS snapshots manually."
+    ]
+  },
+  {
+    "question": "18. You are the architect for a highly available and highly scalable accounting application. All transaction records in the application\u2019s data stores must be available for immediate retrieval for three months, but then they should be purged to reduce storage costs. How can you most easily address this requirement?",
+    "options": [
+      "C. Store the transaction records in Glacier and use lifecycle management to delete the records after three months.",
+      "D. Store the transaction records in EBS and use lifecycle management to delete the records after three months.",
+      "A. Store the transaction records on EBS and delete the volume after three months.",
+      "B. Store the transaction records in S3 and use lifecycle management to delete the records after three months."
+    ],
+    "answers": [
+      "B. Store the transaction records in S3 and use lifecycle management to delete the records after three months."
+    ]
+  },
+  {
+    "question": "19. You have heavy load on an RDS data instance. You want to avoid the overhead and cost of upgrading the instance to a larger instance size. What other options should you consider? (Choose two.)",
+    "options": [
+      "A. RDS read replicas",
+      "C. ElastiCache",
+      "D. Kinesis",
+      "B. RDS Multi-AZ"
+    ],
+    "answers": [
+      "A. RDS read replicas",
+      "C. ElastiCache"
+    ]
+  },
+  {
+    "question": "20. You are in charge of storage for large datasets at a predictive analytics firm. You are tasked with minimizing storage costs. You need to store data 30\u201359 days old in a storage class that makes the data immediately available and data older than 60 days in a class that makes the data available within 10 hours. You want to use the least expensive classes available. Which two storage classes would you choose? (Choose two.)",
+    "options": [
+      "A. S3 standard",
+      "C. S3 RRS",
+      "D. Glacier",
+      "B. S3 Infrequent Access"
+    ],
+    "answers": [
+      "B. S3 Infrequent Access",
+      "D. Glacier"
+    ]
+  }
+]

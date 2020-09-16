@@ -1,0 +1,250 @@
+[
+  {
+    "question": "181. Which of the following policies would be the best fit for a manager who wants access to the company\u2019s main AWS account?",
+    "options": [
+      "C. Security Auditor",
+      "B. Power User",
+      "A. Administrator",
+      "D. View-Only User"
+    ],
+    "answers": [
+      "D. View-Only User"
+    ]
+  },
+  {
+    "question": "182. Which of the following policies would be the best fit for a team member running Hadoop jobs and queries to determine application usage patterns?",
+    "options": [
+      "C. Security Auditor",
+      "B. Power User",
+      "A. Administrator",
+      "D. Data Scientist"
+    ],
+    "answers": [
+      "D. Data Scientist"
+    ]
+  },
+  {
+    "question": "183. Which of the following policies would be the best fit for a team member responsible for setting up resources for the development team, working with AWS directory service, and potentially setting up DNS entries?",
+    "options": [
+      "C. Security Auditor",
+      "B. Power User",
+      "A. System Administrator",
+      "D. Data Scientist"
+    ],
+    "answers": [
+      "A. System Administrator"
+    ]
+  },
+  {
+    "question": "184. Which of the following are not possible to do with IAM policies and permissions? (Choose two.)",
+    "options": [
+      "C. Give the root user access to a hosted web application.",
+      "D. Add an additional user with access to all EC2 instances.",
+      "A. Remove access for a user from EC2 instances.",
+      "B. Remove access for the root user from EC2 instances."
+    ],
+    "answers": [
+      "C. Give the root user access to a hosted web application.",
+      "B. Remove access for the root user from EC2 instances."
+    ]
+  },
+  {
+    "question": "185. What does logging out of the AWS console and then logging back in accomplish?",
+    "options": [
+      "D. Nothing, all changes to an account are immediate and do not require logging in or back out.",
+      "B. Applies any IAM policies attached to groups that the user was added to since their last login",
+      "A. Applies any IAM policies attached to the user since their last login",
+      "C. Applies any updates to IAM policies via JSON or the AWS REST API that have been made since the user\u2019s last login"
+    ],
+    "answers": [
+      "D. Nothing, all changes to an account are immediate and do not require logging in or back out."
+    ]
+  },
+  {
+    "question": "186. You have created a new user for a new developer at your company. What permissions will this user have before you take any additional actions?",
+    "options": [
+      "A. They will not have any access to any AWS services.",
+      "C. They will have administrator-level access to all AWS services.",
+      "B. They will have read-only access to all AWS services.",
+      "D. They will have the same permissions as the root user until restricted."
+    ],
+    "answers": [
+      "A. They will not have any access to any AWS services."
+    ]
+  },
+  {
+    "question": "187. You have created a new user for a new developer at your company. What steps do you need to take to ensure they can work with EC2 instances? (Choose two.)",
+    "options": [
+      "A. Set the user up as part of the AWS-defined EC2 Users group.",
+      "C. Provide the user with a URL for signing in.",
+      "B. Set the user up as a Developer user in the AWS console.",
+      "D. Add the user to a group such as Administrators or power users."
+    ],
+    "answers": [
+      "C. Provide the user with a URL for signing in.",
+      "D. Add the user to a group such as Administrators or power users."
+    ]
+  },
+  {
+    "question": "188. How can you ensure that the new users you have created only can access AWS via the API rather than through the console? (Choose two.)",
+    "options": [
+      "D. Turn off MFA for the user.",
+      "C. Uncheck the Log In To Console box next to the user in the AWS console.",
+      "A. Do not create a sign-in URL for the users.",
+      "B. Only provide the users with an access key ID and secret access key."
+    ],
+    "answers": [
+      "A. Do not create a sign-in URL for the users.",
+      "B. Only provide the users with an access key ID and secret access key."
+    ]
+  },
+  {
+    "question": "189. To what degree do usernames have to be unique across AWS?",
+    "options": [
+      "C. Across the AWS account in which the user exists",
+      "D. Usernames don\u2019t have to be unique, but email addresses do.",
+      "B. Across all AWS accounts",
+      "A. Across the region in which the user exists"
+    ],
+    "answers": [
+      "C. Across the AWS account in which the user exists"
+    ]
+  },
+  {
+    "question": "190. Which of the following does a user need in order to access AWS resources programmatically? (Choose two.)",
+    "options": [
+      "B. Access key ID",
+      "D. Secret access key pair",
+      "A. Username",
+      "C. Password"
+    ],
+    "answers": [
+      "B. Access key ID",
+      "D. Secret access key pair"
+    ]
+  },
+  {
+    "question": "191. Which of the following does a user need in order to access the AWS console? (Choose two.)",
+    "options": [
+      "B. Access key ID",
+      "D. Secret access key pair",
+      "A. Username",
+      "C. Password"
+    ],
+    "answers": [
+      "A. Username",
+      "C. Password"
+    ]
+  },
+  {
+    "question": "192. In what language are policy documents written?",
+    "options": [
+      "B. JSON",
+      "A. JavaScript",
+      "D. Ruby",
+      "C. Node.js"
+    ],
+    "answers": [
+      "B. JSON"
+    ]
+  },
+  {
+    "question": "193. Which of the following would apply to giving federated users access to the AWS console via single sign-on?",
+    "options": [
+      "B. JSON",
+      "C. SSO",
+      "D. IAM",
+      "A. SAML"
+    ],
+    "answers": [
+      "A. SAML"
+    ]
+  },
+  {
+    "question": "194. You have a large user base in an Active Directory and want to give these users access to the AWS console without creating individual users in AWS for each. What approach would you take?",
+    "options": [
+      "A. Set the AWS console to use the Read Users From Another Authentication Source feature.",
+      "D. You cannot use a non-AWS Active Directory for access to AWS.",
+      "C. Set up AWS to federate the users from the Active Directory into AWS.",
+      "B. Use the database migration tool to migrate the Active Directory database into RDS."
+    ],
+    "answers": [
+      "C. Set up AWS to federate the users from the Active Directory into AWS."
+    ]
+  },
+  {
+    "question": "195. Which of the following is a collection of permissions?",
+    "options": [
+      "A. Group",
+      "B. Role",
+      "D. Policy",
+      "C. Topic"
+    ],
+    "answers": [
+      "D. Policy"
+    ]
+  },
+  {
+    "question": "196. You want to add a small group of developers located in a different region than your main development office. How would you handle scaling out users and permissions to this new region?",
+    "options": [
+      "C. Create the new users in the primary region, set up IAM replication, and then apply correct permissions to the replicated users in the new region.",
+      "D. Create the new users and they will apply to all regions.",
+      "B. Create the new users in the primary region and then replicate them to the new region.",
+      "A. Create the new users in the second region."
+    ],
+    "answers": [
+      "D. Create the new users and they will apply to all regions."
+    ]
+  },
+  {
+    "question": "197. What considerations do you need to take to ensure that your policy documents will scale across your entire organization and set of AWS resources?",
+    "options": [
+      "A. Make sure each policy has a name unique within the region to which it applies.",
+      "B. Make sure each policy document has the region: * attribute so it applies to all regions.",
+      "D. When you create the policy document, ensure that you select the Avoid Regional Conflicts option.",
+      "C. Nothing, policy documents are automatically applicable across all AWS resources within an account."
+    ],
+    "answers": [
+      "C. Nothing, policy documents are automatically applicable across all AWS resources within an account."
+    ]
+  },
+  {
+    "question": "198. Which of the following does Auto Scaling address? (Choose two.)",
+    "options": [
+      "A. Application monitoring",
+      "B. Capacity management",
+      "C. Cost limiting",
+      "D. Permissions management"
+    ],
+    "answers": [
+      "A. Application monitoring",
+      "B. Capacity management"
+    ]
+  },
+  {
+    "question": "199. Which of the following are benefits of Auto Scaling? (Choose two.)",
+    "options": [
+      "A. Pay for only what you need.",
+      "B. Improve network performance.",
+      "D. Reduce VPC management overhead.",
+      "C. Set up scaling quickly."
+    ],
+    "answers": [
+      "A. Pay for only what you need.",
+      "C. Set up scaling quickly."
+    ]
+  },
+  {
+    "question": "200. Which of the following can be scaled using the Auto Scaling interface? (Choose two.)",
+    "options": [
+      "D. ALBs",
+      "B. Route 53 domains",
+      "A. DynamoDB",
+      "C. Aurora read replicas"
+    ],
+    "answers": [
+      "A. DynamoDB",
+      "C. Aurora read replicas"
+    ]
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "question": "101. Which of the following store content that is served to users in a CloudFront-enabled web application? (Choose two.)",
+    "options": [
+      "D. EC2 instances",
+      "B. Edge locations",
+      "A. Availability zones",
+      "C. Route 53"
+    ],
+    "answers": [
+      "D. EC2 instances",
+      "B. Edge locations"
+    ]
+  },
+  {
+    "question": "102. Which of the following are true about edge locations? (Choose two.)",
+    "options": [
+      "A. Edge locations are readable.",
+      "B. Edge locations are read-only.",
+      "C. Edge locations are write-only.",
+      "D. Edge locations are writable."
+    ],
+    "answers": [
+      "A. Edge locations are readable.",
+      "D. Edge locations are writable."
+    ]
+  },
+  {
+    "question": "103. To which of the following can objects be written? (Choose two.)",
+    "options": [
+      "A. Edge locations",
+      "D. Availability zones",
+      "C. S3 buckets",
+      "B. EC2 instances"
+    ],
+    "answers": [
+      "A. Edge locations",
+      "C. S3 buckets"
+    ]
+  },
+  {
+    "question": "104. What does TTL stand for?",
+    "options": [
+      "A. Time to Live",
+      "D. Traffic total life",
+      "B. Total Time to Live",
+      "C. Total traffic life"
+    ],
+    "answers": [
+      "A. Time to Live"
+    ]
+  },
+  {
+    "question": "105. You support a web application that uses a CloudFront distribution. A banner ad that was posted the previous night at midnight has an error in it, and you\u2019ve been tasked with removing the ad so that users don\u2019t see the error. What steps should you take? (Choose two.)",
+    "options": [
+      "A. Delete the banner image from S3.",
+      "D. Clear the cached object manually.",
+      "C. Wait for 24 hours and the edge locations will automatically expire the ad from their caches.",
+      "B. Remove the ad from the website."
+    ],
+    "answers": [
+      "D. Clear the cached object manually.",
+      "B. Remove the ad from the website."
+    ]
+  },
+  {
+    "question": "106. By default, how long do edge locations cache objects?",
+    "options": [
+      "B. 24 hours",
+      "C. 48 hours",
+      "A. 12 hours",
+      "D. 360 minutes"
+    ],
+    "answers": [
+      "B. 24 hours"
+    ]
+  },
+  {
+    "question": "107. What is the default visibility of a newly created S3 bucket?",
+    "options": [
+      "C. Public to registered IAM users of your account",
+      "B. Private",
+      "A. Public",
+      "D. None of the above"
+    ],
+    "answers": [
+      "B. Private"
+    ]
+  },
+  {
+    "question": "108. Which of the following are valid ways to set up access to your buckets? (Choose two.)",
+    "options": [
+      "D. JSON",
+      "C. Bucket policies",
+      "B. ACLs",
+      "A. NACLs"
+    ],
+    "answers": [
+      "C. Bucket policies",
+      "B. ACLs"
+    ]
+  },
+  {
+    "question": "109. Which of the following languages is used for writing bucket policies?",
+    "options": [
+      "C. JSON",
+      "A. XML",
+      "D. AML",
+      "B. YAML"
+    ],
+    "answers": [
+      "C. JSON"
+    ]
+  },
+  {
+    "question": "110. How are datasets utilized by stored volumes backed up to S3?",
+    "options": [
+      "A. Asynchronously",
+      "B. Synchronously",
+      "C. The backup method is specified by the user at configuration time.",
+      "D. Synchronously unless the backup takes more than 2 seconds; then the backup switches to asynchronous"
+    ],
+    "answers": [
+      "A. Asynchronously"
+    ]
+  },
+  {
+    "question": "111. Which of the following is equivalent to a tape volume?",
+    "options": [
+      "B. VPC",
+      "A. VTL",
+      "C. NetBackup",
+      "D. VPN"
+    ],
+    "answers": [
+      "A. VTL"
+    ]
+  },
+  {
+    "question": "112. What is Amazon\u2019s petabyte-scale data transport solution?",
+    "options": [
+      "C. Transfer Acceleration",
+      "D. Edge transport",
+      "A. Snowball",
+      "B. Glacier"
+    ],
+    "answers": [
+      "A. Snowball"
+    ]
+  },
+  {
+    "question": "113. What language(s) are supported by Snowball?",
+    "options": [
+      "B. JSON, YAML",
+      "A. Perl, PHP",
+      "D. None of these",
+      "C. CloudFormation"
+    ],
+    "answers": [
+      "D. None of these"
+    ]
+  },
+  {
+    "question": "114. When should you use AWS Direct Connect instead of Snowball?",
+    "options": [
+      "D. If you have less than 50 TB of data to transfer, use Snowball.",
+      "C. If you have more than 50 TB of data to transfer, use Snowball.",
+      "A. AWS Direct Connect is usually a better option than Snowball.",
+      "B. AWS Direct Connect is almost never a better option than Snowball."
+    ],
+    "answers": [
+      "A. AWS Direct Connect is usually a better option than Snowball."
+    ]
+  },
+  {
+    "question": "115. What is the difference between Snowball and Snowball Edge?",
+    "options": [
+      "B. Snowball Edge is for data transfer; Snowball provides local data processing prior to returning the data to AWS.",
+      "D. Snowball and Snowball Edge are both for data transfer, but Snowball Edge offers additional storage capacity.",
+      "C. Snowball and Snowball Edge are both for data transfer, but Snowball Edge offers caching when the data arrives at AWS.",
+      "A. Snowball is for data transfer; Snowball Edge provides local data processing prior to returning the data to AWS."
+    ],
+    "answers": [
+      "A. Snowball is for data transfer; Snowball Edge provides local data processing prior to returning the data to AWS."
+    ]
+  },
+  {
+    "question": "116. Which of the following can Snowball do?",
+    "options": [
+      "C. Import data into S3 and export data from S3",
+      "D. Snowball can import data into S3, but only Snowball Edge can export data from S3.",
+      "A. Import data into S3 (but not export data)",
+      "B. Export data from S3 (but not import data)"
+    ],
+    "answers": [
+      "C. Import data into S3 and export data from S3"
+    ]
+  },
+  {
+    "question": "117. What is the main benefit of decoupling an application?",
+    "options": [
+      "B. To enforce different network transport models",
+      "D. To reduce network connections to improve performance",
+      "C. To reduce interdependencies to isolate failures from an entire application",
+      "A. To enforce different security models"
+    ],
+    "answers": [
+      "C. To reduce interdependencies to isolate failures from an entire application"
+    ]
+  },
+  {
+    "question": "118. Which of the following AWS services provides analytic data warehouse provisioning and tooling?",
+    "options": [
+      "C. DynamoDB",
+      "D. Redshift",
+      "B. ElastiCache",
+      "A. Aurora"
+    ],
+    "answers": [
+      "D. Redshift"
+    ]
+  },
+  {
+    "question": "119. Which of the following is a basic principle of fault tolerance in AWS?",
+    "options": [
+      "B. Launch instances in separate regions.",
+      "C. Launch instances in separate subnets.",
+      "D. Launch instances in edge locations.",
+      "A. Launch instances in separate VPCs."
+    ],
+    "answers": [
+      "B. Launch instances in separate regions."
+    ]
+  },
+  {
+    "question": "120. Which of the following services use AWS edge locations?",
+    "options": [
+      "C. Storage gateway",
+      "D. Snowball",
+      "A. CloudFront",
+      "B. Customer gateway"
+    ],
+    "answers": [
+      "A. CloudFront"
+    ]
+  }
+]

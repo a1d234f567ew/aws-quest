@@ -1,0 +1,249 @@
+[
+  {
+    "question": "181. Which of the following is a caching engine?",
+    "options": [
+      "B. DynamoDB",
+      "D. IAM",
+      "A. ElastiCache",
+      "C. memcached"
+    ],
+    "answers": [
+      "C. memcached"
+    ]
+  },
+  {
+    "question": "182. Which of the following are caching engines used by ElastiCache? (Choose two.)",
+    "options": [
+      "B. DynamoDB",
+      "A. Redis",
+      "C. memcached",
+      "D. CloudFront"
+    ],
+    "answers": [
+      "A. Redis",
+      "C. memcached"
+    ]
+  },
+  {
+    "question": "183. Which of the following can you use reserved instances with?",
+    "options": [
+      "A. RDS",
+      "D. None of the above",
+      "C. Both A and B",
+      "B. EC2"
+    ],
+    "answers": [
+      "C. Both A and B"
+    ]
+  },
+  {
+    "question": "184. For which of the following can you use reserved instances?",
+    "options": [
+      "B. RDS standard deployments",
+      "C. ElastiCache nodes",
+      "A. RDS Multi-AZ deployments.",
+      "D. All of the above"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "185. In which situations will an RDS instance with Multi-AZ configured fail over? (Choose two.)",
+    "options": [
+      "C. When the secondary zone is unreachable",
+      "A. When you manually force a failover",
+      "D. When two successive database reads fail",
+      "B. When the primary zone is unreachable"
+    ],
+    "answers": [
+      "A. When you manually force a failover",
+      "B. When the primary zone is unreachable"
+    ]
+  },
+  {
+    "question": "186. Which of the following can you select when you create an RDS instance? (Choose two.)",
+    "options": [
+      "B. The number of network connections to allow before failing over",
+      "A. The type of database to use",
+      "D. The availability zone to deploy the instance to",
+      "C. The number of database processes to allow"
+    ],
+    "answers": [
+      "A. The type of database to use",
+      "D. The availability zone to deploy the instance to"
+    ]
+  },
+  {
+    "question": "187. Which of the following may happen when you have a single-AZ RDS database and a backup begins? (Choose two.)",
+    "options": [
+      "B. Database responses may temporarily slow.",
+      "A. Latency increases.",
+      "D. Network requests will fail for up to a minute.",
+      "C. The database goes offline temporarily."
+    ],
+    "answers": [
+      "B. Database responses may temporarily slow.",
+      "A. Latency increases."
+    ]
+  },
+  {
+    "question": "188. Which of the following database engines are available for RDS? (Choose two.)",
+    "options": [
+      "D. SQL Server",
+      "A. Hyperion",
+      "B. Cassandra",
+      "C. Oracle"
+    ],
+    "answers": [
+      "D. SQL Server",
+      "C. Oracle"
+    ]
+  },
+  {
+    "question": "189. Which of the following is true about RDS? (Choose two.)",
+    "options": [
+      "D. All RDS databases support SQL as an interface.",
+      "B. Automated backups are turned off by default.",
+      "A. Reserved instances can be used for Multi-AZ deployments.",
+      "C. Every database supported by RDS can also be installed directly on EC2 instances."
+    ],
+    "answers": [
+      "A. Reserved instances can be used for Multi-AZ deployments.",
+      "D. All RDS databases support SQL as an interface."
+    ]
+  },
+  {
+    "question": "190. What is the default port for MySQL via RDS?",
+    "options": [
+      "B. 443",
+      "C. 22",
+      "D. 3306",
+      "A. 80"
+    ],
+    "answers": [
+      "D. 3306"
+    ]
+  },
+  {
+    "question": "191. When AWS uses the term OLAP, what does that acronym stand for?",
+    "options": [
+      "D. Offline activity and payment",
+      "C. Online aggregation processing",
+      "A. Online analytics processing",
+      "B. Offline analytic processing"
+    ],
+    "answers": [
+      "A. Online analytics processing"
+    ]
+  },
+  {
+    "question": "192. When AWS uses the term OLTP, what does that acronym stand for?",
+    "options": [
+      "C. Online traffic provisioning",
+      "A. Offline training and practice",
+      "B. Offline transaction processing",
+      "D. Online transaction processing"
+    ],
+    "answers": [
+      "D. Online transaction processing"
+    ]
+  },
+  {
+    "question": "193. Which of the following is most suitable for OLAP?",
+    "options": [
+      "C. DynamoDB",
+      "A. Redshift",
+      "B. ElastiCache",
+      "D. Aurora"
+    ],
+    "answers": [
+      "A. Redshift"
+    ]
+  },
+  {
+    "question": "194. Which of the following is most suitable for OLTP?",
+    "options": [
+      "C. DynamoDB",
+      "A. Redshift",
+      "B. ElastiCache",
+      "D. Aurora"
+    ],
+    "answers": [
+      "D. Aurora"
+    ]
+  },
+  {
+    "question": "195. Which of the following are most suitable for OLTP? (Choose two.)",
+    "options": [
+      "C. DynamoDB",
+      "A. memcached",
+      "B. Oracle",
+      "D. SQL Server"
+    ],
+    "answers": [
+      "D. SQL Server",
+      "B. Oracle"
+    ]
+  },
+  {
+    "question": "196. Which of the following is best suited for data warehousing?",
+    "options": [
+      "C. DynamoDB",
+      "B. Oracle",
+      "D. Redshift",
+      "A. redis"
+    ],
+    "answers": [
+      "D. Redshift"
+    ]
+  },
+  {
+    "question": "197. Which of the following is best suited for big data processing?",
+    "options": [
+      "A. EMR",
+      "D. Athena",
+      "C. ElastiCache",
+      "B. QuickSight"
+    ],
+    "answers": [
+      "A. EMR"
+    ]
+  },
+  {
+    "question": "198. Which of the following is best suited for real-time analytics?",
+    "options": [
+      "A. EMR",
+      "D. Athena",
+      "C. Kinesis",
+      "B. QuickSight"
+    ],
+    "answers": [
+      "C. Kinesis"
+    ]
+  },
+  {
+    "question": "199. Which of the following is best suited for dashboards and visualizations?",
+    "options": [
+      "A. EMR",
+      "D. Athena",
+      "C. Kinesis",
+      "B. QuickSight"
+    ],
+    "answers": [
+      "B. QuickSight"
+    ]
+  },
+  {
+    "question": "200. Which of the following is best suited for interactive analytics?",
+    "options": [
+      "A. EMR",
+      "D. Athena",
+      "C. Kinesis",
+      "B. QuickSight"
+    ],
+    "answers": [
+      "D. Athena"
+    ]
+  }
+]

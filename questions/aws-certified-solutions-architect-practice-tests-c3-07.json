@@ -1,0 +1,245 @@
+[
+  {
+    "question": "121. What type of filtering does a network ACL perform?",
+    "options": [
+      "B. Synchronous",
+      "A. Stateful",
+      "D. Stateless",
+      "C. Whitelist"
+    ],
+    "answers": [
+      "D. Stateless"
+    ]
+  },
+  {
+    "question": "122. With which of the following can you create a VPC peering connection?",
+    "options": [
+      "A. A VPC in the same AWS account and same region",
+      "D. All of these",
+      "C. A VPC in the same AWS account but in another region",
+      "B. A VPC in another AWS account"
+    ],
+    "answers": [
+      "D. All of these"
+    ]
+  },
+  {
+    "question": "123. With which of the following can you not create a VPC peering connection? (Choose two.)",
+    "options": [
+      "B. An instance in the same region",
+      "C. A VPC in the same region",
+      "D. An internet gateway",
+      "A. A VPC in another AWS account"
+    ],
+    "answers": [
+      "D. An internet gateway",
+      "B. An instance in the same region"
+    ]
+  },
+  {
+    "question": "124. You have an instance within a custom VPC, and that instance needs to communicate with an API published by an instance in another VPC. How can you make this possible? (Choose two.)",
+    "options": [
+      "B. Configure routing from the source instance to the API-serving instance.",
+      "C. Add a security group to the source instance.",
+      "D. Add an internet gateway or virtual private gateway to the source VPC.",
+      "A. Enable cross-VPC communication via the AWS console."
+    ],
+    "answers": [
+      "D. Add an internet gateway or virtual private gateway to the source VPC.",
+      "B. Configure routing from the source instance to the API-serving instance."
+    ]
+  },
+  {
+    "question": "125. Which of the following could be used to allow instances within one VPC to communicate with instances in another region? (Choose two.)",
+    "options": [
+      "D. Public IP addresses",
+      "B. NACLs",
+      "A. VPN connections",
+      "C. Internet gateways"
+    ],
+    "answers": [
+      "D. Public IP addresses",
+      "A. VPN connections"
+    ]
+  },
+  {
+    "question": "126. Which region does not currently support VPCs?",
+    "options": [
+      "D. VPC is supported in all AWS regions.",
+      "C. SA East 1",
+      "B. EU West 1",
+      "A. US East 1"
+    ],
+    "answers": [
+      "D. VPC is supported in all AWS regions."
+    ]
+  },
+  {
+    "question": "127. How many availability zones can a VPC span?",
+    "options": [
+      "B. One",
+      "D. All the availability zones within a region",
+      "C. Two or more",
+      "A. None, VPCs don\u2019t exist within availability zones."
+    ],
+    "answers": [
+      "D. All the availability zones within a region"
+    ]
+  },
+  {
+    "question": "128. When you launch an instance within a VPC, in which availability zone is it launched?",
+    "options": [
+      "D. The availability zone with the least resources utilized",
+      "C. The first availability zone without an instance",
+      "A. The default availability zone",
+      "B. You must specify an availability zone."
+    ],
+    "answers": [
+      "B. You must specify an availability zone."
+    ]
+  },
+  {
+    "question": "129. You are the architect at a company that requires all data at rest to be encrypted. You discover several EBS-backed EC2 instances that will be commissioned in the next week. How can you ensure that data on these volumes will be encrypted?",
+    "options": [
+      "B. Specify via the AWS console that the volumes should be encrypted when they are created.",
+      "A. Use OS-level tools on the instance to encrypt the volumes.",
+      "D. Start the instances with the volumes and then encrypt them via the AWS console.",
+      "C. You cannot enable encryption on a specific EBS volume."
+    ],
+    "answers": [
+      "B. Specify via the AWS console that the volumes should be encrypted when they are created."
+    ]
+  },
+  {
+    "question": "130. Which of the following is required to use a VPC endpoint?",
+    "options": [
+      "B. A VPN connection",
+      "C. A NAT instance",
+      "A. An internet gateway",
+      "D. A VPC endpoint does not require any of these."
+    ],
+    "answers": [
+      "D. A VPC endpoint does not require any of these."
+    ]
+  },
+  {
+    "question": "131. Which of the following is not true about a VPC endpoint?",
+    "options": [
+      "C. A VPC endpoint does not require an internet gateway.",
+      "B. A VPC endpoint is a hardware device.",
+      "D. Traffic to a VPC endpoint does not travel over the Internet.",
+      "A. A VPC endpoint can attach to an S3 bucket."
+    ],
+    "answers": [
+      "B. A VPC endpoint is a hardware device."
+    ]
+  },
+  {
+    "question": "132. To which of the following can a VPC endpoint not attach?",
+    "options": [
+      "D. DynamoDB",
+      "B. SNS",
+      "C. Internet gateway",
+      "A. S3"
+    ],
+    "answers": [
+      "C. Internet gateway"
+    ]
+  },
+  {
+    "question": "133. Which of the following might you need to create for using a VPC endpoint attached to S3?",
+    "options": [
+      "A. A NAT instance",
+      "D. A security group",
+      "C. An IAM role",
+      "B. A NAT gateway"
+    ],
+    "answers": [
+      "C. An IAM role"
+    ]
+  },
+  {
+    "question": "134. Is it possible to SSH into a subnet with no public instances?",
+    "options": [
+      "D. No",
+      "C. Yes, as long as you have an AWS Direct Connect.",
+      "A. Yes",
+      "B. Yes, as long as you have a bastion host and correct routing."
+    ],
+    "answers": [
+      "B. Yes, as long as you have a bastion host and correct routing."
+    ]
+  },
+  {
+    "question": "135. Where should a bastion host be located?",
+    "options": [
+      "A. In a private subnet",
+      "D. In a VPC with a virtual private gateway",
+      "B. In a public subnet",
+      "C. In a private VPC"
+    ],
+    "answers": [
+      "B. In a public subnet"
+    ]
+  },
+  {
+    "question": "136. What is another name for a bastion host?",
+    "options": [
+      "C. A jump server",
+      "D. A bastion connection",
+      "A. A remote host",
+      "B. A box host"
+    ],
+    "answers": [
+      "C. A jump server"
+    ]
+  },
+  {
+    "question": "137. To which of the following might a bastion host be used to connect?",
+    "options": [
+      "B. A public instance in a private subnet",
+      "C. A private instance in a public subnet",
+      "A. A public instance in a public subnet",
+      "D. A private instance in a private subnet"
+    ],
+    "answers": [
+      "D. A private instance in a private subnet"
+    ]
+  },
+  {
+    "question": "138. Which of these would you use to secure a bastion host?",
+    "options": [
+      "A. A network ACL",
+      "C. OS hardening",
+      "B. A security group",
+      "D. All of the above"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "139. For a bastion host intended to provide shell access to your private instances, what protocols should you allow via a security group?",
+    "options": [
+      "B. Just SSH",
+      "C. Just RDP",
+      "A. SSH and RDP",
+      "D. Just HTTPS"
+    ],
+    "answers": [
+      "B. Just SSH"
+    ]
+  },
+  {
+    "question": "140. Which of the following statements about internet gateways is false?",
+    "options": [
+      "A. They scale horizontally.",
+      "B. They are automatically redundant.",
+      "C. They are automatically highly available.",
+      "D. They scale vertically."
+    ],
+    "answers": [
+      "D. They scale vertically."
+    ]
+  }
+]

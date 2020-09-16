@@ -1,0 +1,252 @@
+[
+  {
+    "question": "121. Which of the following is a benefit of running an application in two availability zones?",
+    "options": [
+      "C. It increases the fault tolerance of running an application in a single availability zone.",
+      "B. It is more performant than running an application in a single availability zone.",
+      "D. It decreases the network latency of running an application in a single availability zone.",
+      "A. It is more secure than running an application in a single availability zone."
+    ],
+    "answers": [
+      "C. It increases the fault tolerance of running an application in a single availability zone."
+    ]
+  },
+  {
+    "question": "122. Which of the following AWS services can be used to store files? (Choose two.)",
+    "options": [
+      "B. S3",
+      "D. EBS",
+      "A. Amazon Athena",
+      "C. MySQL"
+    ],
+    "answers": [
+      "B. S3",
+      "D. EBS"
+    ]
+  },
+  {
+    "question": "123. Which of the following AWS services can be used to store large objects? (Choose two.)",
+    "options": [
+      "B. S3",
+      "D. EC2",
+      "A. Redshift",
+      "C. Oracle"
+    ],
+    "answers": [
+      "B. S3",
+      "C. Oracle"
+    ]
+  },
+  {
+    "question": "124. How would you speed up transfers of data to S3?",
+    "options": [
+      "C. Configure AWS to use multiple network paths to your S3 bucket.",
+      "B. Enable S3 Transfer Acceleration.",
+      "A. Use Snowball to transfer large files more quickly.",
+      "D. Configure AWS to use an internet gateway for routing traffic to your S3 buckets."
+    ],
+    "answers": [
+      "B. Enable S3 Transfer Acceleration."
+    ]
+  },
+  {
+    "question": "125. What users would benefit most from S3 Transfer Acceleration?",
+    "options": [
+      "C. Users taking advantage of HTTPS for uploads",
+      "D. All users equally benefit.",
+      "B. Users geographically farthest from your S3 buckets",
+      "A. Users geographically closest to your S3 buckets"
+    ],
+    "answers": [
+      "B. Users geographically farthest from your S3 buckets"
+    ]
+  },
+  {
+    "question": "126. Which of the following are good reasons to use S3 Transfer Acceleration? (Choose two.)",
+    "options": [
+      "A. You have customers that upload to your buckets from around the world.",
+      "C. You transfer gigabytes of data on a regular basis across continents.",
+      "B. You have customers complaining about performance of your applications.",
+      "D. You are seeing network latency in uploads to your S3 buckets."
+    ],
+    "answers": [
+      "A. You have customers that upload to your buckets from around the world.",
+      "C. You transfer gigabytes of data on a regular basis across continents."
+    ]
+  },
+  {
+    "question": "127. Which services can you use to host websites? (Choose two.)",
+    "options": [
+      "D. Glacier",
+      "C. S3",
+      "A. EC2",
+      "B. Elastic Load Balancing"
+    ],
+    "answers": [
+      "C. S3",
+      "A. EC2"
+    ]
+  },
+  {
+    "question": "128. You have a bucket called newyorkhotdogs in US West 1. You have enabled static website hosting on this bucket and want to provide its URL to beta customers. What URL should you provide?",
+    "options": [
+      "C. http://newyorkhotdogs.s3-website-us-west-1.amazonaws.com",
+      "A. http://newyorkhotdogs.s3-website.us-west-1.amazonaws.com",
+      "B. https://s3-us-west-1.amazonaws.com/newyorkhotdogs",
+      "D. http://newyorkhotdogs.s3-website.us-east-1.amazonaws.com"
+    ],
+    "answers": [
+      "C. http://newyorkhotdogs.s3-website-us-west-1.amazonaws.com"
+    ]
+  },
+  {
+    "question": "129. You have created a static website and posted an HTML page as home.html in the root level of your S3 bucket. The bucket is named californiaroll and is located in US West 1. At what URL can you access the HTML page?",
+    "options": [
+      "A. http://californiaroll.s3-website.us-west-1.amazonaws.com/home.html",
+      "B. http://s3-website-us-west-1.amazonaws.com/californiaroll/home.html",
+      "C. http://californiaroll.s3-website-us-west-2.amazonaws.com/public_html/home.html",
+      "D. http://californiaroll.s3-website-us-west-1.amazonaws.com/home.html"
+    ],
+    "answers": [
+      "D. http://californiaroll.s3-website-us-west-1.amazonaws.com/home.html"
+    ]
+  },
+  {
+    "question": "130. You have a variety of images with names like image-001.jpg and image-002.jpg in an S3 bucket named phoneboothPhotos created in the EU West 1 region. You have enabled website hosting on this bucket. Which URL would allow access to the photos?",
+    "options": [
+      "A. http://phoneboothPhotos.s3-website-eu-west-1.amazonaws.com/phoneboothPhotos/image-001.jpg",
+      "C. http://phoneboothPhotos.s3-website-eu-west-1.amazonaws.com/public_html/phoneboothPhotos/image-001.jpg",
+      "D. http://phoneboothPhotos.s3-website.eu-west-1.amazonaws.com/phoneboothPhotos/image-001.jpg",
+      "B. http://phoneboothPhotos.s3-website-eu-west-1.amazonaws.com/phoneboothphotos/image-001.jpg"
+    ],
+    "answers": [
+      "A. http://phoneboothPhotos.s3-website-eu-west-1.amazonaws.com/phoneboothPhotos/image-001.jpg"
+    ]
+  },
+  {
+    "question": "131. You have your own custom domain and want to host a static website on that domain. You also want to minimize compute costs. Which of the following AWS services would you use to host your website on your custom domain? (Choose two.)",
+    "options": [
+      "D. Route 53",
+      "C. Lambda",
+      "A. S3",
+      "B. EC2"
+    ],
+    "answers": [
+      "A. S3",
+      "D. Route 53"
+    ]
+  },
+  {
+    "question": "132. You have your own custom domain and want to host a dynamic website on that domain. You also want to minimize compute costs. Which of the following AWS services would you use to host your website on your custom domain? (Choose two.)",
+    "options": [
+      "D. Route 53",
+      "C. Lambda",
+      "A. S3",
+      "B. EC2"
+    ],
+    "answers": [
+      "C. Lambda",
+      "D. Route 53"
+    ]
+  },
+  {
+    "question": "133. Which of the following provide capability for serverless websites? (Choose two.)",
+    "options": [
+      "D. Route 53",
+      "C. Lambda",
+      "A. S3",
+      "B. EC2"
+    ],
+    "answers": [
+      "C. Lambda",
+      "A. S3"
+    ]
+  },
+  {
+    "question": "134. Which of the following provide capability for dynamic websites? (Choose two.)",
+    "options": [
+      "D. Route 53",
+      "C. Lambda",
+      "A. S3",
+      "B. EC2"
+    ],
+    "answers": [
+      "C. Lambda",
+      "B. EC2"
+    ]
+  },
+  {
+    "question": "135. Which of the following does Elastic Beanstalk provide? (Choose two.)",
+    "options": [
+      "C. Capacity provisioning",
+      "A. Deployment of code",
+      "B. Security",
+      "D. Cost optimization"
+    ],
+    "answers": [
+      "C. Capacity provisioning",
+      "A. Deployment of code"
+    ]
+  },
+  {
+    "question": "136. Which of the following does Elastic Beanstalk not provide? (Choose two.)",
+    "options": [
+      "D. Log inspection and backup",
+      "A. Deployment of code",
+      "C. Application health monitoring",
+      "B. Security hardening"
+    ],
+    "answers": [
+      "D. Log inspection and backup",
+      "B. Security hardening"
+    ]
+  },
+  {
+    "question": "137. Which of the following does Elastic Beanstalk support? (Choose two.)",
+    "options": [
+      "B. C++",
+      "A. Docker",
+      "C. Scala",
+      "D. Node.js"
+    ],
+    "answers": [
+      "D. Node.js",
+      "A. Docker"
+    ]
+  },
+  {
+    "question": "138. Which of the following application types does Elastic Beanstalk support?",
+    "options": [
+      "D. All of the above",
+      "B. Java",
+      "A. Node.js",
+      "C. Python"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "139. Which of the following database technologies does Elastic Beanstalk support? (Choose two.)",
+    "options": [
+      "B. DynamoDB",
+      "C. Oracle running on EC2",
+      "D. Redshift",
+      "A. All AWS-supported RDS options"
+    ],
+    "answers": [
+      "B. DynamoDB",
+      "A. All AWS-supported RDS options"
+    ]
+  },
+  {
+    "question": "140. How do you convert application code managed by Elastic Beanstalk from test to production?",
+    "options": [
+      "C. Set the Elastic Beanstalk environment to use your production database in that particular environment\u2019s Elastic Beanstalk configuration.",
+      "B. Update the database connection string in your application code.",
+      "A. Update the codebase to use a production-driven CloudFormation file.",
+      "D. You cannot deploy to production using Elastic Beanstalk."
+    ],
+    "answers": []
+  }
+]

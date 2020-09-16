@@ -1,0 +1,172 @@
+[
+  {
+    "question": "81. You are in charge of building a business intelligence application that can handle multiple data sources and perform analytics at a large scale. Which of the following services and tools would allow you to build a cost-effective solution? (Choose two.)",
+    "options": [
+      "B. Provisioned IOPS EBS volumes",
+      "D. Redshift",
+      "A. QuickSight",
+      "C. EC2 instances"
+    ],
+    "answers": [
+      "D. Redshift",
+      "A. QuickSight"
+    ]
+  },
+  {
+    "question": "82. You have been tasked with combining several data sources into a single (optionally ephemeral) data store that you can then perform analysis on. You currently have data in RDS, two DynamoDB instances, and multiple S3 buckets. What is the most cost-effective approach to handling this task?",
+    "options": [
+      "C. Redshift",
+      "A. A fleet of EC2 instances with throughput optimized SSD EBS volumes",
+      "B. A combination of CloudWatch, Lambda, and custom code",
+      "D. QuickSight"
+    ],
+    "answers": [
+      "D. QuickSight"
+    ]
+  },
+  {
+    "question": "83. Which of the following is the least expensive option for long-term data archival?",
+    "options": [
+      "A. EFS",
+      "D. Redshift",
+      "B. EBS snapshots",
+      "C. Glacier"
+    ],
+    "answers": [
+      "C. Glacier"
+    ]
+  },
+  {
+    "question": "84. Your company is paying a high cost for a consultant whose only job is the provisioning of resources for new cloud deployments. What AWS service would allow you to reduce this expenditure and move the consulting into more of a business-serving capacity?",
+    "options": [
+      "C. CloudShift",
+      "A. Elastic Beanstalk",
+      "B. CloudTrail",
+      "D. CloudFormation"
+    ],
+    "answers": [
+      "A. Elastic Beanstalk"
+    ]
+  },
+  {
+    "question": "85. You have been tasked with reducing the costs associated with a large fleet of EC2 instances that currently run several custom processes. These processes collect and collate data from a number of streaming data sources outside of your network. What AWS managed service could help replace these instances?",
+    "options": [
+      "D. CloudFormation",
+      "A. CloudFront",
+      "C. Kinesis",
+      "B. SDM"
+    ],
+    "answers": [
+      "C. Kinesis"
+    ]
+  },
+  {
+    "question": "86. You have been tasked with reducing the cost of a large group of EC2 instances that each serves a single process. The process is fired off when a user initiates it through a web interface. Because these processes are initiated often, a large fleet of EC2 instances is kept active to serve the requests, incurring significant monthly costs. What managed service could help you reduce the costs of these always-running instances?",
+    "options": [
+      "B. CloudFront",
+      "C. Kinesis",
+      "D. CloudFormation",
+      "A. Lambda"
+    ],
+    "answers": [
+      "A. Lambda"
+    ]
+  },
+  {
+    "question": "87. You are in charge of a cloud migration from an on-premises data center to AWS. There are extensive software products used to monitor the on-premises applications, and you want to reduce the recurring costs associated with this monitoring. What AWS service would be ideal for this task?",
+    "options": [
+      "D. CloudWatch",
+      "B. CloudMonitor",
+      "A. CloudTrail",
+      "C. AppMonitor"
+    ],
+    "answers": [
+      "D. CloudWatch"
+    ]
+  },
+  {
+    "question": "88. You are in charge of a cloud migration from an on-premises data center to AWS. The system currently has a number of custom scripts that process system and application logs for auditing purposes. What AWS managed service could you use to replace these scripts and reduce the need for instances to run these custom processes?",
+    "options": [
+      "D. CloudWatch",
+      "B. CloudMonitor",
+      "A. CloudTrail",
+      "C. AppMonitor"
+    ],
+    "answers": [
+      "A. CloudTrail"
+    ]
+  },
+  {
+    "question": "89. You are the architect in charge of designing a database-driven application suite. As part of the project, you need to migrate a large Oracle database instance into the cloud. Further, you are migrating from Oracle to PostgreSQL. How would you most effectively accomplish this migration with the least expenditure?",
+    "options": [
+      "B. Create an RDS Oracle instance in AWS, migrate the data from the existing Oracle instance to the new RDS instance, and then convert the RDS instance to PostgreSQL.",
+      "A. Copy the Oracle data to Snowball, send the data to AWS, move it into S3, and then import the data into PostgreSQL in RDS.",
+      "D. Create a local PostgreSQL instance, migrate the data locally from Oracle to PostgreSQL, and then move the PostgreSQL instance into AWS.",
+      "C. Use the Database Migration Service to import the Oracle data directly into a new PostgreSQL instance."
+    ],
+    "answers": [
+      "C. Use the Database Migration Service to import the Oracle data directly into a new PostgreSQL instance."
+    ]
+  },
+  {
+    "question": "90. You need to choose a scalable, cost-effective, and highly durable solution for storing flat files. What AWS service would you use?",
+    "options": [
+      "C. DynamoDB",
+      "D. Aurora",
+      "A. S3",
+      "B. Kinesis"
+    ],
+    "answers": [
+      "A. S3"
+    ]
+  },
+  {
+    "question": "91. You have been tasked with replacing a legacy LDAP directory server that manages users, groups, and permissions with a cloud-based solution in order to reduce maintenance costs for the current directory server. What AWS service should you investigate?",
+    "options": [
+      "A. IAM",
+      "C. AWS Organizations",
+      "B. Cognito",
+      "D. AWS Directory Server"
+    ],
+    "answers": [
+      "A. IAM"
+    ]
+  },
+  {
+    "question": "92. You have been tasked with replacing a legacy LDAP directory server that manages users, groups, and permissions and provides single sign-on capabilities with a cloud-based solution in order to reduce maintenance costs for the current directory server and codebase. What AWS services should you investigate? (Choose two.)",
+    "options": [
+      "A. IAM",
+      "C. AWS Organizations",
+      "B. Cognito",
+      "D. AWS Directory Server"
+    ],
+    "answers": [
+      "A. IAM",
+      "B. Cognito"
+    ]
+  },
+  {
+    "question": "93. You are new on a project that makes heavy use of AWS. Your first priority is to reduce costs and identify security risks. What tool could you use to scan the existing environment and set initial priorities for change?",
+    "options": [
+      "B. Trusted Advisor",
+      "C. AWS Organizations",
+      "A. CloudTrail",
+      "D. AWS Directory Server"
+    ],
+    "answers": [
+      "B. Trusted Advisor"
+    ]
+  },
+  {
+    "question": "94. You are migrating a large on-premises application suite to AWS. Your company has made a significant investment in Chef for configuration and management and doesn\u2019t want to lose the investment in time and money that the Chef tool represents. How could you preserve this functionality and keep costs low?",
+    "options": [
+      "B. CloudWatch",
+      "D. Service Catalog",
+      "A. CloudTrail",
+      "C. OpsWorks"
+    ],
+    "answers": [
+      "C. OpsWorks"
+    ]
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "question": "1. How many times will a message be delivered when using a standard SQS queue?",
+    "options": [
+      "C. Once for each request of the relevant message in the queue",
+      "B. At least once",
+      "D. The answer is application dependent.",
+      "A. Once and only once"
+    ],
+    "answers": [
+      "B. At least once"
+    ]
+  },
+  {
+    "question": "2. Which of the following services allow you to access the underlying operating system? (Choose two.)",
+    "options": [
+      "A. RDS",
+      "C. EMR",
+      "D. DynamoDB",
+      "B. EC2"
+    ],
+    "answers": [
+      "C. EMR",
+      "B. EC2"
+    ]
+  },
+  {
+    "question": "3. You are using an SQS queue in your web application. You are able to confirm that messages in the queue are being picked up by application instances for processing, but then nothing happens for over 12 hours. Then, after that period of time, the message appears in the queue again and processing restarts. What could be occurring?",
+    "options": [
+      "B. SQS messages expire every 12 hours and must be reentered into the queue. The time that the message is invisible triggers the queue to ask for and receive the message from the original sender.",
+      "A. The SQS queue has a visibility timeout that is set too high. The timeout should be reduced so that application instances can process the message more quickly.",
+      "D. Your SQS queue needs to be restarted; it is likely not correctly queuing messages. The polling interval is also set too high, causing the long lack of visibility of the message.",
+      "C. Processing is failing, or not completing, in the application instance. The message disappears because the SQS queue keeps it \u201cinvisible\u201d for 12 hours while it is being processed. The message is then returned to the queue for processing if not handled prior to that timeout."
+    ],
+    "answers": [
+      "C. Processing is failing, or not completing, in the application instance. The message disappears because the SQS queue keeps it \u201cinvisible\u201d for 12 hours while it is being processed. The message is then returned to the queue for processing if not handled prior to that timeout."
+    ]
+  },
+  {
+    "question": "4. Which of the following is a valid method of performing actions on an EBS snapshot?",
+    "options": [
+      "D. All of the above",
+      "E. None of the above",
+      "B. Use the AWS CLI with an application key.",
+      "C. Use the AWS REST APIs with an application key.",
+      "A. Use the AWS console with a username and password."
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "5. Which of the following is most like a mailing list?",
+    "options": [
+      "D. S3",
+      "B. SNS",
+      "A. SQS",
+      "C. SWF"
+    ],
+    "answers": [
+      "B. SNS"
+    ]
+  },
+  {
+    "question": "6. In which of the following managed services are messages not pushed?",
+    "options": [
+      "D. Redshift",
+      "B. SNS",
+      "A. SQS",
+      "C. SWF"
+    ],
+    "answers": [
+      "A. SQS"
+    ]
+  },
+  {
+    "question": "7. In which of the following managed services can messages be pulled by an application?",
+    "options": [
+      "A. SWF",
+      "C. SNS",
+      "D. S3",
+      "B. SQS"
+    ],
+    "answers": [
+      "B. SQS"
+    ]
+  },
+  {
+    "question": "8. Which of the following managed services guarantees single assignment of a message?",
+    "options": [
+      "D. SWF",
+      "C. SNS",
+      "B. SQS",
+      "A. S3"
+    ],
+    "answers": [
+      "D. SWF"
+    ]
+  },
+  {
+    "question": "9. Which of the following managed services calls the messages it receives tasks?",
+    "options": [
+      "C. SNS",
+      "B. SWF",
+      "D. SQS",
+      "A. S3"
+    ],
+    "answers": [
+      "B. SWF"
+    ]
+  },
+  {
+    "question": "10. Which of the following managed services calls the messages it receives notifications?",
+    "options": [
+      "C. SNS",
+      "B. SWF",
+      "D. SQS",
+      "A. S3"
+    ],
+    "answers": [
+      "C. SNS"
+    ]
+  },
+  {
+    "question": "11. Which of the following managed services calls the messages it receives \u201cmessages\u201d?",
+    "options": [
+      "D. None of these",
+      "C. SNS",
+      "B. SWF",
+      "A. S3"
+    ],
+    "answers": [
+      "D. None of these"
+    ]
+  },
+  {
+    "question": "12. Which of the following managed services coordinates activities between different applications?",
+    "options": [
+      "D. SQS",
+      "B. SNS",
+      "C. SWF",
+      "A. S3"
+    ],
+    "answers": [
+      "C. SWF"
+    ]
+  },
+  {
+    "question": "13. What does SWF stand for?",
+    "options": [
+      "B. Simple Workflow Service",
+      "A. Simple Workflow Foundation",
+      "D. Synchronous Workflow Foundation",
+      "C. Sequential Workflow Service"
+    ],
+    "answers": [
+      "B. Simple Workflow Service"
+    ]
+  },
+  {
+    "question": "14. What services are suitable for running compute-intensive custom scripts? (Choose two.)",
+    "options": [
+      "B. S3",
+      "C. Redshift",
+      "A. EC2",
+      "D. ECS"
+    ],
+    "answers": [
+      "D. ECS",
+      "A. EC2"
+    ]
+  },
+  {
+    "question": "15. Which AWS service is ideal for hosting a website while requiring the least amount of AWS staff and knowledge?",
+    "options": [
+      "C. EC2",
+      "A. S3 website hosting",
+      "B. Amazon Lightsail",
+      "D. ECS"
+    ],
+    "answers": [
+      "B. Amazon Lightsail"
+    ]
+  },
+  {
+    "question": "16. You have a registered AMI using an EBS volume as a root device, created from a volume snapshot. However, you have detected malicious code running in the EBS volume and want to remove the AMI and delete the EBS volume and its snapshot. What steps are required? (Choose two.)",
+    "options": [
+      "A. Immediately delete the EBS volume snapshot.",
+      "D. After the AMI has been deregistered, remove the AMI, and delete the EBS volume and its snapshot.",
+      "B. Immediately deregister the AMI.",
+      "C. After the EBS volume has been deleted, deregister the AMI."
+    ],
+    "answers": [
+      "D. After the AMI has been deregistered, remove the AMI, and delete the EBS volume and its snapshot.",
+      "B. Immediately deregister the AMI."
+    ]
+  },
+  {
+    "question": "17. Which of the following AWS CLI commands is used to operate upon EBS volumes?",
+    "options": [
+      "C. aws instance [command]",
+      "A. aws ec2 [command]",
+      "D. You cannot operate upon EBS volumes directly from the AWS CLI.",
+      "B. aws ebs [command]"
+    ],
+    "answers": [
+      "A. aws ec2 [command]"
+    ]
+  },
+  {
+    "question": "18. You have a website running at applestoapples.net. However, many of your users have mistakenly entered in applestoapples.com as the URL in their browser. To correct this, you\u2019ve recently purchased the additional domain applestoapples.com and now want to point all requests to this domain to applestoapples.net. Which DNS record set would you use?",
+    "options": [
+      "B. AAAA",
+      "C. CNAME",
+      "D. A",
+      "A. MX"
+    ],
+    "answers": [
+      "C. CNAME"
+    ]
+  },
+  {
+    "question": "19. Your website has mostly static content, but you are adding a new section driven by an EC2 instance fleet behind an Elastic Load Balancer. You want to create a subdomain and direct all traffic to that subdomain toward the ELB. Which DNS record set would you use?",
+    "options": [
+      "C. SOA",
+      "B. AAAA",
+      "D. MX",
+      "A. CNAME"
+    ],
+    "answers": [
+      "A. CNAME"
+    ]
+  },
+  {
+    "question": "20. Your domain is hosted and managed by Route 53. You want to create a new subdomain and point it to a fleet of EC2 instances behind an application load balancer. What is the best approach to this?",
+    "options": [
+      "D. Set the ALB to send a redirect header to clients with the IP addresses of the currently active EC2 instances.",
+      "B. Create a CNAME record pointed at the URL of the ALB.",
+      "A. Create an A record and configure it as an alias to the ALB.",
+      "C. Create an A record pointed at the IP address of the ALB."
+    ],
+    "answers": [
+      "A. Create an A record and configure it as an alias to the ALB."
+    ]
+  }
+]

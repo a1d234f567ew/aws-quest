@@ -1,0 +1,243 @@
+[
+  {
+    "question": "81. Which of the following inbound rules of a custom NACL would be evaluated first?",
+    "options": [
+      "B. Rule #100 // HTTPS // TCP // 443 // 0.0.0.0/0 -> ALLOW.",
+      "A. Rule #800 // HTTP // TCP // 80 // 0.0.0.0/0 -> ALLOW.",
+      "C. Rule * // All // All // All // 0.0.0.0/0 -> DENY.",
+      "D. Rule #130 // RDP // TCP // 3389 // 192.0.2.0/24 -> ALLOW."
+    ],
+    "answers": [
+      "B. Rule #100 // HTTPS // TCP // 443 // 0.0.0.0/0 -> ALLOW."
+    ]
+  },
+  {
+    "question": "82. If all of the following inbound rules existed on a custom NACL, would SSH traffic be allowed?\nRule #800 // HTTP // TCP // 80 // 0.0.0.0/0 -> ALLOW\nRule #100 // HTTPS // TCP // 443 // 0.0.0.0/0 -> ALLOW\nRule * // All // All // All // 0.0.0.0/0 -> DENY\nRule #130 // RDP // TCP // 3389 // 192.0.2.0/24 -> ALLOW",
+    "options": [
+      "C. Only if the SSH access permission in IAM is granted.",
+      "D. No",
+      "A. Yes, SSH is included as a default protocol on NACLs.",
+      "B. Yes, SSH is included in the HTTPS protocol."
+    ],
+    "answers": [
+      "D. No"
+    ]
+  },
+  {
+    "question": "83. If all of the following inbound rules existed on the default VPC\u2019s default NACL, would SSH traffic be allowed?\nRule #800 // HTTP // TCP // 80 // 0.0.0.0/0 -> ALLOW\nRule #100 // HTTPS // TCP // 443 // 0.0.0.0/0 -> ALLOW",
+    "options": [
+      "C. Only if the SSH access permission in IAM is granted.",
+      "A. Yes, the default VPC\u2019s default NACL allows all inbound traffic by default.",
+      "D. No",
+      "B. Yes, SSH is included in the HTTPS protocol."
+    ],
+    "answers": [
+      "A. Yes, the default VPC\u2019s default NACL allows all inbound traffic by default."
+    ]
+  },
+  {
+    "question": "84. If all of the following inbound rules existed on a custom NACL, would SSH traffic be allowed?\nRule #800 // HTTP // TCP // 80 // 0.0.0.0/0 -> ALLOW\nRule #100 // HTTPS // TCP // 443 // 0.0.0.0/0 -> ALLOW\nRule #140 // All // All // All // 0.0.0.0/0 -> DENY\nRule #120 // SSH // TCP // 22 // 192.0.2.0/24 -> ALLOW",
+    "options": [
+      "C. Only if the SSH access permission in IAM is granted.",
+      "A. Yes",
+      "D. No",
+      "B. Yes, but only from the CIDR block 192.0.2.0/24."
+    ],
+    "answers": [
+      "B. Yes, but only from the CIDR block 192.0.2.0/24."
+    ]
+  },
+  {
+    "question": "85. If all of the following inbound rules existed on a custom NACL, would SSH traffic be allowed?\nRule #800 // HTTP // TCP // 80 // 0.0.0.0/0 -> ALLOW\nRule #100 // HTTPS // TCP // 443 // 0.0.0.0/0 -> ALLOW\nRule #110 // All // All // All // 0.0.0.0/0 -> DENY\nRule #120 // SSH // TCP // 22 // 192.0.2.0/24 -> ALLOW",
+    "options": [
+      "C. Only if the SSH access permission in IAM is granted.",
+      "A. Yes",
+      "D. No",
+      "B. Yes, but only from the CIDR block 192.0.2.0/24."
+    ],
+    "answers": [
+      "D. No"
+    ]
+  },
+  {
+    "question": "86. Which of the following is the most accurate statement about what the following inbound rule on a NACL will do? Rule #120 // SSH // TCP // 22 // 192.0.2.0/24 -> ALLOW",
+    "options": [
+      "A. Allows inbound SSH traffic to the associated subnets",
+      "D. Allows inbound SSH traffic to the associated subnets from the CIDR block 192.0.2.0/24",
+      "C. Allows inbound TCP traffic to the associated subnets from the CIDR block 192.0.2.0/24",
+      "B. Allows inbound TCP traffic to the associated subnets"
+    ],
+    "answers": [
+      "D. Allows inbound SSH traffic to the associated subnets from the CIDR block 192.0.2.0/24"
+    ]
+  },
+  {
+    "question": "87. Which of the following is the most accurate statement about what the following inbound rule on a NACL will do? Rule #120 // HTTP // TCP // 80 // 0.0.0.0/0 -> ALLOW",
+    "options": [
+      "A. Allows inbound HTTP traffic to the associated subnets",
+      "D. Allows inbound IPv4 TCP traffic to the associated subnets",
+      "C. Allows inbound IPv4 HTTP traffic to the associated subnets",
+      "B. Allows inbound IPv4 HTTP traffic to the associated subnets as long as it is not prevented by lower-numbered rules"
+    ],
+    "answers": [
+      "B. Allows inbound IPv4 HTTP traffic to the associated subnets as long as it is not prevented by lower-numbered rules"
+    ]
+  },
+  {
+    "question": "88. What does the CIDR block 0.0.0.0/0 represent?",
+    "options": [
+      "B. The entire Internet, limited to IPv4 addresses",
+      "C. The entire Internet, limited to IPv6 addresses",
+      "A. The entire Internet",
+      "D. Inbound traffic from the entire Internet"
+    ],
+    "answers": [
+      "B. The entire Internet, limited to IPv4 addresses"
+    ]
+  },
+  {
+    "question": "89. What does the CIDR block ::/0 represent?",
+    "options": [
+      "B. The entire Internet, limited to IPv4 addresses",
+      "C. The entire Internet, limited to IPv6 addresses",
+      "A. The entire Internet",
+      "D. Inbound traffic from the entire Internet"
+    ],
+    "answers": [
+      "C. The entire Internet, limited to IPv6 addresses"
+    ]
+  },
+  {
+    "question": "90. Which of the following rules allows IPv6 outbound traffic to flow to the entire Internet through a NAT gateway with the ID nat-123456789?",
+    "options": [
+      "D. ::/0 -> NAT -> nat-123456789",
+      "A. 0.0.0.0/0 -> NAT -> nat-123456789",
+      "B. ::/0 -> nat-123456789",
+      "C. 0.0.0.0/0 -> nat-123456789"
+    ],
+    "answers": [
+      "B. ::/0 -> nat-123456789"
+    ]
+  },
+  {
+    "question": "91. How many availability zones in a single region does a single VPC span?",
+    "options": [
+      "B. One",
+      "C. At least two",
+      "A. None, VPCs do not span availability zones.",
+      "D. All of them"
+    ],
+    "answers": [
+      "D. All of them"
+    ]
+  },
+  {
+    "question": "92. Which of these must be specified when creating a new VPC? (Choose two.)",
+    "options": [
+      "C. A CIDR block",
+      "B. A region",
+      "D. A security group",
+      "A. An availability zone"
+    ],
+    "answers": [
+      "C. A CIDR block",
+      "B. A region"
+    ]
+  },
+  {
+    "question": "93. How many subnets can be added to an availability zone within a VPC?",
+    "options": [
+      "B. One",
+      "C. One or more",
+      "D. At least two",
+      "A. None"
+    ],
+    "answers": [
+      "C. One or more"
+    ]
+  },
+  {
+    "question": "94. To how many availability zones within a region can a single subnet in a VPC be added?",
+    "options": [
+      "B. One",
+      "C. One or more",
+      "D. At least two",
+      "A. None"
+    ],
+    "answers": [
+      "B. One"
+    ]
+  },
+  {
+    "question": "95. How many availability zones can a subnet span?",
+    "options": [
+      "B. One",
+      "C. One or more",
+      "D. At least two",
+      "A. None"
+    ],
+    "answers": [
+      "B. One"
+    ]
+  },
+  {
+    "question": "96. How many IPv6 CIDR blocks can be assigned to a single VPC?",
+    "options": [
+      "B. One",
+      "C. One or more",
+      "D. At least two",
+      "A. None"
+    ],
+    "answers": [
+      "B. One"
+    ]
+  },
+  {
+    "question": "97. How many IPv4 CIDR blocks can be assigned to a single VPC?",
+    "options": [
+      "B. One",
+      "C. One or more",
+      "D. At least two",
+      "A. None"
+    ],
+    "answers": [
+      "C. One or more"
+    ]
+  },
+  {
+    "question": "98. You have a VPC in US East 1 with three subnets. One of those subnets\u2019 traffic is routed to an internet gateway. What does this make the subnet?",
+    "options": [
+      "C. The master subnet of that VPC",
+      "B. A restricted subnet",
+      "D. A public subnet",
+      "A. A private subnet"
+    ],
+    "answers": [
+      "D. A public subnet"
+    ]
+  },
+  {
+    "question": "99. You have a public subnet in a VPC and an EC2 instance serving web traffic within that public subnet. Can that EC2 instance be reached via the Internet?",
+    "options": [
+      "D. No",
+      "B. Yes, as long as it has a public IPv4 address.",
+      "A. Yes",
+      "C. Yes, as long as the VPC is marked as public."
+    ],
+    "answers": [
+      "B. Yes, as long as it has a public IPv4 address."
+    ]
+  },
+  {
+    "question": "100. You have a public subnet within your VPC. Within that subnet are three instances, each running a web-accessible API. Two of the instances are responding to requests from Internet clients, but one is not. What could be the problem?",
+    "options": [
+      "A. The VPC needs to be marked as public-facing.",
+      "B. The three instances should be moved into an Auto Scaling group.",
+      "C. There is no internet gateway available for the VPC.",
+      "D. The unavailable instance needs an elastic IP."
+    ],
+    "answers": [
+      "D. The unavailable instance needs an elastic IP."
+    ]
+  }
+]

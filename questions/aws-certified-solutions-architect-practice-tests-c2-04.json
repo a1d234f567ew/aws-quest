@@ -1,0 +1,249 @@
+[
+  {
+    "question": "61. Which of the following can be an EBS boot volume? (Choose two.)",
+    "options": [
+      "C. Provisioned IOPS SSD",
+      "A. Magnetic",
+      "B. Throughput-optimized HDD",
+      "D. Cold HDD"
+    ],
+    "answers": [
+      "A. Magnetic",
+      "C. Provisioned IOPS SSD"
+    ]
+  },
+  {
+    "question": "62. Which of the following cannot be used as an EBS boot volume? (Choose two.)",
+    "options": [
+      "C. Cold HDD",
+      "D. Magnetic",
+      "B. Throughput-optimized HDD",
+      "A. General SSD"
+    ],
+    "answers": [
+      "B. Throughput-optimized HDD",
+      "C. Cold HDD"
+    ]
+  },
+  {
+    "question": "63. Which of the following is not an Elastic Load Balancing option?",
+    "options": [
+      "A. Classic load balancer",
+      "D. Network load balancer",
+      "B. Application load balancer",
+      "C. Weighting load balancer"
+    ],
+    "answers": [
+      "C. Weighting load balancer"
+    ]
+  },
+  {
+    "question": "64. Which of the following are valid Elastic Load Balancing options? (Choose two.)",
+    "options": [
+      "B. MLB",
+      "D. VLB",
+      "A. ELB",
+      "C. ALB"
+    ],
+    "answers": [
+      "A. ELB",
+      "C. ALB"
+    ]
+  },
+  {
+    "question": "65. At what level of the TCP stack does an ALB operate?",
+    "options": [
+      "D. Level 8",
+      "C. Level 7",
+      "B. Level 4",
+      "A. Level 1"
+    ],
+    "answers": [
+      "C. Level 7"
+    ]
+  },
+  {
+    "question": "66. At what level of the TCP stack does a network load balancer operate?",
+    "options": [
+      "D. Level 8",
+      "C. Level 7",
+      "B. Level 4",
+      "A. Level 1"
+    ],
+    "answers": [
+      "B. Level 4"
+    ]
+  },
+  {
+    "question": "67. At what levels of the TCP stack does a classic load balancer operate? (Choose two.)",
+    "options": [
+      "D. Level 8",
+      "C. Level 7",
+      "B. Level 4",
+      "A. Level 1"
+    ],
+    "answers": [
+      "C. Level 7",
+      "B. Level 4"
+    ]
+  },
+  {
+    "question": "68. Which of the following is a valid reason to use an application load balancer?",
+    "options": [
+      "A. You want your applications to automatically scale.",
+      "D. All of the above",
+      "C. You want to achieve better fault tolerance for your applications.",
+      "B. You want to balance load across your applications, which reside in containers."
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "69. Can you use an elastic load balancer to balance load within a VPC?",
+    "options": [
+      "D. No, load balancers cannot operate inside a VPC.",
+      "B. Yes, by setting the ELB to be internal to the VPC.",
+      "C. No, load balancers can only route traffic from the Internet.",
+      "A. Yes, as long as the VPC has an internet gateway."
+    ],
+    "answers": [
+      "B. Yes, by setting the ELB to be internal to the VPC."
+    ]
+  },
+  {
+    "question": "70. You are an architect working on adding scalability to an application based on EC2 instances within a public-facing VPC. You want the maximum amount of flexibility in weighting and load balancing options, as you plan to experiment with various routing types to see which handles load most evenly. Which type of load balancer should you use?",
+    "options": [
+      "C. Network load balancer",
+      "B. Application load balancer",
+      "A. Classic ELB",
+      "D. Either an ALB or ELB would be suitable."
+    ],
+    "answers": [
+      "B. Application load balancer"
+    ]
+  },
+  {
+    "question": "71. You have a host of EC2 instances all with dedicated IP addresses serving results from complex computations. You want to load balance across these instances, each of which receives hundreds of thousands of requests a second currently. Which load balancer would you employ?",
+    "options": [
+      "C. Network load balancer",
+      "B. Application load balancer",
+      "A. Classic ELB",
+      "D. Either an ALB or ELB would be suitable."
+    ],
+    "answers": [
+      "C. Network load balancer"
+    ]
+  },
+  {
+    "question": "72. You have a fleet of web-hosting EC2 instances. Currently, you have SSL certificates installed for each EC2 instance, but the cost of maintaining these certificates and installing new ones has become higher over recent years. You want to architect a solution for SSL termination that doesn\u2019t involve multiple certificates. Which load balancer would you suggest?",
+    "options": [
+      "C. Network load balancer",
+      "B. Application load balancer",
+      "A. Classic ELB",
+      "D. Either an ALB or ELB would be suitable."
+    ],
+    "answers": [
+      "B. Application load balancer"
+    ]
+  },
+  {
+    "question": "73. You need a load balancer that supports SSL termination. Which type of load balancer would you choose?",
+    "options": [
+      "C. Network load balancer",
+      "B. Application load balancer",
+      "A. Classic ELB",
+      "D. Either an ALB or ELB would be suitable."
+    ],
+    "answers": [
+      "D. Either an ALB or ELB would be suitable."
+    ]
+  },
+  {
+    "question": "74. How many domains can you register and manage with Route 53?",
+    "options": [
+      "C. There is no limit.",
+      "D. There is a limit of 50, but it can be raised upon request.",
+      "B. 100",
+      "A. 50"
+    ],
+    "answers": [
+      "D. There is a limit of 50, but it can be raised upon request."
+    ]
+  },
+  {
+    "question": "75. Which of the following record sets are supported by Route 53?",
+    "options": [
+      "A. A records",
+      "B. MX records",
+      "C. Alias records",
+      "D. All of the above"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "76. Are zone apex records supported by Route 53?",
+    "options": [
+      "C. Yes, as long as they point to AWS resources.",
+      "B. No",
+      "A. Yes",
+      "D. Not by default, but you can request support by AWS and then support them."
+    ],
+    "answers": [
+      "A. Yes"
+    ]
+  },
+  {
+    "question": "77. What engines does ElastiCache provide for caching? (Choose two.)",
+    "options": [
+      "B. redis",
+      "C. cacherm",
+      "A. memcached",
+      "D. gitcache"
+    ],
+    "answers": [
+      "B. redis",
+      "A. memcached"
+    ]
+  },
+  {
+    "question": "78. Which of the following do you need to handle when setting up ElastiCache?",
+    "options": [
+      "B. Backups",
+      "C. Monitoring",
+      "A. Patching",
+      "D. None of the above"
+    ],
+    "answers": [
+      "D. None of the above"
+    ]
+  },
+  {
+    "question": "79. For which of the following would ElastiCache offer performance improvements? (Choose two.)",
+    "options": [
+      "C. Financial services",
+      "A. Gaming",
+      "D. A and C",
+      "B. ElastiCache can improve any application\u2019s performance when used properly."
+    ],
+    "answers": [
+      "D. A and C",
+      "B. ElastiCache can improve any application\u2019s performance when used properly."
+    ]
+  },
+  {
+    "question": "80. Which of the following accurately describe ElastiCache? (Choose two.)",
+    "options": [
+      "C. A mechanism for sharding application demands",
+      "A. An in-memory data store",
+      "B. A runtime engine for data distribution",
+      "D. A monitoring solution for large datasets"
+    ],
+    "answers": [
+      "C. A mechanism for sharding application demands",
+      "A. An in-memory data store"
+    ]
+  }
+]

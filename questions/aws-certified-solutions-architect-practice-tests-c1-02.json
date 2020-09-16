@@ -1,0 +1,246 @@
+[
+  {
+    "question": "21. Which of the following are valid criteria for determining which region to choose for your S3 buckets? (Choose two.)",
+    "options": [
+      "D. The distance between the region and your development team",
+      "C. The distance between the region and other regions in your AWS account",
+      "B. The distance between the region and your on-premises operations",
+      "A. The distance between the region and your user base"
+    ],
+    "answers": [
+      "B. The distance between the region and your on-premises operations",
+      "A. The distance between the region and your user base"
+    ]
+  },
+  {
+    "question": "22. Where are individual EC2 instances provisioned?",
+    "options": [
+      "B. In a specific availability zone",
+      "C. In a random availability zone within a specified region",
+      "D. It depends upon the region.",
+      "A. In a specific region"
+    ],
+    "answers": [
+      "B. In a specific availability zone"
+    ]
+  },
+  {
+    "question": "23. Which of the following can be deployed across availability zones?",
+    "options": [
+      "C. Spread placement groups",
+      "A. Cluster placement groups",
+      "D. Cross-region placement groups",
+      "B. Placement groups"
+    ],
+    "answers": [
+      "C. Spread placement groups"
+    ]
+  },
+  {
+    "question": "24. Which of the following services is used at an on-premises site to build a site-to-site VPN connection?",
+    "options": [
+      "B. Virtual private gateway",
+      "A. Storage gateway",
+      "C. Customer gateway",
+      "D. Virtual private network"
+    ],
+    "answers": [
+      "C. Customer gateway"
+    ]
+  },
+  {
+    "question": "25. What is the anchor on the AWS side of a site-to-site VPN connection between an onpremises site and AWS?",
+    "options": [
+      "B. Virtual private gateway",
+      "D. VPC",
+      "C. Customer gateway",
+      "A. IPSec tunnel"
+    ],
+    "answers": [
+      "B. Virtual private gateway"
+    ]
+  },
+  {
+    "question": "26. How many tunnels for network traffic are involved when a customer gateway connects to an AWS VPC via an AWS-managed VPN connection?",
+    "options": [
+      "A. One",
+      "D. It depends on the settings in the AWS VPC.",
+      "C. Three",
+      "B. Two"
+    ],
+    "answers": [
+      "B. Two"
+    ]
+  },
+  {
+    "question": "27. Choose the correct order in which traffic flows from an on-premises site to a VPC within AWS when a VPN connection is used.",
+    "options": [
+      "C. Amazon VPC to customer gateway to virtual private gateway",
+      "A. Customer gateway to Amazon VPC to virtual private gateway",
+      "B. Virtual private gateway to customer gateway to Amazon VPC",
+      "D. Customer gateway to virtual private gateway to Amazon VPC"
+    ],
+    "answers": [
+      "D. Customer gateway to virtual private gateway to Amazon VPC"
+    ]
+  },
+  {
+    "question": "28. You are setting up a site-to-site VPN from an on-premises network into an AWS VPC. Which of the following are steps you may need to perform? (Choose two.)",
+    "options": [
+      "C. Set up a public IP address for the virtual private gateway.",
+      "D. Set up a public IP address for the VPN tunnels.",
+      "B. Set up a public IP address for the AWS VPC.",
+      "A. Set up a public IP address for the customer gateway."
+    ],
+    "answers": [
+      "C. Set up a public IP address for the virtual private gateway.",
+      "A. Set up a public IP address for the customer gateway."
+    ]
+  },
+  {
+    "question": "29. Which of the following services is used at an on-premises site to connect to cloud-based storage?",
+    "options": [
+      "B. Virtual private gateway",
+      "A. Storage gateway",
+      "C. Customer gateway",
+      "D. Virtual private network"
+    ],
+    "answers": [
+      "A. Storage gateway"
+    ]
+  },
+  {
+    "question": "30. Which of the following are valid options for storage gateways? (Choose two.)",
+    "options": [
+      "D. Virtual private gateway",
+      "B. Volume gateway",
+      "C. Cached gateway",
+      "A. File gateway"
+    ],
+    "answers": [
+      "B. Volume gateway",
+      "A. File gateway"
+    ]
+  },
+  {
+    "question": "31. You are tasked with recommending a storage solution for a large company with a capital investment in an NFS-based backup system. The company wants to investigate cloudbased storage but doesn\u2019t want to lose its software investment either. Which type of storage gateway would you recommend?",
+    "options": [
+      "B. Cached volume gateway",
+      "C. Stored volume gateway",
+      "D. Tape gateway",
+      "A. File gateway"
+    ],
+    "answers": [
+      "A. File gateway"
+    ]
+  },
+  {
+    "question": "32. You are helping a medium-sized business migrate its large datasets to the cloud. However, the business has limited resources and has long used a tape backup system. It does not want to lose the investment in the software and systems that already have been configured to use this backup system. Which storage gateway would you recommend?",
+    "options": [
+      "B. Cached volume gateway",
+      "C. Stored volume gateway",
+      "D. Tape gateway",
+      "A. File gateway"
+    ],
+    "answers": [
+      "D. Tape gateway"
+    ]
+  },
+  {
+    "question": "33. You are tasked with prototyping a cloud-based storage solution for a small business. The business\u2019s chief concern is low network latency, as its systems need near-instant access to all of its datasets. Which storage gateway would you recommend?",
+    "options": [
+      "B. Cached volume gateway",
+      "C. Stored volume gateway",
+      "D. Tape gateway",
+      "A. File gateway"
+    ],
+    "answers": [
+      "C. Stored volume gateway"
+    ]
+  },
+  {
+    "question": "34. You are the solutions architect for a mapping division that has inherited a massive geospatial dataset from a recent acquisition. The data is all on local disk drives, and you want to transition the data to AWS. With datasets of over 10 TB, what is the best approach to getting this data into AWS?",
+    "options": [
+      "B. Cached volume gateway",
+      "D. Shipping the drives to AWS",
+      "A. S3 with Transfer Acceleration",
+      "C. Snowball"
+    ],
+    "answers": [
+      "C. Snowball"
+    ]
+  },
+  {
+    "question": "35. Which of the following are not reasons to use a cached volumes storage gateway? (Choose two.)",
+    "options": [
+      "C. You want to support iSCSI storage volumes.",
+      "D. You want low-latency access to your most commonly accessed data.",
+      "A. You want low-latency access to your entire dataset.",
+      "B. You want to reduce the cost of on-site storage."
+    ],
+    "answers": [
+      "C. You want to support iSCSI storage volumes.",
+      "A. You want low-latency access to your entire dataset."
+    ]
+  },
+  {
+    "question": "36. Which of the following storage gateway options is best for traditional backup applications?",
+    "options": [
+      "B. Cached volume gateway",
+      "C. Stored volume gateway",
+      "D. Tape gateway",
+      "A. File gateway"
+    ],
+    "answers": [
+      "A. File gateway"
+    ]
+  },
+  {
+    "question": "37. Which of the following storage gateway options is best for applications where latency of specific portions of your entire dataset is the priority?",
+    "options": [
+      "B. Cached volume gateway",
+      "C. Stored volume gateway",
+      "D. Tape gateway",
+      "A. File gateway"
+    ],
+    "answers": [
+      "B. Cached volume gateway"
+    ]
+  },
+  {
+    "question": "38. Which of the following storage gateway options is best for applications where latency of your entire dataset is the priority?",
+    "options": [
+      "B. Cached volume gateway",
+      "C. Stored volume gateway",
+      "D. Tape gateway",
+      "A. File gateway"
+    ],
+    "answers": [
+      "C. Stored volume gateway"
+    ]
+  },
+  {
+    "question": "39. Which of the following storage gateway options is best for reducing the costs associated with an off-site disaster recovery solution?",
+    "options": [
+      "B. Cached volume gateway",
+      "C. Stored volume gateway",
+      "D. Tape gateway",
+      "A. File gateway"
+    ],
+    "answers": [
+      "D. Tape gateway"
+    ]
+  },
+  {
+    "question": "40. Which of the following storage classes is optimized for long-term data storage at the expense of retrieval time?",
+    "options": [
+      "D. Glacier",
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "A. S3"
+    ],
+    "answers": [
+      "D. Glacier"
+    ]
+  }
+]

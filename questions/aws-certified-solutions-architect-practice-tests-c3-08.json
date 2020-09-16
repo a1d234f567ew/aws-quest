@@ -1,0 +1,246 @@
+[
+  {
+    "question": "141. To which of the following does an internet gateway attach?",
+    "options": [
+      "D. An instance within a subnet",
+      "A. An AWS account",
+      "B. A subnet within a VPC",
+      "C. A VPC"
+    ],
+    "answers": [
+      "C. A VPC"
+    ]
+  },
+  {
+    "question": "142. Which of the following destination routes would be used for routing IPv4 traffic to an internet gateway?",
+    "options": [
+      "B. 0.0.0.0/0",
+      "C. ::/0",
+      "A. 0.0.0.0/24",
+      "D. 192.168.1.1"
+    ],
+    "answers": [
+      "B. 0.0.0.0/0"
+    ]
+  },
+  {
+    "question": "143. Which of the following destination routes would be used for routing IPv6 traffic to an internet gateway?",
+    "options": [
+      "B. 0.0.0.0/0",
+      "C. ::/0",
+      "A. 0.0.0.0/24",
+      "D. 192.168.1.1"
+    ],
+    "answers": [
+      "C. ::/0"
+    ]
+  },
+  {
+    "question": "144. Which of the following is not necessary for an instance to have IPv6 communication over the Internet?",
+    "options": [
+      "C. A subnet with an associated IPv6 CIDR block",
+      "B. A public IPv6 assigned to the instance",
+      "D. A virtual private gateway with IPv6 enabled",
+      "A. A VPC with an associated IPv6 CIDR block"
+    ],
+    "answers": [
+      "D. A virtual private gateway with IPv6 enabled"
+    ]
+  },
+  {
+    "question": "145. Which of the following are possible options for assigning to an instance that needs public access? (Choose two.)",
+    "options": [
+      "A. A public IP address",
+      "D. A NACL",
+      "B. An elastic IP address",
+      "C. An IAM role"
+    ],
+    "answers": [
+      "A. A public IP address",
+      "B. An elastic IP address"
+    ]
+  },
+  {
+    "question": "146. Which of the following will have internet gateways available? (Choose two.)",
+    "options": [
+      "D. An ALB",
+      "A. A public subnet",
+      "B. An IPv6 elastic IP address",
+      "C. The default VPC"
+    ],
+    "answers": [
+      "A. A public subnet",
+      "C. The default VPC"
+    ]
+  },
+  {
+    "question": "147. What does ALB stand for?",
+    "options": [
+      "D. Applied load balancer",
+      "B. Application load balancer",
+      "C. Adaptive load balancer",
+      "A. Access load balancer"
+    ],
+    "answers": [
+      "B. Application load balancer"
+    ]
+  },
+  {
+    "question": "148. At what OSI layer does an application load balancer operate?",
+    "options": [
+      "C. 4 and 7",
+      "A. 4",
+      "B. 7",
+      "D. 6"
+    ],
+    "answers": [
+      "B. 7"
+    ]
+  },
+  {
+    "question": "149. At what OSI layer does a network load balancer operate?",
+    "options": [
+      "C. 4 and 7",
+      "A. 4",
+      "B. 7",
+      "D. 6"
+    ],
+    "answers": [
+      "A. 4"
+    ]
+  },
+  {
+    "question": "150. At what OSI layer does a classic load balancer operate?",
+    "options": [
+      "C. 4 and 7",
+      "A. 4",
+      "B. 7",
+      "D. 6"
+    ],
+    "answers": [
+      "C. 4 and 7"
+    ]
+  },
+  {
+    "question": "151. Which type of load balancer operates at the Transport layer?",
+    "options": [
+      "A. Classic load balancer",
+      "B. Application load balancer",
+      "C. Network load balancer",
+      "D. Both classic and network load balancers"
+    ],
+    "answers": [
+      "D. Both classic and network load balancers"
+    ]
+  },
+  {
+    "question": "152. Which type of load balancer operates at the Application layer?",
+    "options": [
+      "D. Both classic and application load balancers",
+      "A. Classic load balancer",
+      "B. Application load balancer",
+      "C. Network load balancer"
+    ],
+    "answers": [
+      "D. Both classic and application load balancers"
+    ]
+  },
+  {
+    "question": "153. What type of subnets are the default subnets in the default VPC?",
+    "options": [
+      "A. Private",
+      "D. Transport",
+      "B. Hybrid",
+      "C. Public"
+    ],
+    "answers": [
+      "C. Public"
+    ]
+  },
+  {
+    "question": "154. What type of subnets are the default subnets in a custom VPC?",
+    "options": [
+      "A. Private",
+      "D. Transport",
+      "B. Hybrid",
+      "C. Public"
+    ],
+    "answers": [
+      "A. Private"
+    ]
+  },
+  {
+    "question": "155. Which of the following is not automatically created for an instance launched into a nondefault subnet?",
+    "options": [
+      "C. A public IPv4 address",
+      "A. A private IPv4 address",
+      "B. A security group",
+      "D. A route to other instances in the subnet"
+    ],
+    "answers": [
+      "C. A public IPv4 address"
+    ]
+  },
+  {
+    "question": "156. Which of the following would be needed to allow an instance launched into a non-default subnet Internet access? (Choose two.)",
+    "options": [
+      "C. An elastic IP address",
+      "A. A private IPv4 address",
+      "B. A security group",
+      "D. An internet gateway"
+    ],
+    "answers": [
+      "C. An elastic IP address",
+      "D. An internet gateway"
+    ]
+  },
+  {
+    "question": "157. Which of the following would you need to add or create to allow an instance launched into a default subnet in the default VPC Internet access?",
+    "options": [
+      "D. None of these",
+      "C. An elastic IP address",
+      "A. A public IPv4 address",
+      "B. An internet gateway"
+    ],
+    "answers": [
+      "D. None of these"
+    ]
+  },
+  {
+    "question": "158. Which of the following would you use to allow outbound Internet traffic while preventing unsolicited inbound connections?",
+    "options": [
+      "D. A VPN",
+      "B. A bastion host",
+      "C. A VPC endpoint",
+      "A. A NAT device"
+    ],
+    "answers": [
+      "A. A NAT device"
+    ]
+  },
+  {
+    "question": "159. What does a NAT device allow?",
+    "options": [
+      "A. Incoming traffic from the Internet to reach private instances",
+      "B. Incoming traffic from other VPCs to reach private instances",
+      "C. Outgoing traffic to other VPCs from private instances",
+      "D. Outgoing traffic to the Internet from private instances"
+    ],
+    "answers": [
+      "D. Outgoing traffic to the Internet from private instances"
+    ]
+  },
+  {
+    "question": "160. Which of the following are NAT devices offered by AWS? (Choose two.)",
+    "options": [
+      "B. NAT instance",
+      "A. NAT router",
+      "D. NAT load balancer",
+      "C. NAT gateway"
+    ],
+    "answers": [
+      "B. NAT instance",
+      "C. NAT gateway"
+    ]
+  }
+]

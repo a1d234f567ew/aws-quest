@@ -1,0 +1,245 @@
+[
+  {
+    "question": "41. Which of the following need to be considered across all regions in your account? (Choose two.)",
+    "options": [
+      "D. S3 bucket names",
+      "B. IAM users",
+      "C. EC2 instances",
+      "A. Launch configurations"
+    ],
+    "answers": [
+      "D. S3 bucket names",
+      "B. IAM users"
+    ]
+  },
+  {
+    "question": "42. What HTTP code would you expect after a successful upload of an object to an S3 bucket?",
+    "options": [
+      "D. HTTP 501",
+      "B. HTTP 307",
+      "A. HTTP 200",
+      "C. HTTP 404"
+    ],
+    "answers": [
+      "A. HTTP 200"
+    ]
+  },
+  {
+    "question": "43. What is the durability of S3 One Zone-IA?",
+    "options": [
+      "B. 99.9%",
+      "A. 99.0%",
+      "C. 99.99%",
+      "D. 99.999999999%"
+    ],
+    "answers": [
+      "D. 99.999999999%"
+    ]
+  },
+  {
+    "question": "44. What is the durability of S3-IA?",
+    "options": [
+      "B. 99.9%",
+      "A. 99.0%",
+      "C. 99.99%",
+      "D. 99.999999999%"
+    ],
+    "answers": [
+      "D. 99.999999999%"
+    ]
+  },
+  {
+    "question": "45. What is the durability of S3?",
+    "options": [
+      "B. 99.9%",
+      "A. 99.0%",
+      "C. 99.99%",
+      "D. 99.999999999%"
+    ],
+    "answers": [
+      "D. 99.999999999%"
+    ]
+  },
+  {
+    "question": "46. What is the availability of S3 One Zone-IA?",
+    "options": [
+      "B. 99.9%",
+      "A. 99.5%",
+      "C. 99.99%",
+      "D. 99.999999999%"
+    ],
+    "answers": [
+      "A. 99.5%"
+    ]
+  },
+  {
+    "question": "47. What is the availability of S3-IA?",
+    "options": [
+      "B. 99.9%",
+      "A. 99.5%",
+      "C. 99.99%",
+      "D. 99.999999999%"
+    ],
+    "answers": [
+      "B. 99.9%"
+    ]
+  },
+  {
+    "question": "48. What is the availability of S3?",
+    "options": [
+      "B. 99.9%",
+      "A. 99.5%",
+      "C. 99.99%",
+      "D. 99.999999999%"
+    ],
+    "answers": [
+      "C. 99.99%"
+    ]
+  },
+  {
+    "question": "49. Which S3 storage class supports SSL for data in transit?",
+    "options": [
+      "D. All of the above",
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "A. S3"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "50. Which S3 storage class supports encryption for data at rest?",
+    "options": [
+      "D. All of the above",
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "A. S3"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "51. For which of the following storage classes do you need to specify a region?",
+    "options": [
+      "D. All of the above",
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "A. S3"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "52. For which of the following storage classes do you need to specify an availability zone?",
+    "options": [
+      "D. None of the above",
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "A. S3"
+    ],
+    "answers": [
+      "D. None of the above"
+    ]
+  },
+  {
+    "question": "53. How does S3 store your objects?",
+    "options": [
+      "C. Using a NoSQL interface",
+      "A. As key-value pairs",
+      "D. As blocks in a block storage",
+      "B. As relational entries."
+    ],
+    "answers": [
+      "A. As key-value pairs"
+    ]
+  },
+  {
+    "question": "54. In what ways can you access your data stored in S3 buckets? (Choose two.)",
+    "options": [
+      "D. Through the AWS console",
+      "C. Through a REST-based web service interface",
+      "A. Through FTP access to the bucket",
+      "B. Through SFTP access to the bucket"
+    ],
+    "answers": [
+      "C. Through a REST-based web service interface",
+      "D. Through the AWS console"
+    ]
+  },
+  {
+    "question": "55. Which of the following are true about S3 data access when traffic spikes (increases)? (Choose two.)",
+    "options": [
+      "A. S3 will scale to handle the load if you have Auto Scaling set up.",
+      "B. S3 will scale automatically to ensure your service is not interrupted.",
+      "D. A few instances are scaled up dramatically to minimize the effect of the spike.",
+      "C. Scale spreads evenly across AWS network to minimize the effect of a spike."
+    ],
+    "answers": [
+      "B. S3 will scale automatically to ensure your service is not interrupted.",
+      "C. Scale spreads evenly across AWS network to minimize the effect of a spike."
+    ]
+  },
+  {
+    "question": "56. You have been tasked with helping a company migrate its expensive off-premises storage to AWS. It will still primarily back up files from its on-premises location to a local NAS. These files then need to be stored off-site (in AWS rather than the original off-site location). The company is concerned with durability and cost and wants to retain quick access to its files. What should you recommend?",
+    "options": [
+      "C. Copying the files from the NAS to EBS volumes with provisioned IOPS",
+      "A. Copying files from the NAS to an S3 standard class bucket",
+      "B. Copying files from the NAS to an S3 One Zone-IA class bucket",
+      "D. Copying the files from the NAS to Amazon Glacier"
+    ],
+    "answers": [
+      "B. Copying files from the NAS to an S3 One Zone-IA class bucket"
+    ]
+  },
+  {
+    "question": "57. Which S3 storage class would you recommend if you were building out storage for an application that you anticipated growing in size exponentially over the next 12 months?",
+    "options": [
+      "D. There is not enough information to make a good decision.",
+      "C. S3-IA",
+      "B. S3 standard",
+      "A. Amazon Glacier"
+    ],
+    "answers": [
+      "D. There is not enough information to make a good decision."
+    ]
+  },
+  {
+    "question": "58. How many S3 buckets can you create per AWS account, by default?",
+    "options": [
+      "C. 100",
+      "A. 25",
+      "B. 50",
+      "D. There is not a default limit."
+    ],
+    "answers": [
+      "C. 100"
+    ]
+  },
+  {
+    "question": "59. How are objects uploaded to S3 by default?",
+    "options": [
+      "B. In a single operation",
+      "D. Via the REST API",
+      "A. In parts",
+      "C. You must configure this option for each S3 bucket explicitly."
+    ],
+    "answers": [
+      "B. In a single operation"
+    ]
+  },
+  {
+    "question": "60. When does AWS suggest you start uploading objects via the Multipart Upload API?",
+    "options": [
+      "A. When you\u2019re uploading a lot of files at once",
+      "B. When you\u2019re uploading files of 10 GB or more",
+      "D. When you need the greatest network throughput for uploads",
+      "C. When you have multiple applications uploading files to the same S3 bucket"
+    ],
+    "answers": [
+      "B. When you\u2019re uploading files of 10 GB or more"
+    ]
+  }
+]

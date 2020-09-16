@@ -1,0 +1,250 @@
+[
+  {
+    "question": "181. Which of the following is not a valid attribute for an elastic network interface?",
+    "options": [
+      "A. An IPv6 address",
+      "B. An IPv4 address",
+      "D. A routing table",
+      "C. A source/destination check flag"
+    ],
+    "answers": [
+      "D. A routing table"
+    ]
+  },
+  {
+    "question": "182. Why might you use an elastic IP address?",
+    "options": [
+      "C. You want to mask the failure of an instance to network clients.",
+      "A. You need an IPv4 address for a specific instance.",
+      "D. You want to avoid making changes to your security groups.",
+      "B. You need an IPv6 address for a specific instance."
+    ],
+    "answers": [
+      "C. You want to mask the failure of an instance to network clients."
+    ]
+  },
+  {
+    "question": "183. Which of the following can you not do with an elastic IP address?",
+    "options": [
+      "D. Associate it with a single instance in a VPC.",
+      "A. Change the IP address associated with it while it is in use.",
+      "B. Move it from one instance to another.",
+      "C. Move it across VPCs."
+    ],
+    "answers": [
+      "A. Change the IP address associated with it while it is in use."
+    ]
+  },
+  {
+    "question": "184. Which of the following are advantages of an elastic IP? (Choose two.)",
+    "options": [
+      "A. Reduces the number of IP addresses your VPC uses",
+      "D. Provides multiple IP addresses for a single instance",
+      "B. Provides protection in case of an instance failure",
+      "C. Allows all attributes of a network interface to be moved at one time"
+    ],
+    "answers": [
+      "B. Provides protection in case of an instance failure",
+      "C. Allows all attributes of a network interface to be moved at one time"
+    ]
+  },
+  {
+    "question": "185. Which of the following would you need to do to create an elastic IP address? (Choose two.)",
+    "options": [
+      "A. Allocate an elastic IP address for use in a VPC.",
+      "D. Associate the elastic IP to an instance in your VPC.",
+      "C. Detach the primary network interface on an instance.",
+      "B. Allocate an IP address in Route 53."
+    ],
+    "answers": [
+      "A. Allocate an elastic IP address for use in a VPC.",
+      "D. Associate the elastic IP to an instance in your VPC."
+    ]
+  },
+  {
+    "question": "186. Which of these is not a valid means of working with an Amazon EBS snapshot?",
+    "options": [
+      "D. The AWS EBS management tool",
+      "C. The AWS console",
+      "B. The AWS CLI",
+      "A. The AWS API"
+    ],
+    "answers": [
+      "D. The AWS EBS management tool"
+    ]
+  },
+  {
+    "question": "187. Where are individual instances provisioned?",
+    "options": [
+      "B. In a region",
+      "A. In a VPC",
+      "D. In an Auto Scaling group",
+      "C. In an availability zone"
+    ],
+    "answers": [
+      "C. In an availability zone"
+    ]
+  },
+  {
+    "question": "188. How are EBS snapshots backed up to S3?",
+    "options": [
+      "C. EBS snapshots are backed up to RDS.",
+      "A. Incrementally",
+      "D. Sequentially",
+      "B. In full, every time they are changed"
+    ],
+    "answers": [
+      "A. Incrementally"
+    ]
+  },
+  {
+    "question": "189. You have an existing IAM role in use by several instances in your VPC. You make a change in the role, removing permissions to access S3. When does this change take effect on the instances already attached to the role?",
+    "options": [
+      "C. The next time the instances are restarted",
+      "D. The instances preserve the pre-change permissions indefinitely.",
+      "B. Within 60 seconds",
+      "A. Immediately"
+    ],
+    "answers": [
+      "A. Immediately"
+    ]
+  },
+  {
+    "question": "190. How many IAM roles can you attach to a single instance?",
+    "options": [
+      "D. None, roles are not assigned to instances.",
+      "A. One",
+      "B. One or two",
+      "C. As many as you want"
+    ],
+    "answers": [
+      "A. One"
+    ]
+  },
+  {
+    "question": "191. How can you attach multiple IAM roles to a single instance? (Choose two.)",
+    "options": [
+      "C. You can assign two IAM roles to an instance, but no more than that.",
+      "D. You cannot; only one role can be assigned to an instance.",
+      "A. You can attach as many roles as you want to an instance.",
+      "B. You cannot, but you can combine the policies each role uses into a single new role and assign that."
+    ],
+    "answers": [
+      "D. You cannot; only one role can be assigned to an instance.",
+      "B. You cannot, but you can combine the policies each role uses into a single new role and assign that."
+    ]
+  },
+  {
+    "question": "192. You need to make a change to a role attached to a running instance. What do you need to do to ensure the least amount of downtime? (Choose two.)",
+    "options": [
+      "D. Other than updating the role, no additional changes are needed.",
+      "A. Update the IAM role via the console or AWS API or CLI.",
+      "C. Restart the instance.",
+      "B. Re-attach the updated role to the instance."
+    ],
+    "answers": [
+      "A. Update the IAM role via the console or AWS API or CLI.",
+      "D. Other than updating the role, no additional changes are needed."
+    ]
+  },
+  {
+    "question": "193. You have a new set of permissions that you want to attach to a running instance. What do you need to do to ensure the least amount of downtime? (Choose two.)",
+    "options": [
+      "D. Attach the new role to the running instance.",
+      "C. Stop the instance, assign the role, and restart the instance.",
+      "A. Remove the instance\u2019s IAM role via the console or AWS API or CLI.",
+      "B. Create a new IAM role with the desired permissions."
+    ],
+    "answers": [
+      "D. Attach the new role to the running instance.",
+      "B. Create a new IAM role with the desired permissions."
+    ]
+  },
+  {
+    "question": "194. How can you delete a snapshot of an EBS volume when it\u2019s used as the root device of a registered AMI?",
+    "options": [
+      "A. You can\u2019t.",
+      "B. You can, but only using the AWS API or CLI.",
+      "C. Delete the snapshot using the AWS console.",
+      "D. Ensure that you have correct IAM privileges and delete the AMI."
+    ],
+    "answers": [
+      "A. You can\u2019t."
+    ]
+  },
+  {
+    "question": "195. Which of these is the best option for encrypting data at rest on an EBS volume?",
+    "options": [
+      "C. Configure encryption using the OS tools on the attached EC2 instance.",
+      "B. Configure AES 256 encryption on the volume once it\u2019s been started.",
+      "D. Back up the data in the volume to an encrypted S3 bucket.",
+      "A. Configure the volume\u2019s encryption at creation time."
+    ],
+    "answers": [
+      "A. Configure the volume\u2019s encryption at creation time."
+    ]
+  },
+  {
+    "question": "196. How can you ensure that an EBS root volume persists beyond the life of an EC2 instance, in the event that the instance is terminated?",
+    "options": [
+      "B. Configure the EC2 instance to not terminate its root volume and the EBS volume to persist.",
+      "D. Ensure that encryption is enabled on the volume and it will automatically persist.",
+      "A. The volume will persist automatically.",
+      "C. You cannot; root volumes always are deleted when the attached EC2 instance is terminated."
+    ],
+    "answers": [
+      "B. Configure the EC2 instance to not terminate its root volume and the EBS volume to persist."
+    ]
+  },
+  {
+    "question": "197. Which of the following is not part of the well-architected framework?",
+    "options": [
+      "D. Automate responses to security events.",
+      "C. Use defaults whenever possible.",
+      "B. Enable traceability.",
+      "A. Apply security at all layers."
+    ],
+    "answers": [
+      "C. Use defaults whenever possible."
+    ]
+  },
+  {
+    "question": "198. Which of the following should you attempt to automate, according to the AWS wellarchitected framework? (Choose two.)",
+    "options": [
+      "D. IAM policy creation",
+      "B. Scaling instances",
+      "C. Responses to security events",
+      "A. Security best practices"
+    ],
+    "answers": [
+      "C. Responses to security events",
+      "A. Security best practices"
+    ]
+  },
+  {
+    "question": "199. Which of the following statements are true? (Choose two.)",
+    "options": [
+      "D. You are responsible for security of the cloud.",
+      "A. You are responsible for security in the cloud.",
+      "C. AWS is responsible for security in the cloud.",
+      "B. AWS is responsible for security of the cloud."
+    ],
+    "answers": [
+      "A. You are responsible for security in the cloud.",
+      "B. AWS is responsible for security of the cloud."
+    ]
+  },
+  {
+    "question": "200. For which of the following is AWS responsible for security? (Choose two.)",
+    "options": [
+      "A. Edge locations",
+      "D. Availability zones",
+      "B. Firewall configuration",
+      "C. Network traffic"
+    ],
+    "answers": [
+      "A. Edge locations",
+      "D. Availability zones"
+    ]
+  }
+]

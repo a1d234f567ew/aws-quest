@@ -1,0 +1,250 @@
+[
+  {
+    "question": "41. Which of the following are not true about S3 encryption? (Choose two.)",
+    "options": [
+      "C. Encrypted EBS volumes can only be stored if server-side encryption is enabled.",
+      "A. S3 applies AWS-256 encryption to data when server-side encryption is enabled.",
+      "B. S3 encryption will use a client key if it is supplied with data.",
+      "D. S3 will accept locally encrypted data if client-side encryption is enabled."
+    ],
+    "answers": [
+      "C. Encrypted EBS volumes can only be stored if server-side encryption is enabled.",
+      "B. S3 encryption will use a client key if it is supplied with data."
+    ]
+  },
+  {
+    "question": "42. What types of data are encrypted when you create an encrypted EBS volume? (Choose two.)",
+    "options": [
+      "C. Data inside S3 buckets that store the encrypted instance",
+      "D. Data in an EFS on instances attached to the volume",
+      "B. Data moving between the volume and the attached instance",
+      "A. Data at rest inside the volume"
+    ],
+    "answers": [
+      "B. Data moving between the volume and the attached instance",
+      "A. Data at rest inside the volume"
+    ]
+  },
+  {
+    "question": "43. What types of data are not automatically encrypted when you create an encrypted EBS volume? (Choose two.)",
+    "options": [
+      "B. Any data on additional volumes attached to the same instance as the encrypted volume",
+      "C. Data created on an instance that has the encrypted volume attached",
+      "A. A snapshot created from the EBS volume",
+      "D. Data moving between the volume and the attached instance"
+    ],
+    "answers": [
+      "B. Any data on additional volumes attached to the same instance as the encrypted volume",
+      "C. Data created on an instance that has the encrypted volume attached"
+    ]
+  },
+  {
+    "question": "44. What of the following types of data is not encrypted automatically when an encrypted EBS volume is attached to an EC2 instance?",
+    "options": [
+      "A. Data in transit to the volume",
+      "D. All of these are encrypted.",
+      "B. Data at rest on the volume",
+      "C. Data in transit from the volume"
+    ],
+    "answers": [
+      "D. All of these are encrypted."
+    ]
+  },
+  {
+    "question": "45. What encryption service is used by encrypted EBS volumes?",
+    "options": [
+      "D. Customer-managed keys",
+      "C. KMS",
+      "B. S3-C",
+      "A. S3-KMS"
+    ],
+    "answers": [
+      "C. KMS"
+    ]
+  },
+  {
+    "question": "46. How can you access the private IP address of a running EC2 instance?",
+    "options": [
+      "C. http://169.254.169.254/latest/meta-data/",
+      "D. http://169.254.169.254/latest/ec2-data/",
+      "A. http://169.254.169.254/latest/user-data/",
+      "B. http://169.254.169.254/latest/instance-data/"
+    ],
+    "answers": [
+      "C. http://169.254.169.254/latest/meta-data/"
+    ]
+  },
+  {
+    "question": "47. If you take a snapshot of an encrypted EBS volume, which of the following will be true? (Choose two.)",
+    "options": [
+      "C. Any instances using the snapshot will be encrypted.",
+      "A. The snapshot will be encrypted.",
+      "B. All data on the bucket on which the snapshot is stored will be encrypted.",
+      "D. Any volumes created from the snapshot will be encrypted."
+    ],
+    "answers": [
+      "D. Any volumes created from the snapshot will be encrypted.",
+      "A. The snapshot will be encrypted."
+    ]
+  },
+  {
+    "question": "48. If you take a snapshot of an encrypted EBS volume, which of the following must you do to use that snapshot as a volume in a separate region? (Choose two.)",
+    "options": [
+      "C. Unencrypt the snapshot once it is in the new region.",
+      "D. Create a new volume from the snapshot in the new region.",
+      "A. Copy the snapshot to the new region.",
+      "B. Delete the snapshot from the old region."
+    ],
+    "answers": [
+      "D. Create a new volume from the snapshot in the new region.",
+      "A. Copy the snapshot to the new region."
+    ]
+  },
+  {
+    "question": "49. How do you encrypt an RDS instance?",
+    "options": [
+      "D. Enable encryption when creating the instance.",
+      "B. Enable encryption on the running instance via the console.",
+      "A. Enable encryption on the running instance via the CLI.",
+      "C. Run the encryption process on the running instance via the console."
+    ],
+    "answers": [
+      "D. Enable encryption when creating the instance."
+    ]
+  },
+  {
+    "question": "50. Which of the following will ensure that data on your RDS instance is encrypted?",
+    "options": [
+      "C. Encrypt the instance on which RDS is running.",
+      "B. Enable encryption on the running RDS instance via the AWS API.",
+      "A. Use client-side encryption keys.",
+      "D. None of these will encrypt all data on the instance."
+    ],
+    "answers": [
+      "D. None of these will encrypt all data on the instance."
+    ]
+  },
+  {
+    "question": "51. Which of the following will allow you to bring a non-encrypted RDS instance into compliance with an \u201call data must be encrypted at rest\u201d policy?",
+    "options": [
+      "A. Snapshot the RDS instance and restore it, encrypting the new copy upon restoration.",
+      "B. Use the AWS Database Migration Service to migrate the data from the instance to an encrypted instance.",
+      "C. Create a new encrypted instance and manually move data into it.",
+      "D. None of these will encrypt all data on the instance."
+    ],
+    "answers": [
+      "C. Create a new encrypted instance and manually move data into it."
+    ]
+  },
+  {
+    "question": "52. Which of the following will allow you to bring a non-encrypted EBS volume into compliance with an \u201call data must be encrypted at rest\u201d policy?",
+    "options": [
+      "A. Stop the volume, snapshot it, and encrypt a copy of the snapshot. Then restore from the encrypted snapshot.",
+      "C. Encrypt the volume via the AWS API and turn on the \u201cencrypt existing data\u201d flag.",
+      "D. None of these will encrypt all data on the volume.",
+      "B. Stop the volume, select \u201cTurn on encryption,\u201d and restart the volume."
+    ],
+    "answers": [
+      "A. Stop the volume, snapshot it, and encrypt a copy of the snapshot. Then restore from the encrypted snapshot."
+    ]
+  },
+  {
+    "question": "53. Which of the following will allow you to bring a non-encrypted EBS volume into compliance with an \u201call data must be encrypted at rest\u201d policy?",
+    "options": [
+      "B. Stop the volume, select \u201cTurn on encryption,\u201d and restart the volume.",
+      "C. Encrypt the volume via the AWS API and turn on the \u201cencrypt existing data\u201d flag.",
+      "D. None of these will encrypt all data on the volume.",
+      "A. Stop the volume, create a snapshot, and restart from the snapshot, selecting \u201cEncrypt this volume.\u201d"
+    ],
+    "answers": [
+      "D. None of these will encrypt all data on the volume."
+    ]
+  },
+  {
+    "question": "54. Which of the following will allow you to bring a non-encrypted EBS volume into compliance with an \u201call data must be encrypted at rest\u201d policy?",
+    "options": [
+      "B. Create a new volume with encryption turned on, attach the new volume to an EC2 instance, and copy the data from the non-encrypted volume to the new volume.",
+      "D. None of these will encrypt all data on the volume.",
+      "C. Create a new volume, attach the new volume to an EC2 instance, and use the encrypted-copy command to copy the data from the non-encrypted volume to the new volume.",
+      "A. Create a new volume, attach the new volume to an EC2 instance, copy the data from the non-encrypted volume to the new volume, and then encrypt the new volume."
+    ],
+    "answers": [
+      "B. Create a new volume with encryption turned on, attach the new volume to an EC2 instance, and copy the data from the non-encrypted volume to the new volume."
+    ]
+  },
+  {
+    "question": "55. Which of the following are valid options on an EBS volume? (Choose two.)",
+    "options": [
+      "D. Restore an encrypted snapshot to an encrypted volume.",
+      "A. Encrypt the volume.",
+      "B. Encrypt a snapshot of the volume.",
+      "C. Encrypt a copy of a snapshot of the volume."
+    ],
+    "answers": [
+      "D. Restore an encrypted snapshot to an encrypted volume.",
+      "C. Encrypt a copy of a snapshot of the volume."
+    ]
+  },
+  {
+    "question": "56. Which of the following are not true about EBS snapshots? (Choose two.)",
+    "options": [
+      "A. Snapshots of encrypted volumes are automatically encrypted.",
+      "B. When you copy an encrypted snapshot, the copy is not encrypted unless you explicitly specify.",
+      "C. You cannot copy an encrypted snapshot unless you unencrypt the snapshot first.",
+      "D. Volumes that are created from encrypted snapshots are automatically encrypted."
+    ],
+    "answers": [
+      "B. When you copy an encrypted snapshot, the copy is not encrypted unless you explicitly specify.",
+      "C. You cannot copy an encrypted snapshot unless you unencrypt the snapshot first."
+    ]
+  },
+  {
+    "question": "57. Can you copy a snapshot across AWS accounts?",
+    "options": [
+      "C. Yes, but you have to be the owner of both AWS accounts.",
+      "A. Yes",
+      "D. No",
+      "B. Yes, but you first have to modify the snapshot\u2019s access permissions."
+    ],
+    "answers": [
+      "B. Yes, but you first have to modify the snapshot\u2019s access permissions."
+    ]
+  },
+  {
+    "question": "58. You have a snapshot of an EBS volume in US East 2. You want to create a volume from this snapshot in US West 1. Is this possible?",
+    "options": [
+      "C. Yes, but you\u2019ll need to create the instance in US East 2 and then move it to US West 1.",
+      "A. Yes, create the volume in US West 1 based upon the snapshot in US East 2.",
+      "B. Yes, but you\u2019ll need to copy the snapshot to US West 1 first.",
+      "D. No"
+    ],
+    "answers": [
+      "B. Yes, but you\u2019ll need to copy the snapshot to US West 1 first."
+    ]
+  },
+  {
+    "question": "59. Can you copy an EBS snapshot across regions?",
+    "options": [
+      "C. Yes",
+      "A. Yes, as long as the snapshot is not encrypted.",
+      "B. Yes, as long as the snapshot is marked for multi-region use.",
+      "D. No"
+    ],
+    "answers": [
+      "C. Yes"
+    ]
+  },
+  {
+    "question": "60. Which of the following does a security group attached to an instance control? (Choose two.)",
+    "options": [
+      "A. Inbound traffic",
+      "D. Access control lists",
+      "C. Outbound traffic",
+      "B. HTTP error messages"
+    ],
+    "answers": [
+      "A. Inbound traffic",
+      "C. Outbound traffic"
+    ]
+  }
+]

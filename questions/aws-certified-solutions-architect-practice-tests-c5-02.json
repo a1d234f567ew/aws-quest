@@ -1,0 +1,250 @@
+[
+  {
+    "question": "21. Does Route 53 supports zone apex records?",
+    "options": [
+      "D. No",
+      "A. Yes, for all domains",
+      "C. Yes, but only for services hosted on AWS",
+      "B. Yes, but only for domains hosted on AWS"
+    ],
+    "answers": [
+      "A. Yes, for all domains"
+    ]
+  },
+  {
+    "question": "22. Which of the following statements are false? (Choose two.)",
+    "options": [
+      "A. Route 53 does not allow aliases for naked domain names.",
+      "B. Route 53 supports zone apex records.",
+      "D. Route 53 only supports zone apex records for AWS-hosted services.",
+      "C. Route 53 allows aliases for domains hosted on AWS."
+    ],
+    "answers": [
+      "A. Route 53 does not allow aliases for naked domain names.",
+      "D. Route 53 only supports zone apex records for AWS-hosted services."
+    ]
+  },
+  {
+    "question": "23. Which of the following statements are true? (Choose two.)",
+    "options": [
+      "B. Route 53 automatically configures DNS health checks for registered domains.",
+      "D. Route 53 is automatically highly available.",
+      "C. Route 53 automatically sets up Auto Scaling groups for services to which it points.",
+      "A. Route 53 supports Auto Scaling groups."
+    ],
+    "answers": [
+      "D. Route 53 is automatically highly available.",
+      "A. Route 53 supports Auto Scaling groups."
+    ]
+  },
+  {
+    "question": "24. How many domain names can you manage using Route 53?",
+    "options": [
+      "B. 100, but you can raise that limit by contacting AWS support.",
+      "D. 50, but you can raise that limit by contacting AWS support.",
+      "C. Unlimited",
+      "A. 50"
+    ],
+    "answers": [
+      "D. 50, but you can raise that limit by contacting AWS support."
+    ]
+  },
+  {
+    "question": "25. Which of the following is the best approach to accessing an RDS instance to troubleshoot operating system problems?",
+    "options": [
+      "D. None of these",
+      "A. SSH",
+      "B. RDP",
+      "C. SFTP"
+    ],
+    "answers": [
+      "D. None of these"
+    ]
+  },
+  {
+    "question": "26. Which of the following are true about VPC peering? (Choose two.)",
+    "options": [
+      "A. A VPC peering connection is a networking connection between two VPCs within a single region.",
+      "C. A VPC peering connection can help facilitate data transfer and file sharing.",
+      "B. A VPC peering connection is a VPN-based connection.",
+      "D. Peered VPCs can exist in different regions."
+    ],
+    "answers": [
+      "D. Peered VPCs can exist in different regions.",
+      "C. A VPC peering connection can help facilitate data transfer and file sharing."
+    ]
+  },
+  {
+    "question": "27. You have two VPCs paired across two different regions. What is another name for this type of connection?",
+    "options": [
+      "A. Inter-VPC peering connection",
+      "B. Inter-region VPC peering connection",
+      "C. Inter-VPC region connection",
+      "D. Multi-region peering connection"
+    ],
+    "answers": [
+      "B. Inter-region VPC peering connection"
+    ]
+  },
+  {
+    "question": "28. Which of the following statements about peered VPCs is false?",
+    "options": [
+      "B. Both VPCs do not need to be in the same AWS account.",
+      "A. Both VPCs do not need to be within the same region.",
+      "D. Traffic can flow in both directions between peered VPCs by default.",
+      "C. Both VPCs will automatically have routing set up when the connection is created."
+    ],
+    "answers": [
+      "C. Both VPCs will automatically have routing set up when the connection is created."
+    ]
+  },
+  {
+    "question": "29. Which of the following statements about peered VPCs is true?",
+    "options": [
+      "D. The two VPCs cannot have overlapping CIDR blocks.",
+      "C. Each VPC must use a unique security group.",
+      "A. Both VPCs need to be within the same region.",
+      "B. Both VPCs need to be in the same AWS account."
+    ],
+    "answers": [
+      "D. The two VPCs cannot have overlapping CIDR blocks."
+    ]
+  },
+  {
+    "question": "30. What kind of relationship is a VPC peering connection?",
+    "options": [
+      "C. One-to-many between subnets",
+      "D. One-to-many between VPCs",
+      "B. One-to-one between VPCs",
+      "A. One-to-one between subnets"
+    ],
+    "answers": [
+      "B. One-to-one between VPCs"
+    ]
+  },
+  {
+    "question": "31. VPC A is peered to both VPC B and VPC C. How can you allow traffic to flow from VPC B to VPC C?",
+    "options": [
+      "B. You must enable route forwarding in VPC A.",
+      "A. You can\u2019t; transitive peering relationships are not allowed in AWS.",
+      "D. You must enable route forwarding on VPC B.",
+      "C. You must peer VPC B to VPC C."
+    ],
+    "answers": [
+      "C. You must peer VPC B to VPC C."
+    ]
+  },
+  {
+    "question": "32. VPC C has an overlapping CIDR block with VPC D. Given that, which of the following statements are true? (Choose two.)",
+    "options": [
+      "C. To peer VPC C and VPC D, you must remove the overlap in their CIDR block.",
+      "B. VPC C and VPC D cannot be peered as is.",
+      "A. VPC C and VPC D can be peered as is.",
+      "D. To peer VPC C and VPC D, you must switch one to use IPv6 addresses."
+    ],
+    "answers": [
+      "C. To peer VPC C and VPC D, you must remove the overlap in their CIDR block.",
+      "B. VPC C and VPC D cannot be peered as is."
+    ]
+  },
+  {
+    "question": "33. How many peering connections are allowed between two VPCs?",
+    "options": [
+      "A. One",
+      "C. One for each subnet in each VPC",
+      "D. One for each NACL associated with each VPC",
+      "B. Two"
+    ],
+    "answers": [
+      "A. One"
+    ]
+  },
+  {
+    "question": "34. How many peering connections can a single VPC be a part of?",
+    "options": [
+      "A. One",
+      "B. Unlimited, within AWS overall account limits",
+      "D. One for each NACL associated with each VPC",
+      "C. One for each subnet in each VPC"
+    ],
+    "answers": [
+      "B. Unlimited, within AWS overall account limits"
+    ]
+  },
+  {
+    "question": "35. How does AWS facilitate transitive peering VPC relationships?",
+    "options": [
+      "A. Transitive VPC relationships are only allowed if a bastion host is used.",
+      "D. It uses IPv4 for connection from a source VPC to a hub VPC and IPv6 from the hub to the origin VPC.",
+      "B. Transitive VPC relationships are only allowed if a hub-and-spoke network model is used.",
+      "C. It does not; transitive VPC peering is not allowed in AWS."
+    ],
+    "answers": [
+      "C. It does not; transitive VPC peering is not allowed in AWS."
+    ]
+  },
+  {
+    "question": "36. How does AWS support IPv6 communication in a VPC peering relationship? (Choose two.)",
+    "options": [
+      "A. AWS does not support IPv6 communication in VPC peering.",
+      "B. You must associate IPv6 addresses with both VPCs and then set up routing to use these addresses.",
+      "D. You must make sure the two VPCs are in the same region.",
+      "C. You must associate IPv6 addresses with both VPCs and then set up a security group to use these addresses."
+    ],
+    "answers": [
+      "B. You must associate IPv6 addresses with both VPCs and then set up routing to use these addresses.",
+      "D. You must make sure the two VPCs are in the same region."
+    ]
+  },
+  {
+    "question": "37. Which of the following are advantages of launching instances into a VPC as opposed to EC2-Classic? (Choose two.)",
+    "options": [
+      "B. Your instances automatically run on multi-tenant hardware.",
+      "C. You can attach multiple network interfaces to your instances.",
+      "D. Your network is flat instead of layered.",
+      "A. You can assign multiple IP addresses to your instances."
+    ],
+    "answers": [
+      "C. You can attach multiple network interfaces to your instances.",
+      "A. You can assign multiple IP addresses to your instances."
+    ]
+  },
+  {
+    "question": "38. Which of the following are differences between the default VPC and a custom VPC? (Choose two.)",
+    "options": [
+      "C. Custom VPCs have an internet gateway but default VPCs do not.",
+      "A. Default VPCs have an internet gateway but custom VPCs do not.",
+      "B. Custom VPCs have public subnets but default VPCs do not.",
+      "D. Default VPCs have public subnets but custom VPCs do not."
+    ],
+    "answers": [
+      "A. Default VPCs have an internet gateway but custom VPCs do not.",
+      "D. Default VPCs have public subnets but custom VPCs do not."
+    ]
+  },
+  {
+    "question": "39. How does the default VPC make instances in its public subnets available to Internet traffic? (Choose two.)",
+    "options": [
+      "C. Through a default security group that provides access out to the Internet",
+      "A. Through a default routing table that provides routing to the Internet",
+      "D. Through an internet gateway",
+      "B. Through a virtual private gateway"
+    ],
+    "answers": [
+      "A. Through a default routing table that provides routing to the Internet",
+      "D. Through an internet gateway"
+    ]
+  },
+  {
+    "question": "40. Which of the following is assigned to instances launched into non-default subnets?",
+    "options": [
+      "A. A private IPv6 address",
+      "C. A private IPv4 address",
+      "D. A public IPv6 address",
+      "B. A public IPv4 address"
+    ],
+    "answers": [
+      "C. A private IPv4 address"
+    ]
+  }
+]

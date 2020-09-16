@@ -1,0 +1,246 @@
+[
+  {
+    "question": "201. For which of the following is AWS not responsible for security?",
+    "options": [
+      "C. S3 buckets",
+      "B. RDS database installations",
+      "A. Networking infrastructure",
+      "D. Networking traffic"
+    ],
+    "answers": [
+      "D. Networking traffic"
+    ]
+  },
+  {
+    "question": "202. For which of the following are you not responsible for security?",
+    "options": [
+      "A. DynamoDB",
+      "B. Operating system configuration",
+      "D. Application keys",
+      "C. Server-side encryption"
+    ],
+    "answers": [
+      "A. DynamoDB"
+    ]
+  },
+  {
+    "question": "203. Which of the following is not included in the well-architected framework\u2019s definition of security?",
+    "options": [
+      "D. Defective controls",
+      "C. Reduction of privileges",
+      "A. Data protection",
+      "B. Infrastructure protection"
+    ],
+    "answers": [
+      "C. Reduction of privileges"
+    ]
+  },
+  {
+    "question": "204. Which of the following is a principle of the well-architected framework\u2019s security section?",
+    "options": [
+      "A. Encrypt the least amount of data possible.",
+      "B. Always encrypt the most important data.",
+      "C. Encrypt everything where possible.",
+      "D. Encrypt data at rest."
+    ],
+    "answers": [
+      "C. Encrypt everything where possible."
+    ]
+  },
+  {
+    "question": "205. Which of the following are principles of the well-architected framework\u2019s security section? (Choose two.)",
+    "options": [
+      "C. Encrypt data in groups rather than individually.",
+      "B. Encrypt data in transit.",
+      "D. Encrypt data at the destination.",
+      "A. Encrypt data at rest."
+    ],
+    "answers": [
+      "B. Encrypt data in transit.",
+      "A. Encrypt data at rest."
+    ]
+  },
+  {
+    "question": "206. Who is responsible for encrypting data in the cloud?",
+    "options": [
+      "A. You",
+      "B. AWS",
+      "D. AWS provides an API, but you are responsible for security when using that API.",
+      "C. AWS provides mechanisms such as key rotation for which they are responsible, but you are responsible for appropriate usage of those mechanisms."
+    ],
+    "answers": [
+      "C. AWS provides mechanisms such as key rotation for which they are responsible, but you are responsible for appropriate usage of those mechanisms."
+    ]
+  },
+  {
+    "question": "207. What is the term used to represent the resiliency of data stored in S3?",
+    "options": [
+      "B. 11 9s",
+      "C. 7 9s",
+      "D. 99th percentile",
+      "A. 9 9s"
+    ],
+    "answers": [
+      "B. 11 9s"
+    ]
+  },
+  {
+    "question": "208. Which of these statements is not true?",
+    "options": [
+      "D. Customers move data between regions rather than AWS.",
+      "C. AWS will initiate moving data between regions if needed.",
+      "A. AWS recommends encrypting data at rest and in transit.",
+      "B. AWS will never move data between regions unless initiated by the customer."
+    ],
+    "answers": [
+      "C. AWS will initiate moving data between regions if needed."
+    ]
+  },
+  {
+    "question": "209. Which of the following can be part of a strategy to avoid accidental data overwriting of S3 data?",
+    "options": [
+      "A. IAM roles",
+      "B. MFA Delete",
+      "D. All of these",
+      "C. Versioning"
+    ],
+    "answers": [
+      "D. All of these"
+    ]
+  },
+  {
+    "question": "210. Which of the following should always be done to protect your AWS environment? (Choose two.)",
+    "options": [
+      "B. Enable MFA Delete on your S3 buckets.",
+      "C. Set a password rotation policy for users.",
+      "D. Create custom IAM roles for all users.",
+      "A. Enable MFA on the root account."
+    ],
+    "answers": [
+      "C. Set a password rotation policy for users.",
+      "A. Enable MFA on the root account."
+    ]
+  },
+  {
+    "question": "211. At what level does infrastructure protection exist in AWS?",
+    "options": [
+      "A. The physical hardware layer",
+      "B. OSI layer 4",
+      "C. The VPC layer",
+      "D. OSI layer 7"
+    ],
+    "answers": [
+      "C. The VPC layer"
+    ]
+  },
+  {
+    "question": "212. Which of the following might be used to detect or identify a security breach in AWS? (Choose two.)",
+    "options": [
+      "B. CloudFormation",
+      "A. CloudWatch",
+      "D. Trusted Advisor",
+      "C. CloudTrail"
+    ],
+    "answers": [
+      "A. CloudWatch",
+      "C. CloudTrail"
+    ]
+  },
+  {
+    "question": "213. Which of the following AWS services is associated with privilege management?",
+    "options": [
+      "A. AWS Config",
+      "D. VPC",
+      "C. IAM",
+      "B. RDS"
+    ],
+    "answers": [
+      "C. IAM"
+    ]
+  },
+  {
+    "question": "214. Which of the following AWS services is associated with privilege management?",
+    "options": [
+      "C. CloudTrail",
+      "B. S3-IA",
+      "D. MFA",
+      "A. Internet gateway"
+    ],
+    "answers": [
+      "D. MFA"
+    ]
+  },
+  {
+    "question": "215. Which of the following AWS services is associated with identifying potential security holes?",
+    "options": [
+      "A. Trusted Advisor",
+      "C. Security Detector",
+      "B. CloudFormation",
+      "D. Security Advisor"
+    ],
+    "answers": [
+      "A. Trusted Advisor"
+    ]
+  },
+  {
+    "question": "216. Which of the following is not one of the five pillars in the cloud defined by the AWS wellarchitected framework?",
+    "options": [
+      "A. Operational excellence",
+      "C. Organizational blueprint",
+      "B. Performance efficiency",
+      "D. Cost optimization"
+    ],
+    "answers": [
+      "C. Organizational blueprint"
+    ]
+  },
+  {
+    "question": "217. Which of the following is not one of the five pillars in the cloud defined by the AWS wellarchitected framework?",
+    "options": [
+      "A. Performance efficiency",
+      "D. Reliability",
+      "C. Security",
+      "B. Usability"
+    ],
+    "answers": [
+      "B. Usability"
+    ]
+  },
+  {
+    "question": "218. Which of the following is not one of the security principles recommended by AWS\u2019s wellarchitected framework?",
+    "options": [
+      "D. Protect data in transit and at rest.",
+      "A. Automate security best practices.",
+      "B. Enable traceability.",
+      "C. Apply security at the highest layers."
+    ],
+    "answers": [
+      "C. Apply security at the highest layers."
+    ]
+  },
+  {
+    "question": "219. Which of the following is one of the security principles recommended by AWS\u2019s wellarchitected framework?",
+    "options": [
+      "D. Keep people away from data.",
+      "A. Make sure all users have passwords.",
+      "B. Only protect data at rest.",
+      "C. Turn on MFA Delete for S3 buckets."
+    ],
+    "answers": [
+      "D. Keep people away from data."
+    ]
+  },
+  {
+    "question": "220. The AWS\u2019s well-architected framework defines five areas to consider with respect to security. Choose the two that are part of this set. (Choose two.)",
+    "options": [
+      "D. Incident response",
+      "A. Identity and Access Management",
+      "B. User management",
+      "C. Virtual private networks"
+    ],
+    "answers": [
+      "D. Incident response",
+      "A. Identity and Access Management"
+    ]
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "question": "41. Which instance type is ideal for an application that has a flexible start and end time?",
+    "options": [
+      "C. Dedicated hosts",
+      "B. On-demand instances",
+      "D. Reserved instances",
+      "A. Spot instances"
+    ],
+    "answers": [
+      "A. Spot instances"
+    ]
+  },
+  {
+    "question": "42. Which instance type is ideal for an application that suffers numerous spikes in usage at unpredictable times?",
+    "options": [
+      "C. Dedicated hosts",
+      "B. On-demand instances",
+      "D. Reserved instances",
+      "A. Spot instances"
+    ],
+    "answers": [
+      "B. On-demand instances"
+    ]
+  },
+  {
+    "question": "43. Which instance type is ideal for an application that has a long-running compute job that cannot be interrupted but also suffers from significant fluctuations in usage patterns?",
+    "options": [
+      "C. Dedicated hosts",
+      "B. On-demand instances",
+      "D. Reserved instances",
+      "A. Spot instances"
+    ],
+    "answers": [
+      "B. On-demand instances"
+    ]
+  },
+  {
+    "question": "44. Which of the following are valid ways to purchase dedicated hosts? (Choose two.)",
+    "options": [
+      "B. All upfront",
+      "A. On-demand hourly",
+      "D. As a reservation",
+      "C. On layaway"
+    ],
+    "answers": [
+      "A. On-demand hourly",
+      "D. As a reservation"
+    ]
+  },
+  {
+    "question": "45. Which of the following are reasons to consider reserved instances? (Choose two.)",
+    "options": [
+      "A. You are running an application that involves lots of short-running compute jobs.",
+      "B. You are running an application with steady-state usage.",
+      "C. Your business is guaranteed to need cloud compute for at least the next 18 months.",
+      "D. You are looking to minimize commitments to AWS."
+    ],
+    "answers": [
+      "B. You are running an application with steady-state usage.",
+      "C. Your business is guaranteed to need cloud compute for at least the next 18 months."
+    ]
+  },
+  {
+    "question": "46. Which of the following is not a reason to consider spot instances?",
+    "options": [
+      "D. You expect usage to increase dramatically in the evenings and need to support that usage.",
+      "B. Your applications can only run if compute costs are low because of CPU utilization.",
+      "C. You expect to have significant compute needs and potentially a need for lots of additional capacity.",
+      "A. Your applications have flexible start and end times."
+    ],
+    "answers": [
+      "D. You expect usage to increase dramatically in the evenings and need to support that usage."
+    ]
+  },
+  {
+    "question": "47. You have been brought in to introduce an organization to the cloud. They have several applications ideal for cloud hosting but do not want to make any up-front commitments. Further, they are concerned that the cloud will be \u201cunreliable\u201d so you need to ensure that applications run smoothly. What instance types would you recommend?",
+    "options": [
+      "C. Dedicated hosts",
+      "B. On-demand instances",
+      "D. Reserved instances",
+      "A. Spot instances"
+    ],
+    "answers": [
+      "B. On-demand instances"
+    ]
+  },
+  {
+    "question": "48. Which of the following are benefits to spot instances? (Choose two.)",
+    "options": [
+      "A. Applications can be paused and later resumed.",
+      "B. Costs are reduced compared to on-demand pricing.",
+      "D. They can handle spikes in usage without issue.",
+      "C. The same hardware will be used for the life of an application."
+    ],
+    "answers": [
+      "A. Applications can be paused and later resumed.",
+      "B. Costs are reduced compared to on-demand pricing."
+    ]
+  },
+  {
+    "question": "49. Which of the following offers the lowest pricing for storage (per GB)?",
+    "options": [
+      "A. S3 standard",
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "D. Amazon Glacier"
+    ],
+    "answers": [
+      "D. Amazon Glacier"
+    ]
+  },
+  {
+    "question": "50. Which of the following is not an actual S3 storage class?",
+    "options": [
+      "A. S3-SSE",
+      "C. S3 RRS",
+      "B. S3 Standard-IA",
+      "D. Amazon Glacier"
+    ],
+    "answers": [
+      "A. S3-SSE"
+    ]
+  },
+  {
+    "question": "51. Which of the following would not incur a charge?",
+    "options": [
+      "D. Transferring data from an EC2 instance to an instance in another region",
+      "C. Uploading data to S3 via a user\u2019s web interface",
+      "A. Distributing data via S3 signed URLs to an Internet client in the same region",
+      "B. Distributing data via CloudFront to an Internet client in a different region"
+    ],
+    "answers": [
+      "C. Uploading data to S3 via a user\u2019s web interface"
+    ]
+  },
+  {
+    "question": "52. Which of the following would not incur a charge?",
+    "options": [
+      "D. Importing data to S3 via Transfer Acceleration",
+      "A. Transferring data from S3 to CloudFront",
+      "B. Distributing data via CloudFront to an Internet client in a different region",
+      "C. Transferring data from an EC2 instance to an instance in another region"
+    ],
+    "answers": [
+      "A. Transferring data from S3 to CloudFront"
+    ]
+  },
+  {
+    "question": "53. What is the AWS free tier?",
+    "options": [
+      "D. A prepackaged suite of AWS services that can be used for web hosting at no cost",
+      "B. A tier of AWS that allows limited access to AWS services at no cost",
+      "A. A platform for experimenting with AWS that can never be in production",
+      "C. A class of EC2 instances that never cost anything for unlimited compute"
+    ],
+    "answers": [
+      "B. A tier of AWS that allows limited access to AWS services at no cost"
+    ]
+  },
+  {
+    "question": "54. What is the AWS marketplace?",
+    "options": [
+      "B. A market for prebuilt AMIs beyond the standard AWS offerings",
+      "C. A market for plug-ins and trials of paid third-party AWS services",
+      "A. A market for products, many of which can run on the AWS free tier",
+      "D. All of these"
+    ],
+    "answers": [
+      "D. All of these"
+    ]
+  },
+  {
+    "question": "55. What of the following services is available in AWS free tier?",
+    "options": [
+      "D. All of these",
+      "B. AWS Lambda",
+      "A. DynamoDB",
+      "C. SNS and SQS"
+    ],
+    "answers": [
+      "D. All of these"
+    ]
+  },
+  {
+    "question": "56. Which of the following is an AWS support plan?",
+    "options": [
+      "D. Enterprise",
+      "A. Standard",
+      "C. Small teams",
+      "B. Free"
+    ],
+    "answers": [
+      "D. Enterprise"
+    ]
+  },
+  {
+    "question": "57. Which of the following AWS support plans offer 24/7 support? (Choose two.)",
+    "options": [
+      "B. Developer",
+      "C. Business",
+      "D. Enterprise",
+      "A. Basic"
+    ],
+    "answers": [
+      "C. Business",
+      "D. Enterprise"
+    ]
+  },
+  {
+    "question": "58. What is AWS Trusted Advisor?",
+    "options": [
+      "A. An AWS security service",
+      "D. A performance tool to help you correctly size your Auto Scaling groups",
+      "C. A logging tool to help you detect intrusions",
+      "B. An online resource to help you reduce cost"
+    ],
+    "answers": [
+      "B. An online resource to help you reduce cost"
+    ]
+  },
+  {
+    "question": "59. How many core Trusted Advisor checks does the Trusted Advisor tool provide?",
+    "options": [
+      "B. Four",
+      "D. Nine",
+      "C. Five",
+      "A. Three"
+    ],
+    "answers": [
+      "C. Five"
+    ]
+  },
+  {
+    "question": "60. Which of the following might be a recommendation from Trusted Advisor? (Choose two.)",
+    "options": [
+      "D. Turn on MFA Delete for S3.",
+      "A. Turn on MFA for the root account.",
+      "B. Turn off global access to an S3 bucket.",
+      "C. Turn on Transfer Acceleration for S3."
+    ],
+    "answers": [
+      "A. Turn on MFA for the root account.",
+      "B. Turn off global access to an S3 bucket."
+    ]
+  }
+]

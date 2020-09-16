@@ -1,0 +1,253 @@
+[
+  {
+    "question": "161. Which of the following are components of IAM? (Choose two.)",
+    "options": [
+      "D. Organizational units",
+      "B. Groups",
+      "A. Users",
+      "C. Organizations"
+    ],
+    "answers": [
+      "B. Groups",
+      "A. Users"
+    ]
+  },
+  {
+    "question": "162. Which of the following are components of IAM? (Choose two.)",
+    "options": [
+      "D. Permissions",
+      "C. Connections",
+      "A. Roles",
+      "B. User policies"
+    ],
+    "answers": [
+      "D. Permissions",
+      "A. Roles"
+    ]
+  },
+  {
+    "question": "163. You are tasked with ensuring that a fleet of EC2 instances can retrieve data from S3 buckets. Which of the following might you need to create? (Choose two.)",
+    "options": [
+      "C. Policy",
+      "A. Role",
+      "D. Group",
+      "B. User"
+    ],
+    "answers": [
+      "C. Policy",
+      "A. Role"
+    ]
+  },
+  {
+    "question": "164. Which types of access can you give a user via IAM? (Choose two.)",
+    "options": [
+      "C. Organizational",
+      "D. Programmatic",
+      "B. Application",
+      "A. Console"
+    ],
+    "answers": [
+      "D. Programmatic",
+      "A. Console"
+    ]
+  },
+  {
+    "question": "165. Which of the following are valid AWS and IAM policy types? (Choose two.)",
+    "options": [
+      "B. Application-based",
+      "D. Permission-based",
+      "C. Resource-based",
+      "A. Access control lists"
+    ],
+    "answers": [
+      "C. Resource-based",
+      "A. Access control lists"
+    ]
+  },
+  {
+    "question": "166. In what language do you write IAM policies?",
+    "options": [
+      "B. JSON",
+      "D. ACSCII",
+      "C. PHP",
+      "A. YAML"
+    ],
+    "answers": [
+      "B. JSON"
+    ]
+  },
+  {
+    "question": "167. To which of the following can an IAM policy be attached? (Choose two.)",
+    "options": [
+      "D. Passwords",
+      "C. Groups",
+      "A. Users",
+      "B. Database entries"
+    ],
+    "answers": [
+      "C. Groups",
+      "A. Users"
+    ]
+  },
+  {
+    "question": "168. What does MFA stand for?",
+    "options": [
+      "C. Multi-Factor Authorization",
+      "B. Multi-Factor Authentication",
+      "D. Multi-Fraction Authorization",
+      "A. Multi-Fraction Authentication"
+    ],
+    "answers": [
+      "B. Multi-Factor Authentication"
+    ]
+  },
+  {
+    "question": "169. How does IAM provide scalability benefits to your application deployments? (Choose two.)",
+    "options": [
+      "A. It allows assignment of permissions to users en masse via groups.",
+      "B. It handles allowing users access to hosted applications en masse.",
+      "D. It ensures that users do not accidentally delete objects from S3 stores.",
+      "C. It allows consistency in access from instances to managed AWS services across large numbers of instances."
+    ],
+    "answers": [
+      "A. It allows assignment of permissions to users en masse via groups.",
+      "C. It allows consistency in access from instances to managed AWS services across large numbers of instances."
+    ]
+  },
+  {
+    "question": "170. Which of the following provide centralized user management across your AWS resources? (Choose two.)",
+    "options": [
+      "D. AWS Organizations",
+      "B. S3 SSE-C",
+      "A. KMS",
+      "C. IAM"
+    ],
+    "answers": [
+      "C. IAM",
+      "D. AWS Organizations"
+    ]
+  },
+  {
+    "question": "171. What is power user access, as it relates to IAM roles?",
+    "options": [
+      "A. The AWS name for the root user",
+      "C. A type of user that has full access to all AWS services and resources but not group or user management",
+      "D. A user that can access application deployment profiles",
+      "B. All IAM users are considered power users."
+    ],
+    "answers": [
+      "C. A type of user that has full access to all AWS services and resources but not group or user management"
+    ]
+  },
+  {
+    "question": "172. Which of the following can the root user not do?",
+    "options": [
+      "D. The root user can do all of these.",
+      "A. Create users.",
+      "B. Remove user access to the console.",
+      "C. Delete a role."
+    ],
+    "answers": [
+      "D. The root user can do all of these."
+    ]
+  },
+  {
+    "question": "173. Which of the following can a power user not do?",
+    "options": [
+      "C. Stop a running EC2 instance created by another user.",
+      "D. The power user can do all of these.",
+      "A. Create users.",
+      "B. Create a new SNS topic."
+    ],
+    "answers": [
+      "A. Create users."
+    ]
+  },
+  {
+    "question": "174. Which of the following is a best practice for handling root user access keys?",
+    "options": [
+      "A. Store them only in an instances-protected .aws/ directory.",
+      "D. Enable MFA Delete for when they are used in association with S3.",
+      "C. Only use them for API access but avoid console access.",
+      "B. Delete them and instead use different user IAM credentials."
+    ],
+    "answers": [
+      "B. Delete them and instead use different user IAM credentials."
+    ]
+  },
+  {
+    "question": "175. Which of the following require root user credentials? (Choose two.)",
+    "options": [
+      "A. Close an AWS account.",
+      "B. Delete IAM users.",
+      "D. Create an IAM policy.",
+      "C. Create a CloudFront key pair."
+    ],
+    "answers": [
+      "A. Close an AWS account.",
+      "C. Create a CloudFront key pair."
+    ]
+  },
+  {
+    "question": "176. Which of the following do not require root user credentials? (Choose two.)",
+    "options": [
+      "C. Restoring revoked permissions for a user",
+      "A. Resizing an existing RDS instance",
+      "B. Deploying an application via a CloudFormation template",
+      "D. Changing support options for an AWS account"
+    ],
+    "answers": [
+      "A. Resizing an existing RDS instance",
+      "B. Deploying an application via a CloudFormation template"
+    ]
+  },
+  {
+    "question": "177. How do you remove the AWS account root user\u2019s access to your application EC2 instances?",
+    "options": [
+      "D. You can\u2019t remove access for an AWS account root user.",
+      "C. Remove any keys from the instance\u2019s .ssh/ directory.",
+      "B. Switch the instance to only accept SSH logins.",
+      "A. Delete all the keys in the instance\u2019s .aws/ directory."
+    ],
+    "answers": [
+      "D. You can\u2019t remove access for an AWS account root user."
+    ]
+  },
+  {
+    "question": "178. In a typical single-account AWS environment, which group of users should have root-level account access?",
+    "options": [
+      "B. Account auditors and developers",
+      "A. Developers and managers",
+      "D. Nobody",
+      "C. 2 to 3 developers or engineers responsible for account management"
+    ],
+    "answers": [
+      "C. 2 to 3 developers or engineers responsible for account management"
+    ]
+  },
+  {
+    "question": "179. Which of the following is not a predefined AWS IAM policy?",
+    "options": [
+      "D. These are all predefined policies in IAM.",
+      "B. Power User",
+      "C. Billing",
+      "A. Administrator"
+    ],
+    "answers": [
+      "D. These are all predefined policies in IAM."
+    ]
+  },
+  {
+    "question": "180. You want to set your DevOps team up quickly in IAM. You have created users for each member of the team. What additional steps should you take? (Choose two.)",
+    "options": [
+      "D. Attach the View-Only User policy to each user.",
+      "C. Attach the Developer Power User policy to each user.",
+      "A. Create sign-in URLs for the users.",
+      "B. Check the DevOps option for each user in the console."
+    ],
+    "answers": [
+      "C. Attach the Developer Power User policy to each user.",
+      "A. Create sign-in URLs for the users."
+    ]
+  }
+]

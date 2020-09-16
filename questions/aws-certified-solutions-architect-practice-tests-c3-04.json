@@ -1,0 +1,252 @@
+[
+  {
+    "question": "61. How many security groups can you attach to a single instance in a VPC?",
+    "options": [
+      "D. 2 or more",
+      "C. 1 or more",
+      "B. 1",
+      "A. None, security groups aren\u2019t attached to instances."
+    ],
+    "answers": [
+      "C. 1 or more"
+    ]
+  },
+  {
+    "question": "62. Which of the following can be added to a VPC, in addition to security groups on included instances, to further secure the VPC?",
+    "options": [
+      "A. A NACL",
+      "C. An ALB",
+      "B. A port filter",
+      "D. A flow log"
+    ],
+    "answers": [
+      "A. A NACL"
+    ]
+  },
+  {
+    "question": "63. Which of the following statements is true about a custom, user-created NACL?",
+    "options": [
+      "C. A NACL is a virtual firewall for associated subnets.",
+      "D. A NACL functions at the instance level.",
+      "A. A NACL by default allows all traffic out of a VPC.",
+      "B. A NACL by default allows all traffic into a VPC."
+    ],
+    "answers": [
+      "C. A NACL is a virtual firewall for associated subnets."
+    ]
+  },
+  {
+    "question": "64. What do you use to permit and restrict control of a NACL?",
+    "options": [
+      "B. WAF",
+      "C. AWS Organizations",
+      "A. VPC",
+      "D. IAM"
+    ],
+    "answers": [
+      "D. IAM"
+    ]
+  },
+  {
+    "question": "65. Which of these are true about security groups? (Choose two.)",
+    "options": [
+      "A. Support allow and deny rules",
+      "C. Operate at the instance level",
+      "B. Evaluate all rules before deciding whether to allow traffic",
+      "D. Apply to all instances in the associated subnet"
+    ],
+    "answers": [
+      "C. Operate at the instance level",
+      "B. Evaluate all rules before deciding whether to allow traffic"
+    ]
+  },
+  {
+    "question": "66. Which of these are true about security groups? (Choose two.)",
+    "options": [
+      "C. Process rules in order",
+      "B. Stateless",
+      "A. Stateful",
+      "D. Associated with an instance"
+    ],
+    "answers": [
+      "A. Stateful",
+      "D. Associated with an instance"
+    ]
+  },
+  {
+    "question": "67. Which of these are true about NACLs? (Choose two.)",
+    "options": [
+      "C. Process rules in order",
+      "B. Stateless",
+      "A. Stateful",
+      "D. Associated with an instance"
+    ],
+    "answers": [
+      "C. Process rules in order",
+      "B. Stateless"
+    ]
+  },
+  {
+    "question": "68. Which of these are true about NACLs? (Choose two.)",
+    "options": [
+      "C. Support allow and deny rules",
+      "B. Only apply if no security group is present",
+      "D. Evaluate all rules before deciding whether to allow or disallow traffic",
+      "A. Apply to all instances in an associated subnet"
+    ],
+    "answers": [
+      "C. Support allow and deny rules",
+      "A. Apply to all instances in an associated subnet"
+    ]
+  },
+  {
+    "question": "69. In which order are NACLs and security groups evaluated?",
+    "options": [
+      "A. NACLs and security groups are evaluated in parallel.",
+      "D. It depends on the VPC setup.",
+      "C. A security group is evaluated first, and then the NACL.",
+      "B. A NACL is evaluated first, and then the security group."
+    ],
+    "answers": [
+      "B. A NACL is evaluated first, and then the security group."
+    ]
+  },
+  {
+    "question": "70. Which of these statements are true? (Choose two.)",
+    "options": [
+      "D. A NACL can apply to only one instance at the same time.",
+      "B. A NACL applies to all instances within a subnet at the same time.",
+      "A. A security group can apply to two instances at the same time.",
+      "C. A security group can apply to only one instance at the same time."
+    ],
+    "answers": [
+      "B. A NACL applies to all instances within a subnet at the same time.",
+      "A. A security group can apply to two instances at the same time."
+    ]
+  },
+  {
+    "question": "71. With which of the following is a NACL associated?",
+    "options": [
+      "B. A subnet",
+      "D. A NACL can be associated with all of these.",
+      "A. An instance",
+      "C. A VPC"
+    ],
+    "answers": [
+      "B. A subnet"
+    ]
+  },
+  {
+    "question": "72. Which of the following are true about the default NACL that comes with the default VPC? (Choose two.)",
+    "options": [
+      "D. It disallows all outbound traffic.",
+      "C. It disallows all inbound traffic.",
+      "B. It allows all outbound traffic.",
+      "A. It allows all inbound traffic."
+    ],
+    "answers": [
+      "B. It allows all outbound traffic.",
+      "A. It allows all inbound traffic."
+    ]
+  },
+  {
+    "question": "73. Which of the following are true about a user-created NACL? (Choose two.)",
+    "options": [
+      "D. It disallows all outbound traffic.",
+      "C. It disallows all inbound traffic.",
+      "B. It allows all outbound traffic.",
+      "A. It allows all inbound traffic."
+    ],
+    "answers": [
+      "C. It disallows all inbound traffic.",
+      "D. It disallows all outbound traffic."
+    ]
+  },
+  {
+    "question": "74. In which order are rules in a NACL evaluated?",
+    "options": [
+      "C. From low to high, using the port of the rule",
+      "A. From low to high, using the number on the rule",
+      "D. From high to low, using the port of the rule",
+      "B. From high to low, using the number on the rule"
+    ],
+    "answers": [
+      "A. From low to high, using the number on the rule"
+    ]
+  },
+  {
+    "question": "75. Which of the following statements is not true? (Choose two.)",
+    "options": [
+      "B. Network ACLs are stateful.",
+      "A. A network ACL has separate inbound and outbound rules.",
+      "D. A network ACL can only be associated with a single subnet.",
+      "C. Each subnet in your VPC must be associated with a NACL."
+    ],
+    "answers": [
+      "B. Network ACLs are stateful.",
+      "D. A network ACL can only be associated with a single subnet."
+    ]
+  },
+  {
+    "question": "76. With how many subnets can a NACL be associated?",
+    "options": [
+      "C. A NACL is associated with instances, not subnets.",
+      "A. One",
+      "D. A NACL is associated with VPCs, not subnets.",
+      "B. One or more"
+    ],
+    "answers": [
+      "B. One or more"
+    ]
+  },
+  {
+    "question": "77. With how many NACLs can a subnet be associated?",
+    "options": [
+      "A. One",
+      "C. A subnet is associated with security groups, not NACLs.",
+      "D. A subnet is associated with VPCs, not NACLs.",
+      "B. One or more"
+    ],
+    "answers": [
+      "A. One"
+    ]
+  },
+  {
+    "question": "78. What happens when you associate a NACL with a subnet that already is associated with a different NACL?",
+    "options": [
+      "D. The new NACL replaces the previous NACL, and the subnet still only has one NACL association.",
+      "A. Nothing, both NACLs are associated with the subnet.",
+      "C. You receive an error. You must first merge the two NACLs to apply them to a subnet.",
+      "B. You receive an error. You must remove the first NACL to associate the new one."
+    ],
+    "answers": [
+      "D. The new NACL replaces the previous NACL, and the subnet still only has one NACL association."
+    ]
+  },
+  {
+    "question": "79. Which of the following are part of a network ACL rule? (Choose two.)",
+    "options": [
+      "B. A rule number",
+      "C. An IAM group",
+      "A. An ASCII code",
+      "D. A protocol"
+    ],
+    "answers": [
+      "B. A rule number",
+      "D. A protocol"
+    ]
+  },
+  {
+    "question": "80. Which of the following are part of a network ACL rule? (Choose two.)",
+    "options": [
+      "D. A VPC identifier",
+      "B. A CIDR range",
+      "A. An ALLOW or DENY specification",
+      "C. An IP address"
+    ],
+    "answers": [
+      "B. A CIDR range",
+      "A. An ALLOW or DENY specification"
+    ]
+  }
+]

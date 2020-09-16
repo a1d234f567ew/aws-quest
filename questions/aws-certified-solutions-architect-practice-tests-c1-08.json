@@ -1,0 +1,245 @@
+[
+  {
+    "question": "141. Which AWS service allows you to run code without provisioning any of the underlying resources required by that code?",
+    "options": [
+      "C. DynamoDB",
+      "D. Lambda",
+      "A. EC2",
+      "B. ECS"
+    ],
+    "answers": [
+      "D. Lambda"
+    ]
+  },
+  {
+    "question": "142. Which of the following AWS services allow you to run code without worrying about provisioning specific resources for that code? (Choose two.)",
+    "options": [
+      "C. DynamoDB",
+      "A. Elastic Beanstalk",
+      "D. Lambda",
+      "B. ECS"
+    ],
+    "answers": [
+      "A. Elastic Beanstalk",
+      "D. Lambda"
+    ]
+  },
+  {
+    "question": "143. Do Lambda functions run on servers?",
+    "options": [
+      "B. Yes, you must provide an existing EC2 instance to run on.",
+      "C. No, Lambda code runs purely in the cloud without a server involved.",
+      "D. No, Lambda code runs in a container.",
+      "A. Yes, they automatically spin up an EC2 instance as needed without user intervention."
+    ],
+    "answers": [
+      "A. Yes, they automatically spin up an EC2 instance as needed without user intervention."
+    ]
+  },
+  {
+    "question": "144. Which of the following languages work on Lambda? (Choose two.)",
+    "options": [
+      "D. C++",
+      "A. JavaScript",
+      "B. Node.js",
+      "C. Scala"
+    ],
+    "answers": [
+      "A. JavaScript",
+      "B. Node.js"
+    ]
+  },
+  {
+    "question": "145. Which of the following are reasons to use Lambda versus EC2? (Choose two.)",
+    "options": [
+      "A. You need to install Oracle and want to avoid compute costs.",
+      "B. Your code primarily responds to events from other AWS services.",
+      "D. You want to deploy your own Docker containers.",
+      "C. Your primary concern is scaling."
+    ],
+    "answers": [
+      "B. Your code primarily responds to events from other AWS services.",
+      "C. Your primary concern is scaling."
+    ]
+  },
+  {
+    "question": "146. What AWS service converts media files to formats suitable for different sized devices?",
+    "options": [
+      "C. Lightsail",
+      "B. SWF",
+      "D. Elastic Beanstalk",
+      "A. Elastic Transcoder"
+    ],
+    "answers": [
+      "A. Elastic Transcoder"
+    ]
+  },
+  {
+    "question": "147. What AWS service is ideal for gathering business intelligence from multiple data sources?",
+    "options": [
+      "C. CloudTrail",
+      "D. RDS",
+      "B. QuickSight",
+      "A. Lightsail"
+    ],
+    "answers": [
+      "B. QuickSight"
+    ]
+  },
+  {
+    "question": "148. What is AWS\u2019s system for sending out alerts and alarms based on specific events in an environment?",
+    "options": [
+      "B. SNS",
+      "A. SQS",
+      "D. CloudTrail",
+      "C. SWF"
+    ],
+    "answers": [
+      "B. SNS"
+    ]
+  },
+  {
+    "question": "149. Which service would you use to create a single-sign on system for a user base that already has credentials they want to use outside of AWS?",
+    "options": [
+      "A. Cognito",
+      "D. IAM",
+      "C. SWF",
+      "B. Kinesis"
+    ],
+    "answers": [
+      "A. Cognito"
+    ]
+  },
+  {
+    "question": "150. What does an AWS region consist of?",
+    "options": [
+      "A. A collection of virtual data centers spread across a continent",
+      "B. A collection of virtual data centers spread across a specific geographic area",
+      "D. A collection of virtual databases spread across a specific geographic area",
+      "C. A collection of virtual servers spread across a continent"
+    ],
+    "answers": [
+      "B. A collection of virtual data centers spread across a specific geographic area"
+    ]
+  },
+  {
+    "question": "151. What type of services are associated with an AWS VPC?",
+    "options": [
+      "D. Networking services",
+      "B. Database services",
+      "A. Storage services",
+      "C. Compute services"
+    ],
+    "answers": [
+      "D. Networking services"
+    ]
+  },
+  {
+    "question": "152. What type of services are associated with ECS?",
+    "options": [
+      "D. Networking services",
+      "B. Database services",
+      "A. Storage services",
+      "C. Compute services"
+    ],
+    "answers": [
+      "C. Compute services"
+    ]
+  },
+  {
+    "question": "153. What type of services are associated with RDS?",
+    "options": [
+      "D. Networking services",
+      "B. Database services",
+      "A. Storage services",
+      "C. Compute services"
+    ],
+    "answers": [
+      "B. Database services"
+    ]
+  },
+  {
+    "question": "154. What type of services are associated with Route 53?",
+    "options": [
+      "D. Networking services",
+      "B. Database services",
+      "A. Storage services",
+      "C. Compute services"
+    ],
+    "answers": [
+      "D. Networking services"
+    ]
+  },
+  {
+    "question": "155. What type of services are associated with a customer gateway?",
+    "options": [
+      "D. Networking services",
+      "B. Database services",
+      "A. Storage services",
+      "C. Compute services"
+    ],
+    "answers": [
+      "D. Networking services"
+    ]
+  },
+  {
+    "question": "156. What type of services are associated with S3 lifecycle management?",
+    "options": [
+      "D. Networking services",
+      "B. Database services",
+      "A. Storage services",
+      "C. Compute services"
+    ],
+    "answers": [
+      "A. Storage services"
+    ]
+  },
+  {
+    "question": "157. What type of services are associated with Amazon Lightsail?",
+    "options": [
+      "B. Networking services",
+      "A. Storage services",
+      "C. Compute services",
+      "D. All of the above"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "158. What type of services are associated with Elastic Beanstalk?",
+    "options": [
+      "B. Networking services",
+      "A. Storage services",
+      "C. Compute services",
+      "D. All of the above"
+    ],
+    "answers": [
+      "C. Compute services"
+    ]
+  },
+  {
+    "question": "159. What type of services are associated with EFS?",
+    "options": [
+      "B. Networking services",
+      "A. Storage services",
+      "C. Compute services",
+      "D. All of the above"
+    ],
+    "answers": [
+      "A. Storage services"
+    ]
+  },
+  {
+    "question": "160. What type of services are associated with Redshift?",
+    "options": [
+      "D. All of the above",
+      "B. Networking services",
+      "A. Storage services",
+      "C. Database services"
+    ],
+    "answers": [
+      "C. Database services"
+    ]
+  }
+]

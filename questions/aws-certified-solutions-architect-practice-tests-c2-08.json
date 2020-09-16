@@ -1,0 +1,249 @@
+[
+  {
+    "question": "141. Which of the following routing policies chooses a route for a user based on the user\u2019s geographic location?",
+    "options": [
+      "C. Geolocation routing",
+      "A. Health-based routing",
+      "D. Region-based routing",
+      "B. Failover routing"
+    ],
+    "answers": [
+      "C. Geolocation routing"
+    ]
+  },
+  {
+    "question": "142. Which of the following routing policies chooses a route for a user based on the latency of the available region to which traffic can be directed?",
+    "options": [
+      "A. Health-based routing",
+      "D. Region-based routing",
+      "B. Latency-based routing",
+      "C. Geolocation routing"
+    ],
+    "answers": [
+      "B. Latency-based routing"
+    ]
+  },
+  {
+    "question": "143. Which of the following routing policies can direct traffic to multiple resources as long as those resources are healthy?",
+    "options": [
+      "A. Health-based routing",
+      "C. Multivalue answer routing",
+      "B. Latency-based routing",
+      "D. Region-based routing"
+    ],
+    "answers": [
+      "C. Multivalue answer routing"
+    ]
+  },
+  {
+    "question": "144. Which of the following routing policies uses assigned weights to shape traffic to different resources?",
+    "options": [
+      "A. Health-based routing",
+      "C. Multivalue answer routing",
+      "B. Latency-based routing",
+      "D. Weighted routing"
+    ],
+    "answers": [
+      "D. Weighted routing"
+    ]
+  },
+  {
+    "question": "145. Which of the following routing policies is ideal for routing traffic to a single web server?",
+    "options": [
+      "A. Simple routing",
+      "C. Multivalue answer routing",
+      "B. Latency-based routing",
+      "D. Weighted routing"
+    ],
+    "answers": [
+      "A. Simple routing"
+    ]
+  },
+  {
+    "question": "146. Which of the following Route 53 routing policies are ideal for a geographically distributed user base? (Choose two.)",
+    "options": [
+      "C. Geoproximity routing",
+      "A. Geolocation routing",
+      "B. Geographical routing",
+      "D. Weighted routing"
+    ],
+    "answers": [
+      "A. Geolocation routing",
+      "C. Geoproximity routing"
+    ]
+  },
+  {
+    "question": "147. Which of the following values is an invalid weight for a weighted routing policy?",
+    "options": [
+      "B. 255",
+      "A. 1",
+      "D. These weights are all valid.",
+      "C. 125"
+    ],
+    "answers": [
+      "D. These weights are all valid."
+    ]
+  },
+  {
+    "question": "148. How does a weight of 0 affect routing on Route 53 when using a weighted routing policy?",
+    "options": [
+      "B. All traffic is directed to the resource with a weight of 0, as long as that resource is healthy.",
+      "A. 0 is an invalid weight.",
+      "D. Traffic is routed to the resource, but health checks are not performed.",
+      "C. No traffic is directed to the resource with a weight of 0."
+    ],
+    "answers": [
+      "C. No traffic is directed to the resource with a weight of 0."
+    ]
+  },
+  {
+    "question": "149. You have three resources in a weighted routing policy. Resource A has a weight of 100, resource B has a weight of 100, and resource C has a weight of 200. How will traffic be routed in this scenario?",
+    "options": [
+      "B. 10% of traffic to resource A, 10% of traffic to resource B, and 20% of traffic to resource C",
+      "A. 25% of traffic to resource A, 25% of traffic to resource B, and 50% of traffic to resource C",
+      "C. 33% of traffic to resource A, 33% of traffic to resource B, and 33% of traffic to resource C",
+      "D. There is not enough information to know how routing will occur in this scenario."
+    ],
+    "answers": [
+      "A. 25% of traffic to resource A, 25% of traffic to resource B, and 50% of traffic to resource C"
+    ]
+  },
+  {
+    "question": "150. Which of the following statements concerning Route 53 routing policies are true? (Choose two.)",
+    "options": [
+      "D. Health checks are ignored if a resource has a weight of over 100 in a routing policy.",
+      "B. A weighted routing policy uses weights for routing, but not health checks.",
+      "A. You can have multiple primary resources in a simple routing policy.",
+      "C. You can have multiple secondary resources in a simple routing policy."
+    ],
+    "answers": [
+      "A. You can have multiple primary resources in a simple routing policy.",
+      "C. You can have multiple secondary resources in a simple routing policy."
+    ]
+  },
+  {
+    "question": "151. You are responsible for a media-serving website backed by a database that has a global user base. The fleet of EC2 instances serving the website is responding well to requests from the US, but requests from the EU are taking nearly five times as long to receive a response. Database CPU utilization stays between 70% and 90% throughout the day. What suggestions would you make to attempt to improve performance of this website? (Choose two.)",
+    "options": [
+      "B. Set up CloudFront to enable caching of data at edge locations closer to the EU user base.",
+      "C. Set up an Auto Scaling group with low CPU thresholds to scale up the EC2 instances.",
+      "D. Create additional EC2 instances that will serve the website, and locate them in a South Asia region.",
+      "A. Install ElastiCache in front of the RDS instance to cache common queries and reduce database reads and therefore overall load."
+    ],
+    "answers": [
+      "B. Set up CloudFront to enable caching of data at edge locations closer to the EU user base.",
+      "A. Install ElastiCache in front of the RDS instance to cache common queries and reduce database reads and therefore overall load."
+    ]
+  },
+  {
+    "question": "152. Which of the following are not valid instance types? (Choose two.)",
+    "options": [
+      "C. M5",
+      "A. T3",
+      "B. E1",
+      "D. Q2"
+    ],
+    "answers": [
+      "B. E1",
+      "D. Q2"
+    ]
+  },
+  {
+    "question": "153. What is the primary purpose of IAM?",
+    "options": [
+      "A. Deployment of applications",
+      "C. User authentication for applications",
+      "D. Configuration of applications",
+      "B. Management of permissions in AWS"
+    ],
+    "answers": [
+      "B. Management of permissions in AWS"
+    ]
+  },
+  {
+    "question": "154. Which of the following statements about IAM are accurate? (Choose two.)",
+    "options": [
+      "D. IAM manages single sign-on for users to AWS applications.",
+      "A. IAM manages access from one AWS resource to another.",
+      "C. IAM manages access from a user to the AWS console.",
+      "B. IAM manages the authentication interface for the AWS console."
+    ],
+    "answers": [
+      "A. IAM manages access from one AWS resource to another.",
+      "C. IAM manages access from a user to the AWS console."
+    ]
+  },
+  {
+    "question": "155. What does IAM stand for?",
+    "options": [
+      "A. Improved Access Management",
+      "B. Identity and Access Management",
+      "C. Information and Access Management",
+      "D. Identity and Authorization Management"
+    ],
+    "answers": [
+      "B. Identity and Access Management"
+    ]
+  },
+  {
+    "question": "156. Which of the following does IAM manage? (Choose two.)",
+    "options": [
+      "C. Management of roles affecting resources within AWS",
+      "A. Management of users accessing the AWS platform",
+      "D. Management of cost controls for user actions",
+      "B. Management of permissions for hosted application features"
+    ],
+    "answers": [
+      "C. Management of roles affecting resources within AWS",
+      "A. Management of users accessing the AWS platform"
+    ]
+  },
+  {
+    "question": "157. Which of these is not managed by IAM? (Choose two.)",
+    "options": [
+      "D. A role that allows EC2 instances to access S3 buckets",
+      "B. Groups of users that can log in to a hosted web application",
+      "C. Which resources receive notifications from SNS",
+      "A. Groups of users that share permissions in AWS"
+    ],
+    "answers": [
+      "B. Groups of users that can log in to a hosted web application",
+      "C. Which resources receive notifications from SNS"
+    ]
+  },
+  {
+    "question": "158. Which of the following is not a feature of IAM?",
+    "options": [
+      "A. Multi-Factor Authentication for AWS console access",
+      "D. Integration with Active Directory accounts",
+      "C. Centralized control of AWS resource access",
+      "B. Multi-Factor Authentication for object deletion in S3"
+    ],
+    "answers": [
+      "B. Multi-Factor Authentication for object deletion in S3"
+    ]
+  },
+  {
+    "question": "159. Which of the following is a security risk as you grow your AWS developer base?",
+    "options": [
+      "A. Turning on MFA for AWS console access",
+      "C. Creating an account for each developer",
+      "B. Using a single developer account across your team",
+      "D. Requiring passwords with 12 or more characters"
+    ],
+    "answers": [
+      "B. Using a single developer account across your team"
+    ]
+  },
+  {
+    "question": "160. Which of the following is required when you create additional IAM users beyond the root user?",
+    "options": [
+      "C. Creating a customized sign-in link for users in addition to the AWS root account signin link",
+      "A. Turning on MFA for all accounts",
+      "B. Turning on MFA for the root account",
+      "D. Creating IAM groups for each new user"
+    ],
+    "answers": [
+      "C. Creating a customized sign-in link for users in addition to the AWS root account signin link"
+    ]
+  }
+]

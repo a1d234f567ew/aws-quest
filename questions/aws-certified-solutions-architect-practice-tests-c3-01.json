@@ -1,0 +1,254 @@
+[
+  {
+    "question": "1. When creating a new security group, which of the following are true? (Choose two.)",
+    "options": [
+      "D. Connections that are allowed in are automatically allowed back out.",
+      "C. Connections that are allowed in must also explicitly be allowed back out.",
+      "B. All outbound traffic is allowed by default.",
+      "A. All inbound traffic is allowed by default."
+    ],
+    "answers": [
+      "D. Connections that are allowed in are automatically allowed back out.",
+      "B. All outbound traffic is allowed by default."
+    ]
+  },
+  {
+    "question": "2. You have a government-regulated system that will store a large amount of data on S3 standard. You must encrypt all data and preserve a clear audit trail for traceability and third-party auditing. Security policies dictate that encryption must be consistent across the entire data store. Which of the following encryption approaches would be best?",
+    "options": [
+      "D. Encrypt the data prior to upload to S3 and decrypt the data when returning it to the client.",
+      "A. SSE-C",
+      "B. SSE-KMS",
+      "C. SSE-C"
+    ],
+    "answers": [
+      "B. SSE-KMS"
+    ]
+  },
+  {
+    "question": "3. You are creating a bastion host to allow SSH access to a set of EC2 instances in a private subnet within your organization\u2019s VPC. Which of the following should be done as part of configuring the bastion host? (Choose two.)",
+    "options": [
+      "D. Ensure that the bastion host is within the same security group as the hosts within the private subnet.",
+      "C. Add a route from the bastion host IP into the private subnet into the subnet\u2019s NACLs.",
+      "B. Place the bastion host within the private subnet.",
+      "A. Ensure that the bastion host is exposed directly to the Internet."
+    ],
+    "answers": [
+      "C. Add a route from the bastion host IP into the private subnet into the subnet\u2019s NACLs.",
+      "A. Ensure that the bastion host is exposed directly to the Internet."
+    ]
+  },
+  {
+    "question": "4. Which of the following are invalid IAM actions? (Choose two.)",
+    "options": [
+      "C. Removing console access for the root account",
+      "A. Limiting the root account SSH access to all EC2 instances",
+      "D. Removing console access for all non-root user accounts",
+      "B. Allowing a user account SSH access to all EC2 instances"
+    ],
+    "answers": [
+      "C. Removing console access for the root account",
+      "A. Limiting the root account SSH access to all EC2 instances"
+    ]
+  },
+  {
+    "question": "5. Which of the following statements is true?",
+    "options": [
+      "B. You should never store your application keys on an instance, in an AMI, or anywhere else permanent on the cloud.",
+      "C. You should only store application keys in an encrypted AMI.",
+      "A. You should store application keys only in your application\u2019s .aws file.",
+      "D. You should only use your application key to log in to the AWS console."
+    ],
+    "answers": [
+      "B. You should never store your application keys on an instance, in an AMI, or anywhere else permanent on the cloud."
+    ]
+  },
+  {
+    "question": "6. Your company is setting up a VPN connection to connect its local network to an AWS VPC. Which of the following components are not necessary for this setup? (Choose two.)",
+    "options": [
+      "A. A NAT instance",
+      "C. A private subnet in the AWS VPC",
+      "D. A customer gateway",
+      "B. A virtual private gateway"
+    ],
+    "answers": [
+      "A. A NAT instance",
+      "C. A private subnet in the AWS VPC"
+    ]
+  },
+  {
+    "question": "7. You have a private subnet in a VPC within AWS. The instances within the subnet are unable to access the Internet. You have created a NAT gateway to solve this problem. What additional steps do you need to perform to allow the instances Internet access? (Choose two.)",
+    "options": [
+      "C. Add a route in the public subnet to route traffic aimed at 0.0.0.0/0 at the NAT gateway.",
+      "A. Ensure that the NAT gateway is in the same subnet as the instances that cannot access the Internet.",
+      "D. Ensure that the NAT gateway is in a public subnet.",
+      "B. Add a route in the private subnet to route traffic aimed at 0.0.0.0/0 at the NAT gateway."
+    ],
+    "answers": [
+      "D. Ensure that the NAT gateway is in a public subnet.",
+      "B. Add a route in the private subnet to route traffic aimed at 0.0.0.0/0 at the NAT gateway."
+    ]
+  },
+  {
+    "question": "8. Which of the following statements regarding NAT instances and NAT gateways are false? (Choose two.)",
+    "options": [
+      "B. You must choose the instance type and size when creating a NAT gateway but not when creating a NAT instance.",
+      "A. Both NAT instances and NAT gateways are highly available.",
+      "D. You assign a security group to a NAT instance but not to a NAT gateway.",
+      "C. It is your responsibility to patch a NAT instance and AWS\u2019s responsibility to patch a NAT gateway."
+    ],
+    "answers": [
+      "B. You must choose the instance type and size when creating a NAT gateway but not when creating a NAT instance.",
+      "A. Both NAT instances and NAT gateways are highly available."
+    ]
+  },
+  {
+    "question": "9. Which of the following statements is true?",
+    "options": [
+      "D. Traffic allowed into a NACL is automatically allowed back out.",
+      "B. NACLs are stateful.",
+      "A. A VPC\u2019s default NACLs allow all inbound and outbound traffic.",
+      "C. Security groups are stateless."
+    ],
+    "answers": [
+      "A. A VPC\u2019s default NACLs allow all inbound and outbound traffic."
+    ]
+  },
+  {
+    "question": "10. You have changed the permissions associated with a role, and that role is assigned to an existing running EC2 instance. When will the permissions you updated take effect for the instance?",
+    "options": [
+      "B. Within 5 minutes",
+      "D. The next time the EC2 instance is restarted",
+      "C. Within 1 hour",
+      "A. Immediately"
+    ],
+    "answers": [
+      "A. Immediately"
+    ]
+  },
+  {
+    "question": "11. Which of the following statements is true?",
+    "options": [
+      "A. When creating a new security group, by default, all traffic is allowed in, including SSH.",
+      "C. You must explicitly allow any inbound traffic into a new security group.",
+      "D. Security groups are stateless.",
+      "B. If you need inbound HTTP and HTTPS access, create a new security group and accept the default settings."
+    ],
+    "answers": [
+      "C. You must explicitly allow any inbound traffic into a new security group."
+    ]
+  },
+  {
+    "question": "12. Which of the following statements is not true?",
+    "options": [
+      "D. When creating a new security group, inbound HTTPS traffic is not allowed.",
+      "B. When creating a new security group, by default, all traffic is allowed out, including SSH.",
+      "C. When creating a new security group, by default, all traffic is allowed out, with the exception of SSH.",
+      "A. When creating a new security group, by default, no inbound traffic is allowed."
+    ],
+    "answers": [
+      "C. When creating a new security group, by default, all traffic is allowed out, with the exception of SSH."
+    ]
+  },
+  {
+    "question": "13. How would you enable encryption of your EBS volumes?",
+    "options": [
+      "B. Take a snapshot of the EBS volume and copy it to an encrypted S3 bucket.",
+      "D. Encrypt the volume using the encryption tools of the operating system of the EC2 instance that has mounted the EBS volume.",
+      "C. Select the encryption option when creating the EBS volume.",
+      "A. Use the AWS CLI with the aws security command."
+    ],
+    "answers": [
+      "C. Select the encryption option when creating the EBS volume."
+    ]
+  },
+  {
+    "question": "14. What types of rules does a security group allow? (Choose two.)",
+    "options": [
+      "B. Prevent rules",
+      "C. Deny rules",
+      "A. Allow rules",
+      "D. Inbound rules"
+    ],
+    "answers": [
+      "A. Allow rules",
+      "D. Inbound rules"
+    ]
+  },
+  {
+    "question": "15. Which of the following are true about security groups? (Choose two.)",
+    "options": [
+      "D. Security groups are stateless.",
+      "A. You can specify deny rules, but not allow rules.",
+      "B. By default, a security group includes an outbound rule that allows all outbound traffic.",
+      "C. You can specify specific separate rules for inbound and outbound traffic."
+    ],
+    "answers": [
+      "C. You can specify specific separate rules for inbound and outbound traffic.",
+      "B. By default, a security group includes an outbound rule that allows all outbound traffic."
+    ]
+  },
+  {
+    "question": "16. Which of the following are not true about security groups? (Choose two.)",
+    "options": [
+      "A. Allow rules take priority over deny rules.",
+      "C. You can specify specific separate rules for inbound and outbound traffic.",
+      "D. If there are no outbound rules, then all outbound traffic is allowed to flow out.",
+      "B. Responses to allowed inbound traffic are allowed to flow back out."
+    ],
+    "answers": [
+      "A. Allow rules take priority over deny rules.",
+      "D. If there are no outbound rules, then all outbound traffic is allowed to flow out."
+    ]
+  },
+  {
+    "question": "17. Which of the following must a security group have when you create it? (Choose two.)",
+    "options": [
+      "B. A name",
+      "A. At least one inbound rule",
+      "C. A description",
+      "D. At least one outbound rule"
+    ],
+    "answers": [
+      "B. A name",
+      "C. A description"
+    ]
+  },
+  {
+    "question": "18. Which of the following is a security group associated with?",
+    "options": [
+      "B. A network interface",
+      "C. An ALB",
+      "A. An ELB",
+      "D. A network access list"
+    ],
+    "answers": [
+      "B. A network interface"
+    ]
+  },
+  {
+    "question": "19. Which of the following are default rules on a default security group, such as the one that comes with the default VPC? (Choose two.)",
+    "options": [
+      "D. Inbound: ::/0 for all protocols allowed",
+      "A. Outbound: 0.0.0.0/0 for all protocols allowed",
+      "C. Outbound: ::/0 for all protocols allowed",
+      "B. Inbound: 0.0.0.0/0 for all protocols allowed"
+    ],
+    "answers": [
+      "A. Outbound: 0.0.0.0/0 for all protocols allowed",
+      "C. Outbound: ::/0 for all protocols allowed"
+    ]
+  },
+  {
+    "question": "20. Which of the following are parts of a security group rule? (Choose two.)",
+    "options": [
+      "B. A subnet",
+      "C. An instance ID",
+      "A. A protocol",
+      "D. A description"
+    ],
+    "answers": [
+      "A. A protocol",
+      "D. A description"
+    ]
+  }
+]

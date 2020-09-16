@@ -1,0 +1,245 @@
+[
+  {
+    "question": "61. Which of the following is not an area in which Trusted Advisor makes recommendations?",
+    "options": [
+      "A. S3 bucket permissions",
+      "B. IAM usage",
+      "D. DNS usage",
+      "C. RDS public snapshots"
+    ],
+    "answers": [
+      "D. DNS usage"
+    ]
+  },
+  {
+    "question": "62. Which of the following is not a category for which Trusted Advisor makes recommendations?",
+    "options": [
+      "D. Fault tolerance",
+      "C. Service limits",
+      "B. Scalability",
+      "A. Security"
+    ],
+    "answers": [
+      "B. Scalability"
+    ]
+  },
+  {
+    "question": "63. Which of the following are categories for which Trusted Advisor makes recommendations? (Choose two.)",
+    "options": [
+      "A. Performance",
+      "D. Security",
+      "B. Auto Scaling",
+      "C. Caching"
+    ],
+    "answers": [
+      "A. Performance",
+      "D. Security"
+    ]
+  },
+  {
+    "question": "64. Which of the following might be an area about which Trusted Advisor makes recommendations? (Choose two.)",
+    "options": [
+      "C. No MFA on root account",
+      "D. Underuse of DNS records",
+      "B. Incorrect S3 storage class",
+      "A. Idle load balancers"
+    ],
+    "answers": [
+      "C. No MFA on root account",
+      "A. Idle load balancers"
+    ]
+  },
+  {
+    "question": "65. Which of the following are recommendations AWS makes to help you control your AWS costs? (Choose two.)",
+    "options": [
+      "A. Right-size your services to meet capacity at the lowest cost.",
+      "B. Save money by reserving.",
+      "D. Buy high capacity and serve low capacity.",
+      "C. Save money with on-demand resources."
+    ],
+    "answers": [
+      "A. Right-size your services to meet capacity at the lowest cost.",
+      "B. Save money by reserving."
+    ]
+  },
+  {
+    "question": "66. Which of the following might be a means by which you could decrease AWS costs in any standard application stack?",
+    "options": [
+      "A. Use DynamoDB instead of RDS.",
+      "D. Use dedicated host instances.",
+      "C. Use the spot market.",
+      "B. Use Route 53 instead of non-AWS registrars."
+    ],
+    "answers": [
+      "C. Use the spot market."
+    ]
+  },
+  {
+    "question": "67. What is AWS Cost Explorer?",
+    "options": [
+      "A. An analytics tool for evaluating instance usage",
+      "D. An analytics tool for managing application deployments",
+      "B. An analytics tool for evaluating RDS usage",
+      "C. An analytics tool for managing AWS costs over time"
+    ],
+    "answers": [
+      "C. An analytics tool for managing AWS costs over time"
+    ]
+  },
+  {
+    "question": "68. You want to anticipate your costs over the next year. Which of the following tools would you use?",
+    "options": [
+      "B. AWS Cost Explorer",
+      "D. AWS Savings Advisor",
+      "A. AWS Trusted Advisor",
+      "C. AWS Cost Manager"
+    ],
+    "answers": [
+      "B. AWS Cost Explorer"
+    ]
+  },
+  {
+    "question": "69. You want to determine how your instance class choices are affecting your overall AWS spending. Which tool would help?",
+    "options": [
+      "B. AWS Cost Explorer",
+      "D. AWS CloudTrail",
+      "A. AWS Trusted Advisor",
+      "C. AWS Auto Scaling groups"
+    ],
+    "answers": [
+      "B. AWS Cost Explorer"
+    ]
+  },
+  {
+    "question": "70. You want to set limits on how much is spent monthly on S3 storage. Which of the following tools would be helpful?",
+    "options": [
+      "B. AWS Cost Explorer",
+      "C. AWS Budgets",
+      "D. AWS CloudFormation",
+      "A. AWS Trusted Advisor"
+    ],
+    "answers": [
+      "C. AWS Budgets"
+    ]
+  },
+  {
+    "question": "71. You want to cut off all access to your S3 buckets when a certain cost threshold is reached. Which tool allows you to do this?",
+    "options": [
+      "D. None of these",
+      "B. AWS Cost Explorer",
+      "C. AWS Budgets",
+      "A. AWS Trusted Advisor"
+    ],
+    "answers": [
+      "D. None of these"
+    ]
+  },
+  {
+    "question": "72. You need to produce media files optimized for various device types to optimize costs associated with transferring and viewing media on those devices. What AWS service would you use?",
+    "options": [
+      "A. SWF",
+      "C. Elastic Transcoder",
+      "B. Workspaces",
+      "D. Cost Explorer"
+    ],
+    "answers": [
+      "C. Elastic Transcoder"
+    ]
+  },
+  {
+    "question": "73. You want to reduce the maintenance costs of supporting Oracle on a fleet of EC2 instances. What service is well suited for offloading maintenance costs for Oracle database hosting?",
+    "options": [
+      "A. RDS",
+      "C. SWF",
+      "D. Redshift",
+      "B. EMR"
+    ],
+    "answers": [
+      "A. RDS"
+    ]
+  },
+  {
+    "question": "74. You want to delay the cost of hiring a large DevOps team while prototyping application hosting in the cloud. What service allows you to deploy your code with minimal oversight?",
+    "options": [
+      "B. CloudFormation",
+      "A. Elastic Beanstalk",
+      "C. Elastic Transcoder",
+      "D. JSON"
+    ],
+    "answers": [
+      "A. Elastic Beanstalk"
+    ]
+  },
+  {
+    "question": "75. You are tasked with reducing cost in an organization that does several new application deployments every week. The company has a common stack of resources but is spending time each deployment re-creating this stack. What would help you reduce initial setup and deployment costs?",
+    "options": [
+      "B. CloudFormation",
+      "A. Elastic Beanstalk",
+      "C. AWS Trusted Adviso.",
+      "D. Application load balancers"
+    ],
+    "answers": [
+      "B. CloudFormation"
+    ]
+  },
+  {
+    "question": "76. You need to transfer 50 TB of data into S3 and want to avoid lengthy network exchanges and network saturation. What option would provide you with inexpensive data transfer at a large scale?",
+    "options": [
+      "A. Storage Gateway",
+      "B. S3 Transfer Acceleration",
+      "C. Glacier",
+      "D. Snowball"
+    ],
+    "answers": [
+      "D. Snowball"
+    ]
+  },
+  {
+    "question": "77. You want to take advantage of a large data store on premises that is already in use. How can you use this local storage while still interfacing with an additional cloud-based storage system and cloud-hosted EC2 instances?",
+    "options": [
+      "A. Storage Gateway",
+      "B. S3 Transfer Acceleration",
+      "C. Glacier",
+      "D. Snowball"
+    ],
+    "answers": [
+      "A. Storage Gateway"
+    ]
+  },
+  {
+    "question": "78. You need to transfer several petabytes of data into AWS at the lowest possible costs. What AWS services could help?",
+    "options": [
+      "A. Large Data Transfer Service",
+      "B. S3 Transfer Acceleration",
+      "D. CloudFront",
+      "C. Snowball"
+    ],
+    "answers": [
+      "C. Snowball"
+    ]
+  },
+  {
+    "question": "79. You need an analytics solution to perform business intelligence on your large data store. What AWS managed service can provide you with OLAP that reduces cost at scale?",
+    "options": [
+      "A. RDS",
+      "C. Memcache",
+      "B. Oracle on an EC2 fleet with provisioned IOPS EBS volumes",
+      "D. Redshift"
+    ],
+    "answers": [
+      "D. Redshift"
+    ]
+  },
+  {
+    "question": "80. You are currently running a fleet of 12 EC2 instances and processing large datasets that are uploaded by users. However, the cost of maintaining these instances is increasing, and the maintenance of the processing code is also growing. What AWS managed service would allow you to reduce these costs and still process large datasets?",
+    "options": [
+      "D. BigData Processing Service",
+      "A. EMR",
+      "B. Memcache",
+      "C. CloudFront"
+    ],
+    "answers": [
+      "A. EMR"
+    ]
+  }
+]

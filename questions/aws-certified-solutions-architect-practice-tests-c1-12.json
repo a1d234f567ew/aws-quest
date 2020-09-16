@@ -1,0 +1,252 @@
+[
+  {
+    "question": "221. Which of the following databases do not support a read replica setup? (Choose two.)",
+    "options": [
+      "C. MySQL",
+      "B. Redshift",
+      "D. MariaDB",
+      "A. DynamoDB"
+    ],
+    "answers": [
+      "B. Redshift",
+      "A. DynamoDB"
+    ]
+  },
+  {
+    "question": "222. Which of the following statements about DynamoDB are true? (Choose two.)",
+    "options": [
+      "C. DynamoDB databases can scale up without needing a bigger underlying instance.",
+      "D. DynamoDB instance sizes are selected at runtime.",
+      "A. DynamoDB offers push-button scaling.",
+      "B. DynamoDB supports read replicas."
+    ],
+    "answers": [
+      "C. DynamoDB databases can scale up without needing a bigger underlying instance.",
+      "A. DynamoDB offers push-button scaling."
+    ]
+  },
+  {
+    "question": "223. Which of the following statements about DynamoDB are true? (Choose two.)",
+    "options": [
+      "A. DynamoDB is more difficult to scale than RDS.",
+      "D. DynamoDB uses magnetic storage.",
+      "C. DynamoDB is spread across at least three regions.",
+      "B. DynamoDB uses SSD storage."
+    ],
+    "answers": [
+      "C. DynamoDB is spread across at least three regions.",
+      "B. DynamoDB uses SSD storage."
+    ]
+  },
+  {
+    "question": "224. What is the default consistency model for DynamoDB?",
+    "options": [
+      "D. Eventually consistent writes",
+      "A. Eventually consistent reads",
+      "C. Eventually pristine reads",
+      "B. Immediately consistent reads"
+    ],
+    "answers": [
+      "A. Eventually consistent reads"
+    ]
+  },
+  {
+    "question": "225. Which of the following are supported consistency models for DynamoDB? (Choose two.)",
+    "options": [
+      "C. Immediately consistent reads",
+      "B. Strongly consistent writes",
+      "A. Eventually consistent reads",
+      "D. Strongly consistent reads"
+    ],
+    "answers": [
+      "A. Eventually consistent reads",
+      "D. Strongly consistent reads"
+    ]
+  },
+  {
+    "question": "226. You are a solutions architect for a data-driven company using DynamoDB. They want to ensure always-accurate responses, so they have enabled strongly consistent reads. However, API calls to read data sometimes do not immediately return, and sometimes fail. What possible causes could there be? (Choose two.)",
+    "options": [
+      "A. A recent write was made and is not yet complete. As a result, a read operation is delayed waiting on the write operation to complete.",
+      "B. A recent write was made and is replicating to the secondary instance. Until that replication completes, the read operation will lag.",
+      "D. A network outage has interrupted a recent write, and subsequent reads of that data are delayed as a result.",
+      "C. A network outage has interrupted a recent read, and subsequent reads of that data are delayed as a result."
+    ],
+    "answers": [
+      "A. A recent write was made and is not yet complete. As a result, a read operation is delayed waiting on the write operation to complete.",
+      "D. A network outage has interrupted a recent write, and subsequent reads of that data are delayed as a result."
+    ]
+  },
+  {
+    "question": "227. Which of the following is a valid VPC configuration?",
+    "options": [
+      "D. All of the above",
+      "A. A single public subnet without any private subnets",
+      "C. A single public subnet with two private subnets",
+      "B. A single private subnet without any public subnets"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "228. Which of the following are assigned to an EC2 instance in a default VPC? (Choose two.)",
+    "options": [
+      "D. A public IP address",
+      "A. A private IP address",
+      "B. An elastic IP address",
+      "C. An internal AWS-only IP address"
+    ],
+    "answers": [
+      "D. A public IP address",
+      "A. A private IP address"
+    ]
+  },
+  {
+    "question": "229. Which of the following can an EC2 instance in a public VPC be assigned? (Choose two.)",
+    "options": [
+      "A. A private IP address",
+      "B. An elastic IP address",
+      "D. Both A and B",
+      "C. An IPv6 address"
+    ],
+    "answers": [
+      "D. Both A and B",
+      "C. An IPv6 address"
+    ]
+  },
+  {
+    "question": "230. Which of the following can you peer a VPC in your AWS account with? (Choose two.)",
+    "options": [
+      "C. A VPC in another AWS account",
+      "B. Another VPC in your account",
+      "D. A public subnet in another AWS account",
+      "A. Itself"
+    ],
+    "answers": [
+      "C. A VPC in another AWS account",
+      "B. Another VPC in your account"
+    ]
+  },
+  {
+    "question": "231. Which of the following offers the largest range of IP addresses?",
+    "options": [
+      "A. /16",
+      "B. /20",
+      "C. /24",
+      "D. /28"
+    ],
+    "answers": [
+      "A. /16"
+    ]
+  },
+  {
+    "question": "232. What does the SWF in Amazon SWF stand for?",
+    "options": [
+      "D. Simple Working Automation",
+      "C. Simple Web Forms",
+      "A. Simple Workflow",
+      "B. Simple Workflow Formation"
+    ],
+    "answers": [
+      "A. Simple Workflow"
+    ]
+  },
+  {
+    "question": "233. What languages can you use with SWF?",
+    "options": [
+      "C. Perl, PHP, Node.js, and JavaScript",
+      "A. Java, Node.js, JavaScript, and Ruby",
+      "B. Java, Node.js, and JavaScript",
+      "D. All of the above"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "234. How are requests and responses to SWF sent and received?",
+    "options": [
+      "B. Via HTTP request and response codes",
+      "C. Via web-accessible language-specific endpoints",
+      "D. All of the above",
+      "A. Via the AWS-specific API using application keys"
+    ],
+    "answers": [
+      "B. Via HTTP request and response codes"
+    ]
+  },
+  {
+    "question": "235. Which of the following is a good use case for SWF?",
+    "options": [
+      "A. Managing single-sign on",
+      "B. Managing authentication and identification",
+      "D. Managing tasks across multiple components",
+      "C. Managing logging and auditing of VPC interactions"
+    ],
+    "answers": [
+      "D. Managing tasks across multiple components"
+    ]
+  },
+  {
+    "question": "236. How does SWF communicate?",
+    "options": [
+      "B. Asynchronously",
+      "D. Neither A nor B",
+      "C. Both A and B",
+      "A. Synchronously"
+    ],
+    "answers": [
+      "C. Both A and B"
+    ]
+  },
+  {
+    "question": "237. What does SES stand for in Amazon SES?",
+    "options": [
+      "C. Scalable Elastic Service",
+      "A. Simple Electronic Service",
+      "D. Sample Engagement Service",
+      "B. Simple Email Service"
+    ],
+    "answers": [
+      "B. Simple Email Service"
+    ]
+  },
+  {
+    "question": "238. What service is queue-based and focused on messaging within your applications?",
+    "options": [
+      "A. SWF",
+      "B. SNS",
+      "C. SES",
+      "D. SQS"
+    ],
+    "answers": [
+      "D. SQS"
+    ]
+  },
+  {
+    "question": "239. Which of the following are true? (Choose two.)",
+    "options": [
+      "A. SNS and SQS are interchangeable at an API level.",
+      "B. SNS is a pull-based system while SQS is a push-based system.",
+      "C. SNS manages notifications and SQS manages messages.",
+      "D. SNS is a push-based system while SQS is a pull-based system."
+    ],
+    "answers": [
+      "D. SNS is a push-based system while SQS is a pull-based system.",
+      "C. SNS manages notifications and SQS manages messages."
+    ]
+  },
+  {
+    "question": "240. Which of the following terms are associated with SQS? (Choose two.)",
+    "options": [
+      "D. Worker node",
+      "B. Messages",
+      "A. Tasks",
+      "C. Notifications"
+    ],
+    "answers": [
+      "D. Worker node",
+      "B. Messages"
+    ]
+  }
+]

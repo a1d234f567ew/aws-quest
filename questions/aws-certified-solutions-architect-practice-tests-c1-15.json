@@ -1,0 +1,247 @@
+[
+  {
+    "question": "281. Which of the following is true about instances in a VPC using a VPC endpoint to connect to S3 storage? (Choose two.)",
+    "options": [
+      "B. They must route traffic through a NAT instance to get to the endpoint.",
+      "A. They must have a public IP.",
+      "C. They do not send their traffic over the public Internet to reach the VPC endpoint.",
+      "D. They must have routes to the VPC endpoint in the VPC routing table."
+    ],
+    "answers": [
+      "C. They do not send their traffic over the public Internet to reach the VPC endpoint.",
+      "D. They must have routes to the VPC endpoint in the VPC routing table."
+    ]
+  },
+  {
+    "question": "282. At what level do security groups operate?",
+    "options": [
+      "A. The subnet level",
+      "B. The VPC level",
+      "C. The instance level",
+      "D. All of the above"
+    ],
+    "answers": [
+      "C. The instance level"
+    ]
+  },
+  {
+    "question": "283. Which types of rules do security groups allow?",
+    "options": [
+      "B. Allow and deny rules",
+      "D. Allow, deny, and permit rules",
+      "C. Deny rules only",
+      "A. Allow rules only"
+    ],
+    "answers": [
+      "A. Allow rules only"
+    ]
+  },
+  {
+    "question": "284. Security groups use which models for traffic? (Choose two.)",
+    "options": [
+      "C. Traffic is only allowed if there are specific allow rules.",
+      "A. Traffic is denied by default.",
+      "D. Traffic is only denied if there are specific deny rules.",
+      "B. Traffic is allowed by default."
+    ],
+    "answers": [
+      "A. Traffic is denied by default.",
+      "C. Traffic is only allowed if there are specific allow rules."
+    ]
+  },
+  {
+    "question": "285. Which of the following is true about security groups?",
+    "options": [
+      "D. They evaluate orders from high to low before deciding whether to allow traffic.",
+      "C. They evaluate rules in numeric order before deciding whether to allow traffic.",
+      "B. They evaluate rules from top to bottom before deciding whether to allow traffic.",
+      "A. They evaluate all rules before deciding whether to allow traffic."
+    ],
+    "answers": [
+      "A. They evaluate all rules before deciding whether to allow traffic."
+    ]
+  },
+  {
+    "question": "286. In which order are rules evaluated when a security group decides if traffic is allowed?",
+    "options": [
+      "A. Top to bottom",
+      "D. All rules are evaluated before a decision is made.",
+      "C. Low to high numeric order",
+      "B. High to low numeric order"
+    ],
+    "answers": [
+      "D. All rules are evaluated before a decision is made."
+    ]
+  },
+  {
+    "question": "287. How many VPCs can you create in a single AWS region by default?",
+    "options": [
+      "D. 20",
+      "B. 5",
+      "C. 10",
+      "A. 3"
+    ],
+    "answers": [
+      "B. 5"
+    ]
+  },
+  {
+    "question": "288. Which of the following is true about a new subnet created in a custom VPC that was set up with the default configuration?",
+    "options": [
+      "C. It will not have a NACL.",
+      "D. It will have an internet gateway attached.",
+      "A. It needs a custom route table created.",
+      "B. It can communicate with other subnets across availability zones."
+    ],
+    "answers": [
+      "B. It can communicate with other subnets across availability zones."
+    ]
+  },
+  {
+    "question": "289. Which of these allow you to SSH into an EC2 instance within a private subnet?",
+    "options": [
+      "D. A bastion host",
+      "C. A NAT instance",
+      "A. A NAT gateway",
+      "B. An internet gateway"
+    ],
+    "answers": [
+      "D. A bastion host"
+    ]
+  },
+  {
+    "question": "290. Which of the following allow a private instance to communicate with the Internet? (Choose two.)",
+    "options": [
+      "D. A bastion host",
+      "C. A NAT instance",
+      "A. A NAT gateway",
+      "B. An internet gateway"
+    ],
+    "answers": [
+      "C. A NAT instance",
+      "A. A NAT gateway"
+    ]
+  },
+  {
+    "question": "291. How many internet gateways can each VPC have?",
+    "options": [
+      "A. One",
+      "C. Three",
+      "D. One for each AZ in which the VPC exists",
+      "B. Two"
+    ],
+    "answers": [
+      "A. One"
+    ]
+  },
+  {
+    "question": "292. You are attempting to create a VPC in an AWS account and getting an error. When you look at the console, you see that the region you\u2019re trying to create the VPC in already has five VPCs. What step should you take to create the VPC you need?",
+    "options": [
+      "D. Create the VPC in a different region.",
+      "A. You can\u2019t. Each region can only have five VPCs.",
+      "C. Contact AWS and explain your need for a higher number of VPCs in the region.",
+      "B. Configure the VPC to be peered with an existing VPC to get around the five-VPC per-region limit."
+    ],
+    "answers": [
+      "C. Contact AWS and explain your need for a higher number of VPCs in the region."
+    ]
+  },
+  {
+    "question": "293. What benefit does adding a second internet gateway to your VPC provide?",
+    "options": [
+      "D. You can\u2019t have two internet gateways within the same region.",
+      "C. You can\u2019t add a second internet gateway to a single VPC.",
+      "B. The second VPC can be used to facilitate VPC endpoints with S3 and DynamoDB.",
+      "A. Increased network throughput via two channels into the VPC"
+    ],
+    "answers": [
+      "C. You can\u2019t add a second internet gateway to a single VPC."
+    ]
+  },
+  {
+    "question": "294. You have created a custom VPC, created instances within that VPC, and stood up web servers on those instances. What are the simplest steps you might need to perform to serve this web content to the public Internet? (Choose two.)",
+    "options": [
+      "A. Add an internet gateway to the VPC.",
+      "B. Create a NAT gateway for the instances.",
+      "C. Create an ALB and point it at the instances.",
+      "D. Set a public IP for the instances."
+    ],
+    "answers": [
+      "A. Add an internet gateway to the VPC.",
+      "D. Set a public IP for the instances."
+    ]
+  },
+  {
+    "question": "295. You have created a custom VPC, created instances within that VPC, attached an internet gateway to the VPC, and stood up web servers on those instances. However, users are unable to access the web content. What might be the problem? (Choose two.)",
+    "options": [
+      "C. The instances don\u2019t have elastic IP addresses.",
+      "A. The security group doesn\u2019t allow outbound HTTP traffic.",
+      "B. The security group doesn\u2019t allow inbound HTTP traffic.",
+      "D. The NACL for the VPC\u2019s subnet allows all inbound traffic."
+    ],
+    "answers": [
+      "C. The instances don\u2019t have elastic IP addresses.",
+      "B. The security group doesn\u2019t allow inbound HTTP traffic."
+    ]
+  },
+  {
+    "question": "296. Which of the following statements is false?",
+    "options": [
+      "C. A single instance retains its public IP within a VPC when stopped and restarted.",
+      "A. One VPC can have a single internet gateway.",
+      "D. A single instance does not retain its public IP within a VPC when stopped and restarted.",
+      "B. One VPC can have multiple subnets."
+    ],
+    "answers": [
+      "D. A single instance does not retain its public IP within a VPC when stopped and restarted."
+    ]
+  },
+  {
+    "question": "297. Which of the following statements is false?",
+    "options": [
+      "A. A subnet cannot span multiple availability zones.",
+      "B. A VPC can peer with no more than two other VPCs.",
+      "C. A VPC can peer with VPCs in other AWS accounts.",
+      "D. A subnet can be public or private if a VPC has an internet gateway attached."
+    ],
+    "answers": [
+      "B. A VPC can peer with no more than two other VPCs."
+    ]
+  },
+  {
+    "question": "298. Why would you choose a NAT instance over a NAT gateway?",
+    "options": [
+      "A. NAT instances are faster than NAT gateways.",
+      "B. NAT instances auto-size to accommodate traffic increases, while NAT gateways do not.",
+      "C. NAT instances are automatically kept updated with patches by AWS, while NAT gateways are not.",
+      "D. You wouldn\u2019t; NAT gateways are, in general, a better solution than NAT instances."
+    ],
+    "answers": [
+      "D. You wouldn\u2019t; NAT gateways are, in general, a better solution than NAT instances."
+    ]
+  },
+  {
+    "question": "299. How do you change a VPC that is set to use dedicated hosting tenancy to use default tenancy?",
+    "options": [
+      "A. You can change the hosting tenancy of the VPC without affecting the running instances.",
+      "B. Stop all instances in the VPC, and then you can change the VPC\u2019s hosting tenancy.",
+      "D. You can\u2019t; you must re-create the VPC.",
+      "C. Remove all instances in the VPC, and then you can change the VPC\u2019s hosting tenancy."
+    ],
+    "answers": [
+      "D. You can\u2019t; you must re-create the VPC."
+    ]
+  },
+  {
+    "question": "300. How quickly are changes made to the security group within a custom VPC applied?",
+    "options": [
+      "C. The next time each instance restarts, or within 24 hours if the instance does not restart",
+      "B. Within 60\u201390 seconds",
+      "D. Security groups aren\u2019t associated with VPCs.",
+      "A. Immediately"
+    ],
+    "answers": [
+      "A. Immediately"
+    ]
+  }
+]

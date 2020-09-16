@@ -1,0 +1,252 @@
+[
+  {
+    "question": "41. Which of the following are valid reasons for using Multipart Upload for uploading objects to S3? (Choose two.)",
+    "options": [
+      "C. You need a solution for increasing the security around uploaded objects.",
+      "A. You need a solution that recovers from network issues.",
+      "D. You need a solution to decrease the time required to upload large files.",
+      "B. You need a solution to upload files larger than 10 GB."
+    ],
+    "answers": [
+      "D. You need a solution to decrease the time required to upload large files.",
+      "A. You need a solution that recovers from network issues."
+    ]
+  },
+  {
+    "question": "42. In which of the following situations would you recommend using a placement group?",
+    "options": [
+      "A. Your fleet of EC2 instances requires high disk IO.",
+      "B. Your fleet of EC2 instances requires high network throughput across two availability zones.",
+      "D. Your fleet of EC2 instances requires high network throughput to S3 buckets.",
+      "C. Your fleet of EC2 instances requires high network throughput within a single availability zone."
+    ],
+    "answers": [
+      "C. Your fleet of EC2 instances requires high network throughput within a single availability zone."
+    ]
+  },
+  {
+    "question": "43. Which of the following statements are true about cluster placement groups? (Choose two.)",
+    "options": [
+      "A. All instances in the group must be in the same availability zone.",
+      "D. Instances in the group must all be of the same instance class.",
+      "B. Instances in the group will see lowered network latency in communicating with each other.",
+      "C. Instances in the group will see improved disk write performance when communicating with S3."
+    ],
+    "answers": [
+      "A. All instances in the group must be in the same availability zone.",
+      "B. Instances in the group will see lowered network latency in communicating with each other."
+    ]
+  },
+  {
+    "question": "44. Which of the following statements are true about spread placement groups? (Choose two.)",
+    "options": [
+      "C. You can have up to seven instances in multiple availability zones in the group.",
+      "A. All instances in the group must be in the same availability zone.",
+      "D. AWS provisions the hardware rather than having you specify the distinct hardware for the group.",
+      "B. Instances in the group will see lowered network latency in communicating with each other."
+    ],
+    "answers": [
+      "C. You can have up to seven instances in multiple availability zones in the group.",
+      "B. Instances in the group will see lowered network latency in communicating with each other."
+    ]
+  },
+  {
+    "question": "45. Which of the following storage classes has the lowest durability?",
+    "options": [
+      "A. S3 standard",
+      "B. S3-IA",
+      "D. They all have equal durability.",
+      "C. Glacier"
+    ],
+    "answers": [
+      "D. They all have equal durability."
+    ]
+  },
+  {
+    "question": "46. Which of the following storage classes has the highest availability?",
+    "options": [
+      "A. S3 standard",
+      "B. S3-IA",
+      "D. They all have equal availability.",
+      "C. Glacier"
+    ],
+    "answers": [
+      "A. S3 standard"
+    ]
+  },
+  {
+    "question": "47. Which of the following storage classes support automated lifecycle transitions?",
+    "options": [
+      "A. S3 standard",
+      "B. S3-IA",
+      "C. Glacier",
+      "D. They all support lifecycle transitions."
+    ],
+    "answers": [
+      "D. They all support lifecycle transitions."
+    ]
+  },
+  {
+    "question": "48. Where is data stored when placed into S3-IA? (Choose two.)",
+    "options": [
+      "B. In a special AWS \u201cglobal\u201d region for S3 storage",
+      "C. In at least three availability zones",
+      "A. In the region specified at bucket creation",
+      "D. In a single availability zone within at least three regions"
+    ],
+    "answers": [
+      "C. In at least three availability zones",
+      "A. In the region specified at bucket creation"
+    ]
+  },
+  {
+    "question": "49. You need to perform a large amount of OLAP. Which AWS service would you choose?",
+    "options": [
+      "C. Redshift",
+      "D. Oracle installed on EC2 instances",
+      "A. DynamoDB",
+      "B. RDS Aurora"
+    ],
+    "answers": [
+      "C. Redshift"
+    ]
+  },
+  {
+    "question": "50. What is the maximum allowable RDS volume size when using provisioned IOPS storage?",
+    "options": [
+      "C. 12 TB",
+      "B. 16 TB",
+      "A. 8 TB",
+      "D. 1 PB"
+    ],
+    "answers": [
+      "B. 16 TB"
+    ]
+  },
+  {
+    "question": "51. Which of the following EBS volumes is the most performant?",
+    "options": [
+      "B. Throughput optimized HDD",
+      "D. General SSD",
+      "A. Provisioned IOPS",
+      "C. Cold HDD"
+    ],
+    "answers": [
+      "A. Provisioned IOPS"
+    ]
+  },
+  {
+    "question": "52. Which of the following is a valid reason to use a cold HDD EBS volume?",
+    "options": [
+      "D. You need an inexpensive boot volume.",
+      "B. You are trying to choose the lowest-cost EBS volume possible.",
+      "A. You need a performant solid-state drive.",
+      "C. You are performing data warehousing using the volume."
+    ],
+    "answers": [
+      "B. You are trying to choose the lowest-cost EBS volume possible."
+    ]
+  },
+  {
+    "question": "53. Which of the following are available to use as an EBS boot volume? (Choose two.)",
+    "options": [
+      "D. Provisioned IOPS",
+      "C. Throughput optimized HDD",
+      "B. Cold HDD",
+      "A. General SSD"
+    ],
+    "answers": [
+      "D. Provisioned IOPS",
+      "A. General SSD"
+    ]
+  },
+  {
+    "question": "54. Which of the following is a valid reason to use a General Purpose SSD EBS volume? (Choose two.)",
+    "options": [
+      "A. You need to support large database workloads.",
+      "B. You want a blend of a performant SSD and a cost-sensitive SSD volume.",
+      "D. You have low-latency apps and want to run them on a bootable volume.",
+      "C. You are performing data warehousing using the volume."
+    ],
+    "answers": [
+      "B. You want a blend of a performant SSD and a cost-sensitive SSD volume.",
+      "D. You have low-latency apps and want to run them on a bootable volume."
+    ]
+  },
+  {
+    "question": "55. Which of the following is a valid reason to use a magnetic EBS volume? (Choose two.)",
+    "options": [
+      "A. You want a low-cost option for your EBS volume.",
+      "C. You need to perform processing to support Oracle installed on a fleet of EC2 instances.",
+      "B. You have a set of data that is infrequently accessed but want it stored on an EBS volume rather than S3.",
+      "D. You have low-latency apps and want to run them on a bootable volume."
+    ],
+    "answers": [
+      "A. You want a low-cost option for your EBS volume.",
+      "B. You have a set of data that is infrequently accessed but want it stored on an EBS volume rather than S3."
+    ]
+  },
+  {
+    "question": "56. Which of the following is a valid reason to use a provisioned IOPS EBS volume? (Choose two.)",
+    "options": [
+      "A. You want a low-cost option for your EBS volume.",
+      "D. You have applications that need a bootable environment but can fail from time to time and be re-created.",
+      "B. You need to support a large MongoDB database workload.",
+      "C. You need massive performance and throughput for your applications."
+    ],
+    "answers": [
+      "B. You need to support a large MongoDB database workload.",
+      "C. You need massive performance and throughput for your applications."
+    ]
+  },
+  {
+    "question": "57. Which of the following are characteristics of SSD-backed volumes? (Choose two.)",
+    "options": [
+      "D. Throughput-focused",
+      "C. Small I/O size",
+      "A. Transactional workloads",
+      "B. Streaming workloads"
+    ],
+    "answers": [
+      "C. Small I/O size",
+      "A. Transactional workloads"
+    ]
+  },
+  {
+    "question": "58. Which of the following are characteristics of HDD-backed volumes? (Choose two.)",
+    "options": [
+      "D. Throughput-focused",
+      "C. Small I/O size",
+      "A. Transactional workloads",
+      "B. Streaming workloads"
+    ],
+    "answers": [
+      "D. Throughput-focused",
+      "B. Streaming workloads"
+    ]
+  },
+  {
+    "question": "59. You are charged with installing Oracle on a fleet of EC2 instances due to custom Javabased plug-ins you need to install along with Oracle. Which EBS volume type would you choose to best support your Oracle installation?",
+    "options": [
+      "C. Provisioned IOPS SSD",
+      "D. General SSD",
+      "A. Magnetic",
+      "B. Throughput-optimized HDD"
+    ],
+    "answers": [
+      "C. Provisioned IOPS SSD"
+    ]
+  },
+  {
+    "question": "60. You are the solutions architect for a company installing a web application on a set of EC2 instances. The application writes a small amount of user profile data to attached EBS volumes, and accesses that data an average of once every five minutes if the user is still using the web application. Additionally, because of the high cost of the application\u2019s RDS instance, you would like to minimize your EBS volume costs. Which EBS volume type would you choose to support these applications?",
+    "options": [
+      "C. Provisioned IOPS SSD",
+      "D. General SSD",
+      "A. Magnetic",
+      "B. Throughput-optimized HDD"
+    ],
+    "answers": [
+      "A. Magnetic"
+    ]
+  }
+]

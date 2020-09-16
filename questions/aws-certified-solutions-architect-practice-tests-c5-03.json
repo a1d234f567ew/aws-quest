@@ -1,0 +1,212 @@
+[
+  {
+    "question": "41. You want to provide Internet access for an instance in a non-default subnet. What do you need to do? (Choose two.)",
+    "options": [
+      "D. Attach a NAT instance to the subnet.",
+      "C. Attach an internet gateway to the VPC in which the subnet resides.",
+      "B. Assign a public IP address to the instance.",
+      "A. Assign a private IP address to the instance."
+    ],
+    "answers": [
+      "C. Attach an internet gateway to the VPC in which the subnet resides.",
+      "B. Assign a public IP address to the instance."
+    ]
+  },
+  {
+    "question": "42. What technology can you use to provide single sign-on to the AWS management console?",
+    "options": [
+      "B. CloudFormation",
+      "C. YAML",
+      "A. JSON",
+      "D. SAML"
+    ],
+    "answers": [
+      "D. SAML"
+    ]
+  },
+  {
+    "question": "43. You have created a new user in IAM. What default permissions does that user have?",
+    "options": [
+      "A. Read access to all AWS services",
+      "B. Read and write access to all AWS services",
+      "C. No access to any AWS services",
+      "D. Read access only to the IAM service"
+    ],
+    "answers": [
+      "C. No access to any AWS services"
+    ]
+  },
+  {
+    "question": "44. What does IAM stand for?",
+    "options": [
+      "B. Identity and Access Management",
+      "A. Interoperative Access Management",
+      "C. Independent Access Management",
+      "D. Identity and Authorization Management"
+    ],
+    "answers": [
+      "B. Identity and Access Management"
+    ]
+  },
+  {
+    "question": "45. You have created a new IAM user and created their sign-in URL. You give the user their URL. What else will they need to log in to the AWS management console? (Choose two.)",
+    "options": [
+      "A. Their username",
+      "C. Their password",
+      "B. Their access key ID",
+      "D. Their secret access key"
+    ],
+    "answers": [
+      "A. Their username",
+      "C. Their password"
+    ]
+  },
+  {
+    "question": "46. Which of the following IAM groups will allow users within it to interact with all AWS services?",
+    "options": [
+      "C. The default IAM permissions provide this level of access.",
+      "D. Support User",
+      "B. Power User",
+      "A. Administrator"
+    ],
+    "answers": [
+      "A. Administrator"
+    ]
+  },
+  {
+    "question": "47. You have created a new IAM user and given the credentials to the user. However, she still is unable to log in to the AWS management console. What might the problem be?",
+    "options": [
+      "A. You have not enabled Multi-Factor Authentication.",
+      "C. You have not provided the user her access key ID.",
+      "D. You have not provided the user her customized sign-in link.",
+      "B. You have not enabled the User Login policy."
+    ],
+    "answers": [
+      "D. You have not provided the user her customized sign-in link."
+    ]
+  },
+  {
+    "question": "48. You have been tasked with building an application that provides backend servicing for a mobile game with millions of users. Which of the following services might you use to receive and process the messages that the mobile clients send?",
+    "options": [
+      "A. EC2, Mobile SDK",
+      "D. EC2, Lambda",
+      "C. Amazon Kinesis, RDS",
+      "B. Amazon Kinesis, Mobile SDK"
+    ],
+    "answers": [
+      "B. Amazon Kinesis, Mobile SDK"
+    ]
+  },
+  {
+    "question": "49. Which of the following is required to set up a new AWS account for a company new to AWS?",
+    "options": [
+      "D. Company URL",
+      "A. Company name",
+      "C. Company account-holder username",
+      "B. Company email"
+    ],
+    "answers": [
+      "B. Company email"
+    ]
+  },
+  {
+    "question": "50. Which of the following AWS-defined IAM policies offer read and write access to the S3 and EC2 services? (Choose two.)",
+    "options": [
+      "B. Network Administrator",
+      "D. Power User",
+      "A. Administrator",
+      "C. Support User"
+    ],
+    "answers": [
+      "D. Power User",
+      "A. Administrator"
+    ]
+  },
+  {
+    "question": "51. What does AWS call a document that defines a set of one or more permissions?",
+    "options": [
+      "C. Policy",
+      "D. Group",
+      "A. Program unit",
+      "B. Organizational unit"
+    ],
+    "answers": [
+      "C. Policy"
+    ]
+  },
+  {
+    "question": "52. What does the AWS service abbreviated as ECS stand for?",
+    "options": [
+      "D. Encapsulated Container Service",
+      "A. Elastic Compute Service",
+      "C. Elastic Computer Service",
+      "B. Elastic Container Service"
+    ],
+    "answers": [
+      "B. Elastic Container Service"
+    ]
+  },
+  {
+    "question": "53. Which of the following are advantages of using containers for applications in AWS compared to using EC2 instances? (Choose two.)",
+    "options": [
+      "C. You can reduce the startup time of applications.",
+      "A. You can scale applications automatically.",
+      "D. You can avoid having to explicitly manage and provision servers.",
+      "B. You can run larger applications in a container."
+    ],
+    "answers": [
+      "D. You can avoid having to explicitly manage and provision servers.",
+      "C. You can reduce the startup time of applications."
+    ]
+  },
+  {
+    "question": "54. Which of the following sets of services are used in a typical AWS container stack?",
+    "options": [
+      "D. ECR, ECS, S3",
+      "C. Fargate, ECS, S3",
+      "B. ECS, EMR, EC2",
+      "A. ECR, ECS, EC2"
+    ],
+    "answers": [
+      "A. ECR, ECS, EC2"
+    ]
+  },
+  {
+    "question": "55. Which of the following services is typically associated with ECS?",
+    "options": [
+      "B. S3",
+      "A. EMR",
+      "C. ECR",
+      "D. ECC"
+    ],
+    "answers": [
+      "C. ECR"
+    ]
+  },
+  {
+    "question": "56. Which of the following are good reasons to consider using containers in AWS for your applications? (Choose two.)",
+    "options": [
+      "B. You want to more effectively use your existing compute instances.",
+      "C. You have limited resources for managing your existing EC2 instances.",
+      "D. You need to scale up and down your applications.",
+      "A. You want to reduce overall cost."
+    ],
+    "answers": [
+      "B. You want to more effectively use your existing compute instances.",
+      "C. You have limited resources for managing your existing EC2 instances."
+    ]
+  },
+  {
+    "question": "57. Which of the following are differences between container-based applications and Lambda-based ones? (Choose two.)",
+    "options": [
+      "D. Containers can run entire application stacks; Lambda can only run isolated chunks of code.",
+      "B. Containers live on underlying compute instances; Lambda code does not.",
+      "A. Containers scale based on load and usage; Lambda scales based on events.",
+      "C. Containers are not as highly scalable as Lambda."
+    ],
+    "answers": [
+      "A. Containers scale based on load and usage; Lambda scales based on events.",
+      "D. Containers can run entire application stacks; Lambda can only run isolated chunks of code."
+    ]
+  }
+]

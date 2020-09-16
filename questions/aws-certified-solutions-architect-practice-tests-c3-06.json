@@ -1,0 +1,252 @@
+[
+  {
+    "question": "101. Which of the following are allowed when creating a new VPC? (Choose two.)",
+    "options": [
+      "C. An IPv6 CIDR block",
+      "D. A security group",
+      "A. An IPv4 CIDR block",
+      "B. VPC description"
+    ],
+    "answers": [
+      "C. An IPv6 CIDR block",
+      "A. An IPv4 CIDR block"
+    ]
+  },
+  {
+    "question": "102. Which of the following is not a required part of creating a custom VPC? (Choose two.)",
+    "options": [
+      "B. A VPC name",
+      "A. An IPv6 CIDR block",
+      "D. An IPv4 CIDR block",
+      "C. A set of VPC tags"
+    ],
+    "answers": [
+      "C. A set of VPC tags",
+      "A. An IPv6 CIDR block"
+    ]
+  },
+  {
+    "question": "103. Which of the following defines a subnet as a public subnet? (Choose two.)",
+    "options": [
+      "A. A security group that allows inbound public traffic",
+      "B. A routing table that routes traffic through the internet gateway",
+      "C. Instances with public IP addresses",
+      "D. An internet gateway"
+    ],
+    "answers": [
+      "B. A routing table that routes traffic through the internet gateway",
+      "D. An internet gateway"
+    ]
+  },
+  {
+    "question": "104. Which of the following defines a VPN-only subnet? (Choose two.)",
+    "options": [
+      "C. A virtual private gateway",
+      "A. A routing table that routes traffic through the internet gateway",
+      "B. A routing table that routes traffic through the virtual private gateway",
+      "D. An internet gateway"
+    ],
+    "answers": [
+      "C. A virtual private gateway",
+      "B. A routing table that routes traffic through the virtual private gateway"
+    ]
+  },
+  {
+    "question": "105. Which of the following are required components in a VPN-only subnet? (Choose two.)",
+    "options": [
+      "D. An internet gateway",
+      "C. An elastic IP address",
+      "A. A routing table",
+      "B. A virtual private gateway"
+    ],
+    "answers": [
+      "A. A routing table",
+      "B. A virtual private gateway"
+    ]
+  },
+  {
+    "question": "106. By default, how many VPCs can you create per region?",
+    "options": [
+      "D. 200",
+      "A. 1",
+      "B. 5",
+      "C. 20"
+    ],
+    "answers": [
+      "B. 5"
+    ]
+  },
+  {
+    "question": "107. By default, how many subnets can you create per VPC?",
+    "options": [
+      "D. 200",
+      "A. 1",
+      "B. 5",
+      "C. 20"
+    ],
+    "answers": [
+      "D. 200"
+    ]
+  },
+  {
+    "question": "108. By default, how many IPv4 CIDR blocks can you create per VPC?",
+    "options": [
+      "D. 200",
+      "A. 1",
+      "B. 5",
+      "C. 20"
+    ],
+    "answers": [
+      "B. 5"
+    ]
+  },
+  {
+    "question": "109. By default, how many elastic IPs can you create per region?",
+    "options": [
+      "D. 200",
+      "A. 1",
+      "B. 5",
+      "C. 20"
+    ],
+    "answers": [
+      "B. 5"
+    ]
+  },
+  {
+    "question": "110. Which of the following is not true? (Choose two.)",
+    "options": [
+      "B. A subnet can have a larger CIDR block than the VPC within which it exists.",
+      "C. A subnet can have a smaller CIDR block than the VPC within which it exists.",
+      "A. A subnet can have the same CIDR block as the VPC within which it exists.",
+      "D. A subnet does not have to have a CIDR block specified."
+    ],
+    "answers": [
+      "B. A subnet can have a larger CIDR block than the VPC within which it exists.",
+      "D. A subnet does not have to have a CIDR block specified."
+    ]
+  },
+  {
+    "question": "111. A VPC peering connection connects a VPC to which of the following?",
+    "options": [
+      "C. Another VPC",
+      "D. A virtual private gateway",
+      "A. A subnet within another VPC",
+      "B. A specific instance within another VPC"
+    ],
+    "answers": [
+      "C. Another VPC"
+    ]
+  },
+  {
+    "question": "112. An Amazon VPC VPN connection links your on-site network to which of the following?",
+    "options": [
+      "D. A virtual private gateway",
+      "A. A customer gateway",
+      "C. An Amazon VPC",
+      "B. An internet gateway"
+    ],
+    "answers": [
+      "C. An Amazon VPC"
+    ]
+  },
+  {
+    "question": "113. Which of the following are required for a VPC VPN connection? (Choose two.)",
+    "options": [
+      "C. A virtual private gateway",
+      "D. A public subnet",
+      "A. A customer gateway",
+      "B. An internet gateway"
+    ],
+    "answers": [
+      "C. A virtual private gateway",
+      "A. A customer gateway"
+    ]
+  },
+  {
+    "question": "114. Which of the following would you use to secure a VPC and its instances? (Choose two.)",
+    "options": [
+      "C. A virtual private gateway",
+      "B. A NACL",
+      "D. A security group",
+      "A. A customer gateway"
+    ],
+    "answers": [
+      "B. A NACL",
+      "D. A security group"
+    ]
+  },
+  {
+    "question": "115. You want to ensure that no incoming traffic reaches any instances in your VPC. Which of the following is your best option to prevent this type of traffic?",
+    "options": [
+      "C. A virtual private gateway",
+      "B. A NACL",
+      "D. A security group",
+      "A. A blacklist"
+    ],
+    "answers": [
+      "B. A NACL"
+    ]
+  },
+  {
+    "question": "116. You want to ensure that no incoming traffic reaches just the database instances in a particular subnet within your VPC. Which of the following is your best option to prevent this type of traffic?",
+    "options": [
+      "C. A virtual private gateway",
+      "B. A NACL",
+      "D. A security group",
+      "A. A blacklist"
+    ],
+    "answers": [
+      "D. A security group"
+    ]
+  },
+  {
+    "question": "117. You have a subnet with five instances within it. Two are serving public APIs and three are providing backend compute power through database instances. What is the best way to secure these instances? (Choose two.)",
+    "options": [
+      "C. Move the two backend database instances into a different subnet.",
+      "A. Apply NACLs at the subnet level.",
+      "D. Attach an internet gateway to the VPC.",
+      "B. Attach a single security group to all the instances."
+    ],
+    "answers": [
+      "C. Move the two backend database instances into a different subnet.",
+      "A. Apply NACLs at the subnet level."
+    ]
+  },
+  {
+    "question": "118. Security groups operate most like which of the following?",
+    "options": [
+      "B. A NACL",
+      "D. A greylist",
+      "C. A whitelist",
+      "A. A blacklist"
+    ],
+    "answers": [
+      "C. A whitelist"
+    ]
+  },
+  {
+    "question": "119. If you have a NACL and a security group, at what two levels is security functioning? (Choose two.)",
+    "options": [
+      "B. The service level",
+      "C. The subnet level",
+      "D. The instance level",
+      "A. The VPN level"
+    ],
+    "answers": [
+      "C. The subnet level",
+      "D. The instance level"
+    ]
+  },
+  {
+    "question": "120. What type of filtering does a security group perform?",
+    "options": [
+      "B. Synchronous",
+      "A. Stateful",
+      "D. Stateless",
+      "C. Whitelist"
+    ],
+    "answers": [
+      "A. Stateful"
+    ]
+  }
+]

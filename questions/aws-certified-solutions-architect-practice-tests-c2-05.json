@@ -1,0 +1,255 @@
+[
+  {
+    "question": "81. Which of the following would you use to interact with a CloudFront distribution?",
+    "options": [
+      "A. CloudFormation",
+      "C. The AWS REST APIs",
+      "B. The AWS CLI",
+      "D. Any of these"
+    ],
+    "answers": [
+      "D. Any of these"
+    ]
+  },
+  {
+    "question": "82. Which of the following are origin sources usable with a CloudFront distribution? (Choose two.)",
+    "options": [
+      "B. DynamoDB",
+      "D. An Oracle RDS instance",
+      "C. AWS Shield",
+      "A. An ALB"
+    ],
+    "answers": [
+      "C. AWS Shield",
+      "A. An ALB"
+    ]
+  },
+  {
+    "question": "83. Which of the following are origin sources usable with a CloudFront distribution? (Choose two.)",
+    "options": [
+      "C. S3 buckets",
+      "A. DynamoDB",
+      "D. RedShift",
+      "B. A fleet of EC2 instances"
+    ],
+    "answers": [
+      "C. S3 buckets",
+      "B. A fleet of EC2 instances"
+    ]
+  },
+  {
+    "question": "84. Which of the following are origin sources usable with a CloudFront distribution? (Choose two.)",
+    "options": [
+      "C. Aurora on RDS",
+      "A. Lambda@Edge",
+      "D. ElastiCache instances",
+      "B. A static website on S3"
+    ],
+    "answers": [
+      "A. Lambda@Edge",
+      "B. A static website on S3"
+    ]
+  },
+  {
+    "question": "85. Which of the following two are advantages of using a CloudFront distribution? (Choose two.)",
+    "options": [
+      "C. Integration with AWS managed services",
+      "A. Performance",
+      "D. Disaster recovery",
+      "B. Fault tolerance"
+    ],
+    "answers": [
+      "C. Integration with AWS managed services",
+      "A. Performance"
+    ]
+  },
+  {
+    "question": "86. How does CloudFront increase the security of content at the edge? (Choose two.)",
+    "options": [
+      "D. Automatic deployment of AWS Shield",
+      "B. Integration with AWS WAF (if configured)",
+      "A. Required HTTPS at all edge locations",
+      "C. Automatic client keys encrypted with KMS"
+    ],
+    "answers": [
+      "D. Automatic deployment of AWS Shield",
+      "B. Integration with AWS WAF (if configured)"
+    ]
+  },
+  {
+    "question": "87. Choose the true statements about edge locations. (Choose two.)",
+    "options": [
+      "C. There are fewer edge locations than availability zones.",
+      "B. There are more edge locations than regions.",
+      "A. There are fewer edge locations than regions.",
+      "D. There are more edge locations than availability zones."
+    ],
+    "answers": [
+      "D. There are more edge locations than availability zones.",
+      "B. There are more edge locations than regions."
+    ]
+  },
+  {
+    "question": "88. Which of the following can you do with CloudFront? (Choose two.)",
+    "options": [
+      "D. Provide storage for static files that are frequently accessed.",
+      "B. Quickly create websites that are dynamic and low latency.",
+      "A. Quickly deploy a global network for your content without contracts or startup requirements.",
+      "C. Distribute content with low latency and high data transfer rates."
+    ],
+    "answers": [
+      "C. Distribute content with low latency and high data transfer rates.",
+      "A. Quickly deploy a global network for your content without contracts or startup requirements."
+    ]
+  },
+  {
+    "question": "89. Which of the following can be origin servers for CloudFront? (Choose two.)",
+    "options": [
+      "A. S3 buckets",
+      "C. RedShift workloads",
+      "B. EC2 instances",
+      "D. SNS notifications"
+    ],
+    "answers": [
+      "A. S3 buckets",
+      "B. EC2 instances"
+    ]
+  },
+  {
+    "question": "90. Which domain name should you use to take advantage of CloudFront?",
+    "options": [
+      "B. The domain name registered in CloudFront as the origin for your static and dynamic content",
+      "D. The domain name from the AWS console for your CloudFront distribution",
+      "A. The domain name registered to your S3 buckets in Route 53",
+      "C. The domain name registered in your ALB or ELB pointing to your content"
+    ],
+    "answers": [
+      "B. The domain name registered in CloudFront as the origin for your static and dynamic content"
+    ]
+  },
+  {
+    "question": "91. Which of the following might occur when content is requested from a CloudFront edge location? (Choose two.)",
+    "options": [
+      "A. Cached content at the edge location is returned.",
+      "C. A request is made to an origin server for the requested content.",
+      "B. The request is passed directly to an origin server without CloudFront processing.",
+      "D. A redirect is returned to the client."
+    ],
+    "answers": [
+      "A. Cached content at the edge location is returned.",
+      "C. A request is made to an origin server for the requested content."
+    ]
+  },
+  {
+    "question": "92. Which of the following statements about CloudFront are not true? (Choose two.)",
+    "options": [
+      "B. CloudFront maintains persistent connections with origin servers.",
+      "C. A request will be routed by CloudFront to the nearest edge location to the origin server, which will serve that request.",
+      "A. CloudFront edge locations are geographically distributed across the world.",
+      "D. CloudFront can use an RDS instance of PostgreSQL as an origin server."
+    ],
+    "answers": [
+      "C. A request will be routed by CloudFront to the nearest edge location to the origin server, which will serve that request.",
+      "D. CloudFront can use an RDS instance of PostgreSQL as an origin server."
+    ]
+  },
+  {
+    "question": "93. How is data transferred out from a region to a CloudFront edge location charged?",
+    "options": [
+      "A. At normal egress data rates",
+      "D. There is no charge.",
+      "B. At half the price of normal egress rates",
+      "C. At the lowest available rate for the region from which the data originates"
+    ],
+    "answers": [
+      "D. There is no charge."
+    ]
+  },
+  {
+    "question": "94. Which of the following are true about both S3 and CloudFront? (Choose two.)",
+    "options": [
+      "B. They both support encryption of their content.",
+      "A. They both store files.",
+      "D. They both provide low-latency distribution of content to clients.",
+      "C. They both cache files."
+    ],
+    "answers": [
+      "B. They both support encryption of their content.",
+      "A. They both store files."
+    ]
+  },
+  {
+    "question": "95. Which of the following content types can be served by CloudFront? (Choose two.)",
+    "options": [
+      "A. The returned rows from a SQL query",
+      "C. A Lambda function",
+      "B. The response from a PHP script",
+      "D. HTML and CSS"
+    ],
+    "answers": [
+      "B. The response from a PHP script",
+      "D. HTML and CSS"
+    ]
+  },
+  {
+    "question": "96. Which of the following can be CloudFront origin servers? (Choose two.)",
+    "options": [
+      "C. A MySQL RDS instance",
+      "A. A web server hosted on another cloud provider",
+      "B. An EC2 instance fleet spread across two regions",
+      "D. An SNS topic"
+    ],
+    "answers": [
+      "A. A web server hosted on another cloud provider",
+      "B. An EC2 instance fleet spread across two regions"
+    ]
+  },
+  {
+    "question": "97. What is an edge location?",
+    "options": [
+      "D. An EC2 instance in a remote region from your primary content",
+      "A. A specific node within a worldwide network of data centers that deliver CloudFront content",
+      "B. A virtual cloud of caching stations",
+      "C. A fleet of EC2 instances managed by AWS"
+    ],
+    "answers": [
+      "A. A specific node within a worldwide network of data centers that deliver CloudFront content"
+    ]
+  },
+  {
+    "question": "98. What is a CloudFront distribution?",
+    "options": [
+      "C. The cached content on CloudFront edge locations at any given time",
+      "B. A set of origin servers whose content is served by CloudFront via various edge locations",
+      "D. The cached content from your account stored on CloudFront edge locations at any given time",
+      "A. A worldwide network of data centers"
+    ],
+    "answers": [
+      "B. A set of origin servers whose content is served by CloudFront via various edge locations"
+    ]
+  },
+  {
+    "question": "99. How long is content cached at an edge location?",
+    "options": [
+      "C. 12 hours by default, but this value can be changed.",
+      "D. 24 hours by default, but this value can be changed.",
+      "A. 24 hours",
+      "B. 12 hours"
+    ],
+    "answers": [
+      "D. 24 hours by default, but this value can be changed."
+    ]
+  },
+  {
+    "question": "100. What is the shortest expiration period allowed for a CloudFront edge location?",
+    "options": [
+      "D. 1 minute",
+      "B. 5 seconds",
+      "A. 0 seconds",
+      "C. 30 seconds"
+    ],
+    "answers": [
+      "A. 0 seconds"
+    ]
+  }
+]

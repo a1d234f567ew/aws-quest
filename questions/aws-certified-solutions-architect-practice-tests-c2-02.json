@@ -1,0 +1,248 @@
+[
+  {
+    "question": "21. How quickly can you make changes to the backup window used by your RDS instance?",
+    "options": [
+      "A. Changes to the window via the console take place within 1 hour; changes made via the API take place immediately.",
+      "D. Changes to the window take place immediately.",
+      "B. Changes to the window take place after the next complete backup occurs.",
+      "C. Changes to the window via the API take place within 1 hour; changes made via the console take place immediately."
+    ],
+    "answers": [
+      "D. Changes to the window take place immediately."
+    ]
+  },
+  {
+    "question": "22. What is the longest backup retention window that Amazon RDS allows?",
+    "options": [
+      "C. 45 days",
+      "B. 35 days",
+      "D. 365 days",
+      "A. 30 days"
+    ],
+    "answers": [
+      "B. 35 days"
+    ]
+  },
+  {
+    "question": "23. You have an Oracle installation using a custom geospatial plug-in. You also want to ensure the maximum throughput for database operations once those operations are begun by the plug-in. How would you set up Oracle to meet these requirements?",
+    "options": [
+      "D. Install Oracle on an EC2 instance with a magnetic EBS volume.",
+      "A. Set up Oracle using RDS with provisioned IOPS.",
+      "C. Install Oracle on an EC2 instance with a provisioned IOPS EBS volume.",
+      "B. Set up Oracle using RDS with magnetic storage."
+    ],
+    "answers": [
+      "C. Install Oracle on an EC2 instance with a provisioned IOPS EBS volume."
+    ]
+  },
+  {
+    "question": "24. In what scenarios would you install an Oracle database on an EC2 instance rather than using RDS? (Choose two.)",
+    "options": [
+      "B. Your database size is greater than 80% of the maximum database size in RDS.",
+      "C. You have custom plug-ins that will not run in RDS.",
+      "A. You want to use an ALB to support multiple instances and round-robin request distributions.",
+      "D. You want to ensure that your database is only accessible through your private subnet in a VPC."
+    ],
+    "answers": [
+      "B. Your database size is greater than 80% of the maximum database size in RDS.",
+      "C. You have custom plug-ins that will not run in RDS."
+    ]
+  },
+  {
+    "question": "25. Which of the following are SQL-based options in RDS? (Choose two.)",
+    "options": [
+      "B. DynamoDB",
+      "D. Redshift",
+      "A. Aurora",
+      "C. MariaDB"
+    ],
+    "answers": [
+      "A. Aurora",
+      "C. MariaDB"
+    ]
+  },
+  {
+    "question": "26. You are a new architect at a company building out a large-scale database deployment for web applications that receive thousands of requests per minute. The previous architect suggested a Multi-AZ deployment in RDS to ensure maximum responsiveness to the web tier. Is this a good approach for high performance?",
+    "options": [
+      "A. No, because a Multi-AZ deployment is no faster in responding to requests than a standard RDS deployment.",
+      "D. No, because a Multi-AZ deployment can only field requests from the availability zone in which each database resides.",
+      "B. Yes, because the additional databases in a Multi-AZ deployment will share the request load from the web tier.",
+      "C. Yes, because a Multi-AZ deployment will ensure that if the primary database goes down, a secondary database will be current and available."
+    ],
+    "answers": [
+      "A. No, because a Multi-AZ deployment is no faster in responding to requests than a standard RDS deployment."
+    ]
+  },
+  {
+    "question": "27. You launch an EC2 instance that has two volumes attached: a root and an additional volume, both created with default settings. What happens to each volume when you terminate the instance?",
+    "options": [
+      "A. The root volume is deleted and the additional volume is preserved.",
+      "C. Both volumes are preserved.",
+      "B. Both volumes are deleted.",
+      "D. The instance is unable to terminate until the root volume is deleted."
+    ],
+    "answers": [
+      "A. The root volume is deleted and the additional volume is preserved."
+    ]
+  },
+  {
+    "question": "28. How many S3 buckets can you add to an account?",
+    "options": [
+      "D. It depends on how the account is configured at account creation.",
+      "C. It depends on the default set for the new account by AWS.",
+      "A. 100",
+      "B. 100 by default, but this can be increased by contacting AWS."
+    ],
+    "answers": [
+      "B. 100 by default, but this can be increased by contacting AWS."
+    ]
+  },
+  {
+    "question": "29. What type of replication occurs in a Multi-AZ RDS setup?",
+    "options": [
+      "B. Synchronous replication",
+      "A. Sequential replication",
+      "C. Asynchronous replication",
+      "D. Synchronous replication for full backups and asynchronous replication for incremental backups"
+    ],
+    "answers": [
+      "B. Synchronous replication"
+    ]
+  },
+  {
+    "question": "30. What type of replication occurs in a read replica RDS setup?",
+    "options": [
+      "B. Synchronous replication",
+      "A. Sequential replication",
+      "C. Asynchronous replication",
+      "D. Synchronous replication for full backups and asynchronous replication for incremental backups"
+    ],
+    "answers": [
+      "C. Asynchronous replication"
+    ]
+  },
+  {
+    "question": "31. Which of the following protocols and routing approaches does a classic load balancer support? (Choose two.)",
+    "options": [
+      "C. HTTP/2",
+      "A. IPv4",
+      "B. IPv6",
+      "D. Registering targets in target groups and routing traffic to those groups"
+    ],
+    "answers": [
+      "A. IPv4",
+      "B. IPv6"
+    ]
+  },
+  {
+    "question": "32. How many elastic IP addresses can you create per region by default in a new AWS account?",
+    "options": [
+      "D. There is no preset limit.",
+      "C. 20",
+      "B. 10",
+      "A. 5"
+    ],
+    "answers": [
+      "A. 5"
+    ]
+  },
+  {
+    "question": "33. To how many EBS volumes can a single EC2 instance attach?",
+    "options": [
+      "D. Unlimited",
+      "A. 1",
+      "C. 27",
+      "B. 2"
+    ],
+    "answers": [
+      "C. 27"
+    ]
+  },
+  {
+    "question": "34. How many EC2 instances can be attached to a single EBS volume at one time?",
+    "options": [
+      "D. Unlimited",
+      "A. 1",
+      "C. 27",
+      "B. 2"
+    ],
+    "answers": [
+      "A. 1"
+    ]
+  },
+  {
+    "question": "35. Which of the following protocols are supported by an application load balancer? (Choose two.)",
+    "options": [
+      "A. SSH",
+      "B. HTTP",
+      "C. HTTPS",
+      "D. FTP"
+    ],
+    "answers": [
+      "B. HTTP",
+      "C. HTTPS"
+    ]
+  },
+  {
+    "question": "36. Which of the following provide ways to automate the backup of your RDS database? (Choose two.)",
+    "options": [
+      "A. Automated snapshots",
+      "B. S3 lifecycle management policies",
+      "D. Data pipeline",
+      "C. Automated backups"
+    ],
+    "answers": [
+      "A. Automated snapshots",
+      "C. Automated backups"
+    ]
+  },
+  {
+    "question": "37. You have an EC2 instance running a heavy compute process that is constantly writing data to and from a cache on disk. How and when should you take a snapshot of the instance to ensure the most complete snapshot?",
+    "options": [
+      "C. Take a snapshot of the instance from the AWS CLI.",
+      "A. Take a snapshot of the instance from the AWS console.",
+      "B. Shut down the instance and take a snapshot of the instance.",
+      "D. Detach the EBS volume attached to the instance and take a snapshot of both the EC2 and EBS instance."
+    ],
+    "answers": [
+      "B. Shut down the instance and take a snapshot of the instance."
+    ]
+  },
+  {
+    "question": "38. Your web-based application uses a large RDS data store to write and read user profile information. The latest marketing campaign has increased traffic to the application by an order of magnitude. Users are reporting long delays when logging in after having signed up. Which solutions are valid approaches to addressing this lag? (Choose two.)",
+    "options": [
+      "B. Employ ElastiCache to cache users\u2019 credentials after their initial visit to reduce trips to the database from the web application.",
+      "A. Set up a Multi-AZ configuration for your RDS and round-robin requests between the two RDS instances to spread out traffic.",
+      "C. Set up a read replica configuration for your RDS and round-robin requests between all the replicas to spread out traffic.",
+      "D. Increase the number of EC2 instances allocated to your Auto Scaling group to spread out traffic on the web application tier."
+    ],
+    "answers": [
+      "B. Employ ElastiCache to cache users\u2019 credentials after their initial visit to reduce trips to the database from the web application.",
+      "C. Set up a read replica configuration for your RDS and round-robin requests between all the replicas to spread out traffic."
+    ]
+  },
+  {
+    "question": "39. Your users are now storing all of their photos in your cloud-based application. CloudWatch metrics suggests that photos are written an average of 5 times per user per day and read 100 times per user per day. If photos are lost, user surveys indicate that users are not typically upset and simply re-upload the missing photo or ignore the missing photo altogether. What is the most cost-effective recommendation for the S3 storage class to use?",
+    "options": [
+      "A. Standard S3",
+      "D. S3 RRS",
+      "B. S3-IA",
+      "C. S3 One Zone-IA"
+    ],
+    "answers": [
+      "C. S3 One Zone-IA"
+    ]
+  },
+  {
+    "question": "40. You are consulting for a company that wants to migrate its 85TB data store into S3. It is willing to upload the data into S3 every night in small batches but is concerned that overseas customers using its other applications might experience network latency as they are transferring files into S3. What solution should you recommend to move the company\u2019s data?",
+    "options": [
+      "D. Set up a VPN that uses a virtual private gateway for transferring the data.",
+      "A. Enable Transfer Acceleration on S3.",
+      "C. Snowball",
+      "B. Direct Connect"
+    ],
+    "answers": [
+      "C. Snowball"
+    ]
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "question": "21. Which of the following allows you to securely upload data to S3? (Choose two.)",
+    "options": [
+      "C. HTTP endpoints using HTTPS",
+      "A. HTTP endpoints using HTTP",
+      "D. SSL endpoints using HTTP",
+      "B. SSL endpoints using HTTPS"
+    ],
+    "answers": [
+      "C. HTTP endpoints using HTTPS",
+      "B. SSL endpoints using HTTPS"
+    ]
+  },
+  {
+    "question": "22. Which of the following describes client-side encryption for S3 bucket data?",
+    "options": [
+      "D. You encrypt an object, but AWS uploads and decrypts the object.",
+      "B. You encrypt and upload data to S3, allowing AWS to manage the encryption process.",
+      "C. You request AWS to encrypt an object before saving it to S3.",
+      "A. You encrypt and upload data to S3, managing the encryption process yourself."
+    ],
+    "answers": [
+      "A. You encrypt and upload data to S3, managing the encryption process yourself."
+    ]
+  },
+  {
+    "question": "23. Which of the following describes server-side encryption for S3 bucket data?",
+    "options": [
+      "D. You encrypt an object, but AWS uploads and decrypts the object.",
+      "B. You encrypt and upload data to S3, allowing AWS to manage the encryption process.",
+      "C. You request AWS to encrypt an object before saving it to S3.",
+      "A. You encrypt and upload data to S3, managing the encryption process yourself."
+    ],
+    "answers": [
+      "C. You request AWS to encrypt an object before saving it to S3."
+    ]
+  },
+  {
+    "question": "24. Which of the following are valid steps in enabling client-side encryption for S3? (Choose two.)",
+    "options": [
+      "B. Use a KMS-managed customer master key.",
+      "A. Download the AWS CLI and SSH to your S3 key store.",
+      "C. Download an AWS SDK for encrypting data on the client side.",
+      "D. Turn on bucket encryption for the target S3 buckets."
+    ],
+    "answers": [
+      "B. Use a KMS-managed customer master key.",
+      "C. Download an AWS SDK for encrypting data on the client side."
+    ]
+  },
+  {
+    "question": "25. Which of the following is not a way to manage server-side encryption keys for S3?",
+    "options": [
+      "C. SSE-E",
+      "B. SSE-KMS",
+      "D. SSE-C",
+      "A. SSE-S3"
+    ],
+    "answers": [
+      "C. SSE-E"
+    ]
+  },
+  {
+    "question": "26. Which of the following encryption key management options is best for ensuring strong audit trails?",
+    "options": [
+      "C. Client-side encryption keys",
+      "B. SSE-KMS",
+      "D. SSE-C",
+      "A. SSE-S3"
+    ],
+    "answers": [
+      "B. SSE-KMS"
+    ]
+  },
+  {
+    "question": "27. Which of the following encryption key management options is best for managing keys but allowing S3 to handle the actual encryption of data?",
+    "options": [
+      "C. Client-side encryption keys",
+      "B. SSE-KMS",
+      "D. SSE-C",
+      "A. SSE-S3"
+    ],
+    "answers": [
+      "D. SSE-C"
+    ]
+  },
+  {
+    "question": "28. You have a customer that has a legacy security group that is very suspicious of all things security in the cloud. The customer wants to use S3, but doesn\u2019t trust AWS encryption, and you need to enable its migration to the cloud. What option would you recommend to address the company\u2019s concerns?",
+    "options": [
+      "C. Client-side encryption keys",
+      "B. SSE-KMS",
+      "D. SSE-C",
+      "A. SSE-S3"
+    ],
+    "answers": [
+      "C. Client-side encryption keys"
+    ]
+  },
+  {
+    "question": "29. You want to begin encrypting your S3 data, but your organization is new to encryption. Which option is a low-cost approach that still offloads most of the work to AWS rather than the organization new to encryption?",
+    "options": [
+      "C. Client-side encryption keys",
+      "B. SSE-KMS",
+      "D. SSE-C",
+      "A. SSE-S3"
+    ],
+    "answers": [
+      "A. SSE-S3"
+    ]
+  },
+  {
+    "question": "30. You are the architect for a company whose data must comply with current EU privacy restrictions. Which of the following S3 buckets are valid options? (Choose two.)",
+    "options": [
+      "A. Buckets in EU Central 1",
+      "B. Buckets in US East 2",
+      "D. Buckets in SA East 1",
+      "C. Buckets in EU West 1"
+    ],
+    "answers": [
+      "A. Buckets in EU Central 1",
+      "C. Buckets in EU West 1"
+    ]
+  },
+  {
+    "question": "31. Which of the following options could be used to provide availability-zone-resilient faulttolerant storage that complies with EU privacy laws? (Choose two.)",
+    "options": [
+      "C. S3-IA buckets in EU Central 1",
+      "B. S3 buckets in EU West 2",
+      "D. S3 One Zone-IA buckets in EU-West-1",
+      "A. S3 buckets in US West 1"
+    ],
+    "answers": [
+      "C. S3-IA buckets in EU Central 1",
+      "B. S3 buckets in EU West 2"
+    ]
+  },
+  {
+    "question": "32. What type of replication will your Multi-AZ RDS instances use?",
+    "options": [
+      "D. Asynchronous replication",
+      "C. Push replication",
+      "B. Synchronous replication",
+      "A. Offline replication"
+    ],
+    "answers": [
+      "B. Synchronous replication"
+    ]
+  },
+  {
+    "question": "33. You want to provide maximum protection against data in your S3 object storage being deleted accidentally. What should you do?",
+    "options": [
+      "D. Turn off the DELETE endpoints on the S3 REST API.",
+      "B. Turn on MFA Delete on your S3 buckets.",
+      "A. Enable versioning on your EBS volumes.",
+      "C. Set up a Lambda job to monitor and block delete requests to S3."
+    ],
+    "answers": [
+      "B. Turn on MFA Delete on your S3 buckets."
+    ]
+  },
+  {
+    "question": "34. You want to provide maximum protection against data in your S3 object storage being deleted accidentally. What steps should you take? (Choose two.)",
+    "options": [
+      "B. Turn on MFA Delete on your S3 buckets.",
+      "C. Enable versioning in CloudWatch\u2019s S3 API.",
+      "A. Enable versioning on your S3 buckets.",
+      "D. Remove IAM permissions for deleting objects for all users."
+    ],
+    "answers": [
+      "B. Turn on MFA Delete on your S3 buckets.",
+      "A. Enable versioning on your S3 buckets."
+    ]
+  },
+  {
+    "question": "35. You want to enable MFA Delete on your S3 buckets in the US East 1 region. What step must you take before enabling MFA Delete?",
+    "options": [
+      "D. Enable versioning on the buckets on which you want MFA Delete.",
+      "A. Disable the REST API for the buckets on which you want MFA Delete.",
+      "B. Enable cross-region replication on the buckets on which you want MFA Delete.",
+      "C. Move the buckets to a region that supports MFA Delete, such as US West 1."
+    ],
+    "answers": [
+      "D. Enable versioning on the buckets on which you want MFA Delete."
+    ]
+  },
+  {
+    "question": "36. What is AWS Trusted Advisor?",
+    "options": [
+      "C. An online resource to help you improve security",
+      "A. An online resource to help you improve performance",
+      "D. All of the above",
+      "B. An online resource to help you reduce cost"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "37. On which of the following does AWS Trusted Advisor not provide recommendations?",
+    "options": [
+      "A. Reducing cost",
+      "C. Improving security",
+      "B. Improving fault tolerance",
+      "D. Organizing accounts"
+    ],
+    "answers": [
+      "D. Organizing accounts"
+    ]
+  },
+  {
+    "question": "38. Which of the following are included in the core AWS Trusted Advisor checks? (Choose two.)",
+    "options": [
+      "C. Quantity of CloudWatch alarms",
+      "A. S3 bucket permissions",
+      "D. Use of VPC endpoints",
+      "B. MFA on root account"
+    ],
+    "answers": [
+      "A. S3 bucket permissions",
+      "B. MFA on root account"
+    ]
+  },
+  {
+    "question": "39. Which of the following recommendations might AWS Trusted Advisor make? (Choose two.)",
+    "options": [
+      "C. Update S3 buckets with public write access.",
+      "B. Turn on antivirus protection for EC2 instances.",
+      "A. Turn on MFA for the root account.",
+      "D. Update NAT instances to NAT gateways."
+    ],
+    "answers": [
+      "C. Update S3 buckets with public write access.",
+      "A. Turn on MFA for the root account."
+    ]
+  },
+  {
+    "question": "40. Which of the following is not possible using IAM policies?",
+    "options": [
+      "A. Requiring MFA for the root account",
+      "C. Disabling S3 access for users in a group",
+      "B. Denying the root account access to EC2 instances",
+      "D. Restricting SSH access to EC2 instances to a specific user"
+    ],
+    "answers": [
+      "B. Denying the root account access to EC2 instances"
+    ]
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "question": "61. Which of the following are the ways you should consider using Multipart Upload?",
+    "options": [
+      "B. For uploading large objects to reduce the cost of ingress related to those objects",
+      "C. For uploading any size files over a spotty network to increase resiliency",
+      "D. For uploading files that must be appended to existing files",
+      "A. For uploading large objects over a stable high-bandwidth network to maximize bandwidth"
+    ],
+    "answers": [
+      "C. For uploading any size files over a spotty network to increase resiliency",
+      "A. For uploading large objects over a stable high-bandwidth network to maximize bandwidth"
+    ]
+  },
+  {
+    "question": "62. How is a presigned URL different from a normal URL? (Choose two.)",
+    "options": [
+      "C. A presigned URL allows access to private S3 buckets without requiring AWS credentials.",
+      "A. A presigned URL has permissions associated with certain objects provided by the creator of the URL.",
+      "B. A presigned URL has permissions associated with certain objects provided by the user of the URL.",
+      "D. A presigned URL includes encrypted credentials as part of the URL."
+    ],
+    "answers": [
+      "C. A presigned URL allows access to private S3 buckets without requiring AWS credentials.",
+      "A. A presigned URL has permissions associated with certain objects provided by the creator of the URL."
+    ]
+  },
+  {
+    "question": "63. Which of the following can be put behind a presigned URL?",
+    "options": [
+      "C. An AWS CloudFront distribution",
+      "A. An S3 object store",
+      "D. All of the above",
+      "B. An EC2 instance with a web interface"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "64. How long is a presigned URL valid?",
+    "options": [
+      "A. 60 seconds",
+      "D. As long as it is configured to last",
+      "C. 24 hours",
+      "B. 60 minutes"
+    ],
+    "answers": [
+      "D. As long as it is configured to last"
+    ]
+  },
+  {
+    "question": "65. Which of the following HTTP methods with regard to S3 have eventual consistency? (Choose two.)",
+    "options": [
+      "B. DELETEs",
+      "A. UPDATEs",
+      "C. PUTs of new objects",
+      "D. Overwrite PUTs"
+    ],
+    "answers": [
+      "B. DELETEs",
+      "D. Overwrite PUTs"
+    ]
+  },
+  {
+    "question": "66. Which of the following behaviors is consistent with how S3 handles object operations on a bucket?",
+    "options": [
+      "A. A process writes a new object to Amazon S3 and immediately lists keys within its bucket. The new object does not appear in the list of keys.",
+      "C. A process deletes an object and immediately lists the keys in the bucket. S3 returns a list with the deleted object in the list.",
+      "B. A process deletes an object, attempts to immediately read the deleted object, and S3 still returns the deleted data.",
+      "D. All of the above"
+    ],
+    "answers": [
+      "D. All of the above"
+    ]
+  },
+  {
+    "question": "67. In which regions does Amazon S3 offer eventual consistency for overwrite PUTs and DELETEs?",
+    "options": [
+      "A. All US regions",
+      "D. No regions, eventual consistency is not the model for overwrite PUTs.",
+      "C. All regions",
+      "B. All US and EU regions"
+    ],
+    "answers": [
+      "C. All regions"
+    ]
+  },
+  {
+    "question": "68. Which of the following storage media are object based? (Choose two.)",
+    "options": [
+      "A. S3-IA",
+      "D. S3 standard",
+      "C. EFS",
+      "B. EBS"
+    ],
+    "answers": [
+      "A. S3-IA",
+      "D. S3 standard"
+    ]
+  },
+  {
+    "question": "69. EBS stands for what?",
+    "options": [
+      "A. Elastic Based Storage",
+      "C. Extra Block Storage",
+      "B. Elastic Block Storage",
+      "D. Ephemeral Block Storage"
+    ],
+    "answers": [
+      "B. Elastic Block Storage"
+    ]
+  },
+  {
+    "question": "70. What is the consistency model in S3 for PUTs of new objects?",
+    "options": [
+      "A. Write after read consistency",
+      "C. Eventual consistency",
+      "D. Synchronous consistency",
+      "B. Read after write consistency"
+    ],
+    "answers": [
+      "B. Read after write consistency"
+    ]
+  },
+  {
+    "question": "71. How many PUTs per second does S3 support?",
+    "options": [
+      "B. 1500",
+      "C. 3500",
+      "D. 5000",
+      "A. 100"
+    ],
+    "answers": [
+      "C. 3500"
+    ]
+  },
+  {
+    "question": "72. You have been asked to create a new S3 bucket with the name prototypeBucket32 in the US West region. What would the URL for this bucket be?",
+    "options": [
+      "D. https://s3-prototypeBucket32.us-east-1.amazonaws.com/",
+      "A. https://s3-us-east-1.amazonaws.com/prototypeBucket32",
+      "C. https://s3.prototypeBucket32-us-east-1.amazonaws.com/",
+      "B. https://s3-us-west-1.amazonaws.com/prototypeBucket32"
+    ],
+    "answers": [
+      "B. https://s3-us-west-1.amazonaws.com/prototypeBucket32"
+    ]
+  },
+  {
+    "question": "73. What unique domain name do S3 buckets created in US East (N. Virginia) have, as compared to other regions?",
+    "options": [
+      "D. s3-amazonaws.com",
+      "C. s3-us-east.amazonaws.com",
+      "B. s3-us-east-1.amazonaws.com",
+      "A. s3.amazonaws.com"
+    ],
+    "answers": [
+      "A. s3.amazonaws.com"
+    ]
+  },
+  {
+    "question": "74. Which of the following are valid domain names for S3 buckets? (Choose two.)",
+    "options": [
+      "C. s3.amazonaws.com",
+      "B. s3-us-west-2.amazonaws.com",
+      "A. s3.us-east-1.amazonaws.com",
+      "D. s3-jp-west-2.amazonaws.com"
+    ],
+    "answers": [
+      "C. s3.amazonaws.com",
+      "B. s3-us-west-2.amazonaws.com"
+    ]
+  },
+  {
+    "question": "75. What are the two styles of URLs that AWS supports for S3 bucket access? (Choose two.)",
+    "options": [
+      "B. Domain-hosted-style URLs",
+      "D. Path-style URLs",
+      "C. Apex zone record URLs",
+      "A. Virtual-hosted-style URLs"
+    ],
+    "answers": [
+      "D. Path-style URLs",
+      "A. Virtual-hosted-style URLs"
+    ]
+  },
+  {
+    "question": "76. Which of the following are valid URLs for accessing S3 buckets? (Choose two.)",
+    "options": [
+      "A. https://s3-us-west-1-prototypeBucket32.amazonaws.com/",
+      "D. https://prototypeBucket32.s3-us-west-1.amazonaws.com",
+      "C. https://s3-mx-central-1.amazonaws.com/prototypeBucket32",
+      "B. https://s3-us-west-1.amazonaws.com/prototypeBucket32"
+    ],
+    "answers": [
+      "D. https://prototypeBucket32.s3-us-west-1.amazonaws.com",
+      "B. https://s3-us-west-1.amazonaws.com/prototypeBucket32"
+    ]
+  },
+  {
+    "question": "77. What is an AWS storage gateway?",
+    "options": [
+      "C. A device to facilitate large data migrations into S3",
+      "D. A device that can be used to cache S3-stored objects at an on-premises site",
+      "B. A device that enables an on-premises site to upload files to S3 faster than over the public Internet",
+      "A. A device to reside at a customer site that is part of a VPN connection between an onpremises site and AWS"
+    ],
+    "answers": [
+      "D. A device that can be used to cache S3-stored objects at an on-premises site"
+    ]
+  },
+  {
+    "question": "78. Which of the following statements is not true about an AWS storage gateway?",
+    "options": [
+      "B. It is available as both a physical and virtual appliance.",
+      "C. It caches data locally at a customer site.",
+      "D. It interacts with S3 buckets.",
+      "A. It is a virtual appliance."
+    ],
+    "answers": [
+      "B. It is available as both a physical and virtual appliance."
+    ]
+  },
+  {
+    "question": "79. Which of the following are not true about S3? (Choose two.)",
+    "options": [
+      "B. Bucket names exist in a per-region namespace.",
+      "A. Buckets are created in specific regions.",
+      "C. Buckets are object-based.",
+      "D. Each S3 bucket stores up to 5 TB of object data."
+    ],
+    "answers": [
+      "B. Bucket names exist in a per-region namespace.",
+      "D. Each S3 bucket stores up to 5 TB of object data."
+    ]
+  },
+  {
+    "question": "80. Which of the following consistency models are supported by S3? (Choose two.)",
+    "options": [
+      "A. Read after write consistency",
+      "B. Synchronous consistency",
+      "D. Eventual consistency",
+      "C. Write after read consistency"
+    ],
+    "answers": [
+      "A. Read after write consistency",
+      "D. Eventual consistency"
+    ]
+  }
+]

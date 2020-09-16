@@ -1,0 +1,250 @@
+[
+  {
+    "question": "81. Every object in S3 has a . (Choose two.)",
+    "options": [
+      "C. Both A and B",
+      "D. Version ID",
+      "A. Key",
+      "B. Value"
+    ],
+    "answers": [
+      "D. Version ID",
+      "C. Both A and B"
+    ]
+  },
+  {
+    "question": "82. Which of the following is the best approach to ensuring that objects in your S3 buckets are not accidentally deleted?",
+    "options": [
+      "D. All of these options are equally useful.",
+      "C. Enabling MFA Delete on buckets",
+      "B. Enabling versioning on buckets",
+      "A. Restrictive bucket permissions"
+    ],
+    "answers": [
+      "C. Enabling MFA Delete on buckets"
+    ]
+  },
+  {
+    "question": "83. What HTTP request header is used by MFA Delete requests?",
+    "options": [
+      "A. x-delete",
+      "B. x-amz-mfa",
+      "C. x-aws-mfa",
+      "D. x-amz-delete"
+    ],
+    "answers": [
+      "B. x-amz-mfa"
+    ]
+  },
+  {
+    "question": "84. Which of the following operations will take advantage of MFA Delete, if it is enabled? (Choose two.)",
+    "options": [
+      "B. Changing the versioning state of a bucket",
+      "D. Deleting an object\u2019s metadata",
+      "A. Deleting an S3 bucket",
+      "C. Permanently deleting an object version"
+    ],
+    "answers": [
+      "B. Changing the versioning state of a bucket",
+      "C. Permanently deleting an object version"
+    ]
+  },
+  {
+    "question": "85. When using an MFA Delete\u2013enabled bucket to delete an object, from where does the authentication code come?",
+    "options": [
+      "D. None of these",
+      "A. A hardware or virtual MFA device",
+      "B. The token section of the AWS console",
+      "C. The AWS REST API under delete-codes in a bucket\u2019s metadata"
+    ],
+    "answers": [
+      "A. A hardware or virtual MFA device"
+    ]
+  },
+  {
+    "question": "86. Who can enable MFA Delete on an S3 bucket?",
+    "options": [
+      "B. All authorized IAM users that can update the bucket",
+      "C. The bucket owner",
+      "A. All authorized IAM users of the bucket",
+      "D. The root account that owns the bucket"
+    ],
+    "answers": [
+      "D. The root account that owns the bucket"
+    ]
+  },
+  {
+    "question": "87. Who can enable versioning on an S3 bucket?",
+    "options": [
+      "C. The bucket owner",
+      "D. The root account that owns the bucket",
+      "A. All authorized IAM users of the bucket",
+      "B. A, C, and D"
+    ],
+    "answers": [
+      "B. A, C, and D"
+    ]
+  },
+  {
+    "question": "88. Which of the following exist and are attached to an object stored in S3? (Choose two.)",
+    "options": [
+      "D. Version history",
+      "A. Metadata",
+      "C. Authentication ID",
+      "B. Data"
+    ],
+    "answers": [
+      "A. Metadata",
+      "B. Data"
+    ]
+  },
+  {
+    "question": "89. Which of the following is the AWS mechanism for adding object metadata using the AWS console?",
+    "options": [
+      "B. Tags",
+      "A. Labels",
+      "C. Metadata",
+      "D. Object name"
+    ],
+    "answers": [
+      "B. Tags"
+    ]
+  },
+  {
+    "question": "90. Which of the following is the exception to S3 storing all versions of an object?",
+    "options": [
+      "A. When an object is deleted via MFA Delete",
+      "C. When an object\u2019s current version is deleted",
+      "B. When all of the versions of an object are deleted",
+      "D. There are no exceptions."
+    ],
+    "answers": [
+      "D. There are no exceptions."
+    ]
+  },
+  {
+    "question": "91. You have an S3 bucket with versioning enabled. How can you turn off versioning?",
+    "options": [
+      "B. Versioning can only be turned off through the AWS CLI or API. Use your application keys to change versioning to \u201coff\u201d on the bucket.",
+      "A. Update the bucket properties in the AWS console and turn off versioning.",
+      "D. You can\u2019t turn off versioning once it has been enabled.",
+      "C. Send a message to the S3 bucket using the HTML request header x-amz-versioning and the value of \u201coff.\u201d"
+    ],
+    "answers": [
+      "D. You can\u2019t turn off versioning once it has been enabled."
+    ]
+  },
+  {
+    "question": "92. CloudFront is a web service for distributing what type of content? (Choose two.)",
+    "options": [
+      "A. Object-based storage",
+      "C. Script-generated or programmatically generated dynamic content",
+      "D. All of the above",
+      "B. Static files"
+    ],
+    "answers": [
+      "B. Static files",
+      "C. Script-generated or programmatically generated dynamic content"
+    ]
+  },
+  {
+    "question": "93. What are the sources of information that CloudFront serves data from called?",
+    "options": [
+      "C. Static servers",
+      "A. Service providers",
+      "D. Origin servers",
+      "B. Source servers"
+    ],
+    "answers": [
+      "D. Origin servers"
+    ]
+  },
+  {
+    "question": "94. Which of the following are typical origin servers for a CloudFront distribution? (Choose two.)",
+    "options": [
+      "C. API Gateway",
+      "A. EC2 instances",
+      "B. Amazon Glacier archives",
+      "D. S3 buckets"
+    ],
+    "answers": [
+      "D. S3 buckets",
+      "A. EC2 instances"
+    ]
+  },
+  {
+    "question": "95. Which of the following are not origin servers for a CloudFront distribution? (Choose two.)",
+    "options": [
+      "C. S3 buckets",
+      "A. Docker containers running on ECS",
+      "B. MySQL ResultSet",
+      "D. Redshift workloads"
+    ],
+    "answers": [
+      "B. MySQL ResultSet",
+      "D. Redshift workloads"
+    ]
+  },
+  {
+    "question": "96. What is the location where content will be cached in a CloudFront distribution called?",
+    "options": [
+      "B. Edge location",
+      "C. Remote location",
+      "A. Availability zone",
+      "D. Origin edge"
+    ],
+    "answers": [
+      "B. Edge location"
+    ]
+  },
+  {
+    "question": "97. Which of the following are not origin servers for a CloudFront distribution? (Choose two.)",
+    "options": [
+      "C. SQS subscription endpoint",
+      "A. Elastic load balancer",
+      "D. SNS topic retrieval endpoint",
+      "B. Route 53 recordsets"
+    ],
+    "answers": [
+      "D. SNS topic retrieval endpoint",
+      "C. SQS subscription endpoint"
+    ]
+  },
+  {
+    "question": "98. What is a collection of edge locations called?",
+    "options": [
+      "B. Availability zone",
+      "A. Region",
+      "D. Distribution",
+      "C. CloudFront"
+    ],
+    "answers": [
+      "D. Distribution"
+    ]
+  },
+  {
+    "question": "99. Rank the total number of regions, availability zones, and edge locations in order from the least number to the greatest number.",
+    "options": [
+      "B. Regions < availability zones < edge locations",
+      "D. Edge locations < availability zones < regions",
+      "C. Edge locations < regions < availability zones",
+      "A. Availability zones < regions < edge locations"
+    ],
+    "answers": [
+      "B. Regions < availability zones < edge locations"
+    ]
+  },
+  {
+    "question": "100. Which of the following statements are true? (Choose two.)",
+    "options": [
+      "C. There are fewer edge locations than availability zones.",
+      "A. There are more edge locations than availability zones.",
+      "B. There are fewer regions than edge locations.",
+      "D. Each availability zone has a corresponding edge location."
+    ],
+    "answers": [
+      "A. There are more edge locations than availability zones.",
+      "B. There are fewer regions than edge locations."
+    ]
+  }
+]

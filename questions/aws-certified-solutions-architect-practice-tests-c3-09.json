@@ -1,0 +1,249 @@
+[
+  {
+    "question": "161. Which of the following requires selecting an AMI? (Choose two.)",
+    "options": [
+      "A. Launching an EC2 instance",
+      "B. Backing up an EBS volume",
+      "C. Creating an EBS volume",
+      "D. Launching a NAT instance"
+    ],
+    "answers": [
+      "A. Launching an EC2 instance",
+      "D. Launching a NAT instance"
+    ]
+  },
+  {
+    "question": "162. For which of the following do you not need to worry about operating system updates?",
+    "options": [
+      "C. EC2 instance",
+      "D. ECS container",
+      "B. NAT gateway",
+      "A. NAT instance"
+    ],
+    "answers": [
+      "B. NAT gateway"
+    ]
+  },
+  {
+    "question": "163. Which of the following does not automatically scale to meet demand?",
+    "options": [
+      "C. SNS topic",
+      "B. NAT instance",
+      "A. DynamoDB",
+      "D. NAT gateway"
+    ],
+    "answers": [
+      "B. NAT instance"
+    ]
+  },
+  {
+    "question": "164. Which of the following, without proper security, could be most dangerous to your private instances?",
+    "options": [
+      "B. VPC endpoint",
+      "D. NAT instance",
+      "C. Internet gateway",
+      "A. Bastion host"
+    ],
+    "answers": [
+      "A. Bastion host"
+    ]
+  },
+  {
+    "question": "165. Which of the following could be used as a bastion host?",
+    "options": [
+      "A. NAT gateway",
+      "B. VPC endpoint",
+      "C. Internet gateway",
+      "D. NAT instance"
+    ],
+    "answers": [
+      "D. NAT instance"
+    ]
+  },
+  {
+    "question": "166. You are building out a site-to-site VPN connection from an on-site network to a private subnet within a custom VPC. Which of the following might you need for this connection to function properly? (Choose two.)",
+    "options": [
+      "C. A virtual private gateway",
+      "D. A customer gateway",
+      "A. An internet gateway",
+      "B. A public subnet"
+    ],
+    "answers": [
+      "C. A virtual private gateway",
+      "D. A customer gateway"
+    ]
+  },
+  {
+    "question": "167. You are building out a site-to-site VPN connection from an on-site network to a custom VPC. Which of the following might you need for this connection to function properly? (Choose two.)",
+    "options": [
+      "A. A NAT instance",
+      "B. A DynamoDB instance",
+      "D. An internet gateway",
+      "C. A private subnet"
+    ],
+    "answers": [
+      "A. A NAT instance",
+      "C. A private subnet"
+    ]
+  },
+  {
+    "question": "168. With which of the following is an egress-only internet gateway most closely associated?",
+    "options": [
+      "D. A NAT gateway",
+      "A. IPv4",
+      "B. IPv6",
+      "C. A NAT instance"
+    ],
+    "answers": [
+      "B. IPv6"
+    ]
+  },
+  {
+    "question": "169. You are responsible for securing an EC2 instance with an IPv6 address that resides in a public subnet. You want to allow traffic from the instance to the Internet but restrict access to the instance. Which of the following would you suggest?",
+    "options": [
+      "D. A NAT gateway",
+      "B. Internet gateway",
+      "C. Egress-only internet gateway",
+      "A. VPC endpoint"
+    ],
+    "answers": [
+      "C. Egress-only internet gateway"
+    ]
+  },
+  {
+    "question": "170. You have just created a NAT instance and want to launch the instance into a subnet. Which of these need to be true of the subnet into which you want to deploy? (Choose two.)",
+    "options": [
+      "A. The subnet is public.",
+      "C. The subnet has routing into the private subnets in your VPC.",
+      "D. The subnet has routing to the public subnets in your VPC.",
+      "B. The subnet is private."
+    ],
+    "answers": [
+      "A. The subnet is public.",
+      "C. The subnet has routing into the private subnets in your VPC."
+    ]
+  },
+  {
+    "question": "171. Which of the following are true about an egress-only internet gateway? (Choose two.)",
+    "options": [
+      "A. It only supports IPv4 traffic.",
+      "C. It only supports IPv6 traffic.",
+      "B. It is stateful.",
+      "D. It is stateless."
+    ],
+    "answers": [
+      "C. It only supports IPv6 traffic.",
+      "B. It is stateful."
+    ]
+  },
+  {
+    "question": "172. Which of these would be used as the destination address in a routing table for a VPC that uses an egress-only internet gateway?",
+    "options": [
+      "D. ::/24",
+      "A. 0.0.0.0/0",
+      "B. 0.0.0.0/16",
+      "C. ::/0"
+    ],
+    "answers": [
+      "C. ::/0"
+    ]
+  },
+  {
+    "question": "173. Which of the following are true about IPv6 addresses? (Choose two.)",
+    "options": [
+      "D. They are public by default.",
+      "C. They require underlying IPv4 addresses.",
+      "B. They are in the format x.y.z.w.",
+      "A. They are globally unique."
+    ],
+    "answers": [
+      "D. They are public by default.",
+      "A. They are globally unique."
+    ]
+  },
+  {
+    "question": "174. What is an elastic network interface? (Choose two.)",
+    "options": [
+      "B. A virtual network interface",
+      "D. An interface that does not have a MAC address",
+      "C. An interface that can have one or more IPv6 addresses",
+      "A. A hardware network interface on an EC2 instance"
+    ],
+    "answers": [
+      "B. A virtual network interface",
+      "C. An interface that can have one or more IPv6 addresses"
+    ]
+  },
+  {
+    "question": "175. Which of the following is not part of an elastic network interface?",
+    "options": [
+      "C. A source/destination check flag",
+      "D. A NACL",
+      "A. A primary IPv4 address",
+      "B. A MAC address"
+    ],
+    "answers": [
+      "D. A NACL"
+    ]
+  },
+  {
+    "question": "176. How many network interfaces can a single instance have?",
+    "options": [
+      "D. At least two, up to five",
+      "B. One and only one",
+      "C. One or more",
+      "A. None"
+    ],
+    "answers": [
+      "C. One or more"
+    ]
+  },
+  {
+    "question": "177. If an elastic network interface is moved from one instance to another, what happens to network traffic directed at the interface?",
+    "options": [
+      "B. It is redirected to the primary network interface on the original instance.",
+      "D. It is lost and must be re-sent to the elastic network interface on the new instance.",
+      "C. It is redirected to the primary network interface on the new instance.",
+      "A. It is redirected to the elastic network interface that has moved to the new instance."
+    ],
+    "answers": [
+      "A. It is redirected to the elastic network interface that has moved to the new instance."
+    ]
+  },
+  {
+    "question": "178. To how many instances can an elastic network interface be attached?",
+    "options": [
+      "A. One and only one",
+      "D. Up to five",
+      "C. One at a time, but it can be moved from one instance to another.",
+      "B. One or more"
+    ],
+    "answers": [
+      "C. One at a time, but it can be moved from one instance to another."
+    ]
+  },
+  {
+    "question": "179. Which of these is not a reason to attach multiple network interfaces to an instance?",
+    "options": [
+      "C. You need a high-availability solution and have a low budget.",
+      "A. You are creating a management network.",
+      "B. You are attempting to increase network throughput to the instance.",
+      "D. You need dual-homed instances."
+    ],
+    "answers": [
+      "B. You are attempting to increase network throughput to the instance."
+    ]
+  },
+  {
+    "question": "180. Which of the following can you not do with regard to network interfaces?",
+    "options": [
+      "C. Detach a primary interface from an instance.",
+      "B. Attach an elastic network interface to an instance with an existing interface.",
+      "A. Detach a secondary interface from an instance.",
+      "D. Attach an elastic network interface to a different instance than originally attached."
+    ],
+    "answers": [
+      "C. Detach a primary interface from an instance."
+    ]
+  }
+]

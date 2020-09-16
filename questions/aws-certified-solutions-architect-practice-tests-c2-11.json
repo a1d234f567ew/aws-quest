@@ -1,0 +1,325 @@
+[
+  {
+    "question": "201. Which of the following can be scaled using the Auto Scaling interface? (Choose two.)",
+    "options": [
+      "C. Redshift",
+      "D. EC2 instances",
+      "B. SNS topics",
+      "A. ECS containers"
+    ],
+    "answers": [
+      "D. EC2 instances",
+      "A. ECS containers"
+    ]
+  },
+  {
+    "question": "202. What does AWS call a collection of components that can grow or shrink to meet user demand?",
+    "options": [
+      "D. Capacity group",
+      "C. Auto Scaling group",
+      "A. Auto Scaling policy",
+      "B. Launch configuration"
+    ],
+    "answers": [
+      "C. Auto Scaling group"
+    ]
+  },
+  {
+    "question": "203. Which of the following can you not specify in an Auto Scaling group? (Choose two.)",
+    "options": [
+      "A. Minimum size",
+      "D. Desired cost",
+      "B. Instances to add",
+      "C. Desired capacity"
+    ],
+    "answers": [
+      "D. Desired cost",
+      "B. Instances to add"
+    ]
+  },
+  {
+    "question": "204. Which of the following can you specify in an Auto Scaling group? (Choose two.)",
+    "options": [
+      "B. Scaling policy",
+      "C. Minimum processing threshold",
+      "A. Maximum size",
+      "D. Memory allocation"
+    ],
+    "answers": [
+      "B. Scaling policy",
+      "A. Maximum size"
+    ]
+  },
+  {
+    "question": "205. Which of the following are part of an Auto Scaling launch configuration? (Choose two.)",
+    "options": [
+      "B. AMI ID",
+      "D. API endpoint",
+      "C. Security group",
+      "A. Application language"
+    ],
+    "answers": [
+      "C. Security group",
+      "B. AMI ID"
+    ]
+  },
+  {
+    "question": "206. Which of the following are not part of an Auto Scaling launch configuration? (Choose two.)",
+    "options": [
+      "A. Instance type",
+      "B. Maximum memory utilization",
+      "D. Security group",
+      "C. Cluster size"
+    ],
+    "answers": [
+      "C. Cluster size",
+      "B. Maximum memory utilization"
+    ]
+  },
+  {
+    "question": "207. Which of the following are valid scaling options for an Auto Scaling group? (Choose two.)",
+    "options": [
+      "C. Schedule-based scaling",
+      "A. Manual scaling",
+      "D. Security-based scaling",
+      "B. Memory-based scaling"
+    ],
+    "answers": [
+      "C. Schedule-based scaling",
+      "A. Manual scaling"
+    ]
+  },
+  {
+    "question": "208. Which of the following are valid scaling options for an Auto Scaling group? (Choose two.)",
+    "options": [
+      "C. Resource-based scaling",
+      "B. Instance-based scaling",
+      "D. Maintain current instance levels",
+      "A. Demand-based scaling"
+    ],
+    "answers": [
+      "D. Maintain current instance levels",
+      "A. Demand-based scaling"
+    ]
+  },
+  {
+    "question": "209. Which Auto Scaling policy would you use to ensure that a specific number of instances is running at all times?",
+    "options": [
+      "C. Resource-based scaling",
+      "B. Instance-based scaling",
+      "D. Maintain current instance levels",
+      "A. Demand-based scaling"
+    ],
+    "answers": [
+      "D. Maintain current instance levels"
+    ]
+  },
+  {
+    "question": "210. Which Auto Scaling policy would you use to add and remove instances based on CPU utilization?",
+    "options": [
+      "C. Resource-based scaling",
+      "B. Schedule-based scaling",
+      "D. Maintain current instance levels",
+      "A. Demand-based scaling"
+    ],
+    "answers": [
+      "A. Demand-based scaling"
+    ]
+  },
+  {
+    "question": "211. Which Auto Scaling policy would you use to add and remove instances at a certain time of day when usage is regularly high?",
+    "options": [
+      "C. Resource-based scaling",
+      "B. Schedule-based scaling",
+      "D. Maintain current instance levels",
+      "A. Demand-based scaling"
+    ],
+    "answers": [
+      "B. Schedule-based scaling"
+    ]
+  },
+  {
+    "question": "212. Which Auto Scaling policy would you use to control scaling yourself, within a specified maximum and minimum number of instances?",
+    "options": [
+      "C. Manual-based scaling",
+      "B. Schedule-based scaling",
+      "D. Maintain current instance levels",
+      "A. Demand-based scaling"
+    ],
+    "answers": [
+      "C. Manual-based scaling"
+    ]
+  },
+  {
+    "question": "213. Which of these would you supply for a manual Auto Scaling policy?",
+    "options": [
+      "B. Time to scale up",
+      "D. Scaling condition",
+      "C. Maximum CPU utilization",
+      "A. Desired capacity"
+    ],
+    "answers": [
+      "A. Desired capacity"
+    ]
+  },
+  {
+    "question": "214. Which of the following can be used to trigger scaling up or down for an Auto Scaling group? (Choose two.)",
+    "options": [
+      "B. SNS",
+      "A. CloudWatch",
+      "C. The AWS console",
+      "D. Route 53"
+    ],
+    "answers": [
+      "C. The AWS console",
+      "A. CloudWatch"
+    ]
+  },
+  {
+    "question": "215. You have an Auto Scaling group with an instance that you believe is passing its health checks but is not responding properly to requests. What is the best approach to troubleshoot this instance?",
+    "options": [
+      "A. Restart the instance.",
+      "C. Put the instance into the Standby state and troubleshoot it normally.",
+      "B. Remove the instance from the Auto Scaling group and then trouble shoot it.",
+      "D. Add a CloudWatch metric to the instance to trigger Auto Scaling."
+    ],
+    "answers": [
+      "C. Put the instance into the Standby state and troubleshoot it normally."
+    ]
+  },
+  {
+    "question": "216. Which of the following are valid instance states for instances in an Auto Scaling group? (Choose two.)",
+    "options": [
+      "B. ReadyForService",
+      "C. InService",
+      "A. Deleted",
+      "D. Standby"
+    ],
+    "answers": [
+      "C. InService",
+      "D. Standby"
+    ]
+  },
+  {
+    "question": "217. What is the correct order of tasks to create an Auto Scaling group?",
+    "options": [
+      "D. Create a launch configuration, verify your group, create an Auto Scaling group.",
+      "C. Create an Auto Scaling group, create a launch configuration, verify your group.",
+      "B. Create a launch configuration, create an Auto Scaling group, verify your group.",
+      "A. Verify your group, create an Auto Scaling group, create a launch configuration."
+    ],
+    "answers": [
+      "B. Create a launch configuration, create an Auto Scaling group, verify your group."
+    ]
+  },
+  {
+    "question": "218. How many AMIs can you use within a single Auto Scaling group launch configuration?",
+    "options": [
+      "D. One for each class of instance in the group",
+      "A. None, you do not specify an AMI for a launch configuration.",
+      "B. One for all instances within the group",
+      "C. One for each instance in the group"
+    ],
+    "answers": [
+      "B. One for all instances within the group"
+    ]
+  },
+  {
+    "question": "219. How many security groups can you use within a single Auto Scaling group launch configuration?",
+    "options": [
+      "C. One security group for incoming requests and 1 security group for all outgoing requests",
+      "B. One security group for all instances within the group",
+      "A. None, you do not specify a security group for a launch configuration.",
+      "D. As many as you like"
+    ],
+    "answers": [
+      "D. As many as you like"
+    ]
+  },
+  {
+    "question": "220. From which of the following can you create an Auto Scaling group?",
+    "options": [
+      "D. Any of these",
+      "C. A launch template",
+      "B. A launch configuration",
+      "A. An EC2 instance"
+    ],
+    "answers": [
+      "D. Any of these"
+    ]
+  },
+  {
+    "question": "221. You have an EC2 instance running a web application. You\u2019ve lately seen large increases in traffic and the application is responding slowly several times a day. What are the best steps to take to ensure consistent performance? (Choose two.)",
+    "options": [
+      "B. Create an Auto Scaling group from the current EC2 instance.",
+      "C. Set up an Auto Scaling group with demand-based scaling.",
+      "A. Create a launch configuration with an AMI ID and instance parameters.",
+      "D. Set up an Auto Scaling group with manual scaling."
+    ],
+    "answers": [
+      "B. Create an Auto Scaling group from the current EC2 instance.",
+      "C. Set up an Auto Scaling group with demand-based scaling."
+    ]
+  },
+  {
+    "question": "222. You have an application that is peaking daily. You have determined that a large user base on the East Coast is accessing the application every evening, causing the application\u2019s performance to degrade during those hours. What steps would you take to level out performance? (Choose two.)",
+    "options": [
+      "B. Consider hosting your Auto Scaling group in a US East region.",
+      "A. Create an Auto Scaling group with schedule-based scaling.",
+      "D. Set up an Auto Scaling group with manual scaling.",
+      "C. Implement CloudFront to cache responses to user requests."
+    ],
+    "answers": [
+      "B. Consider hosting your Auto Scaling group in a US East region.",
+      "A. Create an Auto Scaling group with schedule-based scaling."
+    ]
+  },
+  {
+    "question": "223. You are in charge of the backup processes for converting an in-house network storage system to S3 on AWS. You want to minimize the costs of cloud storage but preserve the lowest possible latency for requests to the cloud-hosted files. What storage class would you suggest?",
+    "options": [
+      "A. S3 standard",
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "D. Glacier"
+    ],
+    "answers": [
+      "C. S3 One Zone-IA"
+    ]
+  },
+  {
+    "question": "224. Which of the following will take the longest to retrieve data from?",
+    "options": [
+      "A. S3 standard",
+      "B. S3-IA",
+      "C. S3 One Zone-IA",
+      "D. Glacier"
+    ],
+    "answers": [
+      "D. Glacier"
+    ]
+  },
+  {
+    "question": "225. Which of the following will take the longest to retrieve data from?",
+    "options": [
+      "C. S3 One Zone-IA.",
+      "B. S3-IA.",
+      "A. S3 standard.",
+      "D. They are all equal."
+    ],
+    "answers": [
+      "D. They are all equal."
+    ]
+  },
+  {
+    "question": "226. You are in charge of a CPU-intensive application that has been refactored to perform the most compute-heavy portions of processing separate from normal daily operations. These compute-heavy tasks must finish every month but can be stopped and started without affecting the overall progress of the job. You want to reduce costs associated with this processing; which instance pricing model would you suggest?",
+    "options": [
+      "D. Spot instances",
+      "A. Reserved instances",
+      "B. On-demand instances",
+      "C. Dedicated hardware instances"
+    ],
+    "answers": [
+      "D. Spot instances"
+    ]
+  }
+]
